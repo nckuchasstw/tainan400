@@ -77,58 +77,53 @@
           <a class="navbar-brand px-4 d-lg-none" href="index.html">
               <img src="logo-01.svg" alt="Logo" width="auto" height="50" class="logo1 d-inline-block align-text-top ">
             </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto" >
-           
-          
-            <li class="nav-item px-3">
-              <a class="nav-link" href="activity.html">相關活動</a>
-            </li>
-           
             <a class="navbar-brand px-5 d-none d-lg-block " href="index.html">
               <img src="logo-01.svg" alt="Logo" width="auto" height="70" class="d-inline-block align-text-top ">
             </a>
-            
-            
-            <li class="nav-item px-3">
-              <a class="nav-link" href="index.html">回首頁</a>
-            </li>
-          </ul>
+              </ul>
         </div>
       </div>
   </nav>
+
 
 
 <section class="activitysearch py-5">
   <div id="app">
     <h1 style="text-align: center;margin-top:0px;">文章搜尋</h1>
      <div class="search-wrapper">
-       <input type="text" v-model="search" placeholder="請輸入演講者、類型、專題演講、音樂會等"/>
+       <input type="text" v-model="search" placeholder="請輸入關鍵字，如：熱蘭遮城、台南"/>
      </div>
-     <p style="text-align:center;">共有{{filteredList.length}}筆相關資料</p>
-    <div class="container"  data-aos="fade-up"
-    data-aos-duration="2000" >
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col" v-for="i in filteredList">
-            <div class="card h-100 " >
-              <a :href="i.url" target="_blank">
-              <img :src="i.img"/ class="pictureimg" style="width: 100%;" >
-            </a>
-              <div class="card-body">
-                <strong><p style="font-size: 16px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
-                <p style="font-size:14px">演出者/講者：{{ i.author }}</p>
-                <p style="font-size:14px">活動日期：{{i.data}}</p>
-              </div>
+     <p style="text-align:center;">共有{{filteredList.length}}筆相關資料</p>  
+  <div class="container" style="text-align: justify;">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" v-for="i in filteredList">
+          <div class="card h-100 ">
+            <a :href="i.url" target="_blank">
+            <img :src="i.img" class="card-img-top " alt="">
+          </a>
+            <div class="card-body">
+              <h5 class="card-title">{{ i.title }}</h5>    
+              <p class="card-text" > 
+                {{ i.describe }}
+              </p>
+              <p class="card-text" style="font-size: 14px;"> 
+                {{ i.author }}
+              </p>
+              <p class="card-text" style="font-size: 14px;"> 
+                {{ i.data }}
+              </p>
             </div>
           </div>
-          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+</div>
 </section>
+
   
 
   <section id="footer">
@@ -183,7 +178,7 @@ https://cdn.jsdelivr.net/npm/vue-loading-overlay@6.0.3/dist/index.min.js
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js."></script>
 <script src="all.js"></script>
-<script src="vue.js"></script>
+<script src="vuepaper.js"></script>
 
 
   

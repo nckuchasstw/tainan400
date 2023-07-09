@@ -94,12 +94,12 @@
        <input type="text" v-model="search" placeholder="請輸入演講者、類型、專題演講、音樂會等"/>
      </div>
      <p style="text-align:center;">共有{{filteredList.length}}筆相關資料</p>
-    <div class="container"  >
+    <div class="container" >
       <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col" v-for="i in filteredList">
             <div class="card h-100 " >
               <a :href="i.url" target="_blank">
-              <img :src="i.img"/ class="pictureimg" style="width: 100%;" >
+              <img :src="i.img" class="pictureimg" style="width: 100%;" >
             </a>
               <div class="card-body">
                 <strong><p style="font-size: 16px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
@@ -107,7 +107,9 @@
                 <p style="font-size:14px">活動日期：{{i.data}}</p>
               </div>
             </div>
-           
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
