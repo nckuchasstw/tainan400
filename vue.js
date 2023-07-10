@@ -3,7 +3,6 @@ const app = Vue.createApp({
       return{
       text:"這是測試vue",
       isLoading:false,
-    
       search: '',
       postList: [
     
@@ -24,12 +23,11 @@ const app = Vue.createApp({
           {title:'「廟宇信仰與府城四百年」專題演講',url:'activity09.html',author:'待定',img:'bg01_工作區域 1.jpg',data:"2023.12.15"},
           {title:'「府城廟宇散策」走讀',url:'activity10.html',author:'待定',img:'bg01_工作區域 1.jpg',data:"2023.12.15"}
           
-          
-        
       ]
     
       }
     },
+    
     computed: {
       filteredList() {
         return this.postList.filter(post => {
@@ -38,13 +36,16 @@ const app = Vue.createApp({
         });
       }
     },
-   
-
-      
-    })
-    
-    
-    
+    mounted(){
+      this.isLoading = true;
+      // simulate AJAX
+      setTimeout(() => {
+          this.isLoading = false
+      }, 1000)
+    }  
+  })
+     
+    app.component('loading',VueLoading.Component)
     app.mount("#app")
 
     var exampleModal = document.getElementById('exampleModal')
