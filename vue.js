@@ -41,7 +41,7 @@ const app = Vue.createApp({
       // simulate AJAX
       setTimeout(() => {
           this.isLoading = false
-      }, 1000)
+      }, 1500)
     }  
   })
      

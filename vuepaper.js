@@ -27,13 +27,20 @@ const app = Vue.createApp({
         });
       }
     },
+    mounted(){
+      this.isLoading = true;
+      // simulate AJAX
+      setTimeout(() => {
+          this.isLoading = false
+      }, 1500)
+    }  
    
 
       
     })
     
     
-    
+    app.component('loading',VueLoading.Component)
     app.mount("#app")
 
     var exampleModal = document.getElementById('exampleModal')
