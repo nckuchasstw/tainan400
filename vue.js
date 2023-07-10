@@ -11,7 +11,7 @@ const app = Vue.createApp({
     
           {title:'「回首與前瞻臺灣鐵路百年時路」專題演講',url:'activity02.html',author:'蘇昭旭',img:'bg01_工作區域 1.jpg',data:"2023.9.19"},
          
-          {title:'「從牛車到五分車—來蔗走走」走讀',url:'activity03.html',author:'陳文松',img:'bg01_工作區域 1.jpg',data:"2023.9.20"},
+          {title:'「從牛車到五分車—來蔗走走」走讀',url:'activity03.html',author:'陳文松',img:'bg01_工作區域 1.jpg',data:"2023.9.23"},
 
           {title:'「重塑被被消音的歷史—臺語電影的發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'bg01_工作區域 1.jpg',data:"2023.10.4"},
           {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'bg01_工作區域 1.jpg',data:"2023.10.19"},
