@@ -43,6 +43,12 @@ gsap.to(".navbar",{
     tl.fromTo(".nav-item",{stagger:{from: "random", 
     amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
     amount: 1 },y:0,ease:"back.out(1.7)",opacity:1,duration:2});
+    tl.fromTo(".bannerpicture",{stagger:{from: "random", 
+    amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
+    amount: 1 },y:0,ease:"bounce.out",opacity:1,duration:2},"-0.1");
+    tl.fromTo(".btn1",{stagger:{from: "random", 
+    amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
+    amount: 1 },y:0,ease:"bounce.out",opacity:1,duration:2},"-0.1");
 
  
   AOS.init();
