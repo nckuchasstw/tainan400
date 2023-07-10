@@ -15,14 +15,14 @@ const app = Vue.createApp({
 
           {title:'「重塑被被消音的歷史—臺語電影的發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'und.jpg',data:"2023.10.4"},
           {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'und.jpg',data:"2023.10.19"},
-          {title:'「臺南400」音樂會',url:'activity06.html',author:'謝銘祐、大支、阿雞、韓森',img:'und.jpg',data:"2023.11.08"},
+          {title:'「臺南400」音樂會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'und.jpg',data:"2023.11.08"},
           {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」專題演講',url:'activity07.html',author:'王茗禾、家永實',img:'und.jpg',data:"2023.11.24"},
-          {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」走讀',url:'activity08.html',author:'王茗禾、家永實',img:'und.jpg',data:"2023.11.24"},
-          {title:'「行走臺南四百年：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity09.html',author:'蘇峯楠',img:'und.jpg',data:"2023.11.27"},
-          {title:'「發現醫學臺南」專題演講',url:'activity10.html',author:'待定',img:'und.jpg',data:"2023.12.1"},
-          {title:'「發現醫學臺南」走讀',url:'activity11.html',author:'待定',img:'und.jpg',data:"2023.12.1"},
-          {title:'「廟宇信仰與府城四百年」專題演講',url:'activity12.html',author:'待定',img:'und.jpg',data:"2023.12.15"},
-          {title:'「府城廟宇散策」走讀',url:'activity13.html',author:'待定',img:'und.jpg',data:"2023.12.15"}
+          {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'und.jpg',data:"2023.11.24"},
+          {title:'「行走臺南四百年：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'und.jpg',data:"2023.11.27"},
+          {title:'「發現醫學臺南」專題演講',url:'activity08.html',author:'待定',img:'und.jpg',data:"2023.12.1"},
+          {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'und.jpg',data:"2023.12.1"},
+          {title:'「廟宇信仰與府城四百年」專題演講',url:'activity09.html',author:'待定',img:'und.jpg',data:"2023.12.15"},
+          {title:'「府城廟宇散策」走讀',url:'activity10.html',author:'待定',img:'und.jpg',data:"2023.12.15"}
           
           
         
