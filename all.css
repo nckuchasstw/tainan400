@@ -332,7 +332,9 @@
 
     .card{
     border-radius: 10px;
-    box-shadow: 3px 3px 3px #dddddd;
+    box-shadow: 3
+    
+    px 3px 3px #dddddd;
     }
 
     .more{
@@ -355,14 +357,42 @@
     }
 
     p{
-        color: black;
-        font-size: 18px;
-        line-height: 35px;
-        letter-spacing: 2px;
-        
+    color: black;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    }
+
+    .fc-head {
+    vertical-align: middle;
+    background: #B69664;
+    border: none;
+    color: #ffff;
+    margin-bottom: .2em;
+    margin-top: .2em;
+    }
+    .fc button {
+    background: #F7F3DC;
+    }
+
+   
+    #calendar {
+    max-width: 900px;
+    margin: 40px auto;
     }
     
-   
+   .modal-content{
+       background-color:#F7F3DC;
+
+   }
+
+   .btn-primary {
+    border-color: #F7F3DC !important;
+    background-color: #F7F3DC !important;
+    color:#B29362 !important;
+    }
+
+
 
 
 
