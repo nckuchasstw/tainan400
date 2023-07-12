@@ -55,7 +55,7 @@ gsap.to(".navbar",{
 
   
 
-  $( "#calendar" ).fullCalendar({
+  $( "#calendar").fullCalendar({
     timeZone: 'UTC',
     // 參數設定[註1]
     header: { // 頂部排版
@@ -80,6 +80,7 @@ gsap.to(".navbar",{
     // editable: true,  // 啟動拖曳調整日期
     eventBackgroundColor:'#B69664',
     eventBorderColor:'#B69664',
+    
     events: [ // 事件
         { // 事件(包含開始時間、結束時間)
             title: "「一首歌，一個時代」音樂會",

@@ -419,6 +419,15 @@
         
     }
 
+    .fc-day-grid-event .fc-content {
+        white-space: break-spaces  !important;
+       
+    }
+
+    .fc-unthemed td.fc-today {
+       background-color: #e9d3af !important;
+    }
+
   
 
        
