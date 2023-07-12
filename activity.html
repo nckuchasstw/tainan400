@@ -101,21 +101,33 @@
 </nav>
 
 
-  
 
 
 <section class="activitysearch py-5">
-  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col-2">
+      </div>
+      <div class="col-8 py-3">
+       <!-- 活動行事曆 -->
+  <button type="button" class="btn1 " data-bs-toggle="modal" data-bs-target="#exampleModal">
     活動行事曆
   </button>
-
-<div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    <div id="calendar"></div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div id="calendar"></div>
+      </div>
+    </div>
   </div>
-</div>
-
+      </div>
+      <div class="col-2">
+        
+      </div>
+    </div>
+  </div>
   
+
   <div id="app">
     <loading v-model:active="isLoading"
     :is-full-page="fullPage"
