@@ -330,6 +330,11 @@
     letter-spacing: 2px;
     }
 
+    .card{
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #dddddd;
+    }
+
     .more{
     font-size: 14px;
     text-decoration: none;
