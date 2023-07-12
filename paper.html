@@ -73,7 +73,7 @@
   </style>
   
 
-  <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #F7F3DC;">
+  <nav class="navbar navbar-expand-lg  sticky-top" >
     <div class="container-fluid">
         <a class="navbar-brand px-4 d-lg-none" href="index.html">
             <img src="logo-01.svg" alt="Logo" width="auto" height="50" class="logo1 d-inline-block align-text-top ">
@@ -109,20 +109,13 @@
 
 <section class="activitysearch py-5">
   <div id="app">
-    <loading v-model:active="isLoading"
-    :is-full-page="fullPage"
-    :lock-scroll="true"
-    loader="bars"
-    background-color="#F7F3DC"
-    opacity="1"
-    transition="ease"
-    color="#C3A16B">
-    </loading>
+  
+    
     <h1 style="text-align: center;margin-top:0px;">文章搜尋</h1>
      <div class="search-wrapper">
        <input type="text" v-model="search" placeholder="請輸入關鍵字，如：熱蘭遮城、台南"/>
      </div>
-     <p style="text-align:center;">共有{{filteredList.length}}筆相關資料</p>  
+     <br>
   <div class="container" style="text-align: justify;">
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col" v-for="i in filteredList">

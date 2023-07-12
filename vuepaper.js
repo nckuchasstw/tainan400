@@ -26,16 +26,7 @@ const app = Vue.createApp({
           post.describe.toLowerCase().includes(this.search.toLowerCase());
         });
       }
-    },
-    mounted(){
-      this.isLoading = true;
-      // simulate AJAX
-      setTimeout(() => {
-          this.isLoading = false
-      }, 1500)
-    }  
-   
-
+    }
       
     })
     

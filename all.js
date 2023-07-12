@@ -63,19 +63,18 @@ gsap.to(".navbar",{
         center: "title", // 中間放置標題
         right: "month,basicWeek,basicDay" // 右邊放置月、周、天
     },
-   
     buttonText:{
         today:'今日',
         month:'月',
         week:'週',
         day:'日',
     },
+    
     dateNames:['今天'],
     monthNames:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
     monthNamesShort:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
-    dayNames:['星期一','星期二','星期三','星期四','星期五','星期六','星期日'],
-    dayNamesShort:['星期一','星期二','星期三','星期四','星期五','星期六','星期日'],
-  
+    dayNames:['日','一','二','三','四','五','六'],
+    dayNamesShort:['日','一','二','三','四','五','六'],
     defaultDate: "2023-07-01", // 起始日期
     weekends: true, // 顯示星期六跟星期日
     // editable: true,  // 啟動拖曳調整日期
@@ -177,9 +176,12 @@ gsap.to(".navbar",{
     ]
 });
 
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "104877438580876");
-      chatbox.setAttribute("attribution", "biz_inbox");
+
+
+
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "104877438580876");
+    chatbox.setAttribute("attribution", "biz_inbox");
 
 
     <!-- Your SDK code -->

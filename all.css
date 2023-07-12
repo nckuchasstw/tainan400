@@ -22,6 +22,11 @@
 
     }
 
+    .navbar {
+        background-color: #F7F3DC;
+        
+    }
+
     .nav-item:hover{
     border: 0.5px #B69664 solid;
     }
@@ -391,11 +396,30 @@
     background-color: #F7F3DC !important;
     color:#B29362 !important;
     font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
     }
 
+    .btn-primary:hover{
+        background-color: #B29362 !important;
+        color:#F7F3DC  !important;
+    }
 
+    .fc-content{
+        white-space: break-spaces;
+    }
 
+    .activitybar{
+        padding-top: 20px;
+        float: right;
+        position: fixed;
+        right: 0;
+        z-index: 999;
+        writing-mode: vertical-lr ;
+        
+    }
 
+  
 
        
             
