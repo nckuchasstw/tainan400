@@ -335,9 +335,7 @@
 
     .card{
     border-radius: 10px;
-    box-shadow: 3
-    
-    px 3px 3px #dddddd;
+    box-shadow: 3px 3px 3px #dddddd;
     }
 
     .more{
@@ -373,6 +371,7 @@
     color: #ffff;
     margin-bottom: .2em;
     margin-top: .2em;
+    
     }
     .fc button {
     background: #F7F3DC;
@@ -438,7 +437,7 @@
     }
 
     .card-text{
-        text-align: ;
+        text-align: justify;
     }
 
    

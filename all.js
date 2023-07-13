@@ -59,9 +59,9 @@ gsap.to(".navbar",{
     timeZone: 'UTC',
     // 參數設定[註1]
     header: { // 頂部排版
-        left: "prev,next today", // 左邊放置上一頁、下一頁和今天
+      right: "today prev,next ", // 左邊放置上一頁、下一頁和今天
         center: "title", // 中間放置標題
-        right: "month,basicWeek,basicDay" // 右邊放置月、周、天
+       left: "month,basicWeek,basicDay" // 右邊放置月、周、天
     },
     buttonText:{
         today:'今日',
