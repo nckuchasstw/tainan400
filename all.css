@@ -61,8 +61,6 @@
 
     }
 
-  
-
     .navbar-active{
     animation-fill-mode:both;
     animation-name: fadeInDown;
@@ -196,23 +194,23 @@
     }
 
     .btn3{
-        width: fit-content;
-        top: 0;
-        border-radius: 30px;
-        padding: 1px 14px;
-        color: #fff;
-        background-color: #B69664;
-        box-shadow: 0px 6px 0px #8b7145;
-        font-size: 14px;
-        font-weight:bold;
-        margin: 10px;
-        }
-    
-        /*banner按鈕動畫*/  
-        .btn3:hover{
-        transform: scale(0.9);
-        transition: 0.8s;
-        }
+    width: fit-content;
+    top: 0;
+    border-radius: 30px;
+    padding: 1px 14px;
+    color: #fff;
+    background-color: #B69664;
+    box-shadow: 0px 6px 0px #8b7145;
+    font-size: 14px;
+    font-weight:bold;
+    margin: 10px;
+    }
+
+    /*banner按鈕動畫*/  
+    .btn3:hover{
+    transform: scale(0.9);
+    transition: 0.8s;
+    }
 
     
 
@@ -392,41 +390,63 @@
    }
 
    .btn-primary {
-    border-color: #F7F3DC !important;
-    background-color: #F7F3DC !important;
-    color:#B29362 !important;
+    border-color: #F7F3DC  !important;
+    background-color: #F7F3DC;
+    color:#B29362;
     font-size: 20px;
     letter-spacing: 2px;
     border-radius: 10px;
     }
 
     .btn-primary:hover{
-        background-color: #B29362 !important;
-        color:#F7F3DC  !important;
+    background-color: #B29362 !important;
+    color:#F7F3DC  !important;
     }
 
     .fc-content{
-        white-space: break-spaces;
+    white-space: break-spaces;
     }
 
     .activitybar{
-        padding-top: 20px;
-        float: right;
-        position: fixed;
-        right: 0;
-        z-index: 999;
-        writing-mode: vertical-lr ;
-        
+    padding-top: 20px;
+    float: right;
+    position: fixed;
+    right: 0;
+    z-index: 999;
+    writing-mode: vertical-lr ;
     }
 
     .fc-day-grid-event .fc-content {
-        white-space: break-spaces  !important;
-       
+    white-space: break-spaces  !important;
     }
 
     .fc-unthemed td.fc-today {
-       background-color: #e9d3af !important;
+    background-color: #e9d3af !important;
     }
+
+    .cardineer {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    }
+
+    .pictureimg{
+        transform:scale(1,1);transition: all 1s ;ease-out;
+    }
+
+    .pictureimg:hover{
+        transform:scale(1.2,1.2);
+    }
+
+    .card-text{
+        text-align: ;
+    }
+
+   
+
+
+    
+
+    
 
   
 

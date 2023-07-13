@@ -93,7 +93,6 @@
           <a class="navbar-brand px-5 d-none d-lg-block " href="index.html">
             <img src="logo-01.svg" alt="Logo" width="auto" height="70" class="d-inline-block align-text-top ">
           </a>
-         
           <li class="nav-item px-3">
             <a class="nav-link " href="#footer">聯絡我們</a>
           </li>
@@ -109,31 +108,26 @@
 
 <section class="activitysearch py-5">
   <div id="app">
-  
-    
     <h1 style="text-align: center;margin-top:0px;">文章搜尋</h1>
      <div class="search-wrapper">
        <input type="text" v-model="search" placeholder="請輸入關鍵字，如：熱蘭遮城、台南"/>
      </div>
-     <br>
-  <div class="container" style="text-align: justify;">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col" v-for="i in filteredList">
-          <div class="card h-100 ">
-            <a :href="i.url" target="_blank">
-            <img :src="i.img" class="card-img-top " alt="">
-          </a>
-            <div class="card-body">
-              <h5 class="card-title">{{ i.title }}</h5>    
-              <p class="card-text" > 
-                {{ i.describe }}
-              </p>
-              <p class="card-text" style="font-size: 14px;"> 
-                {{ i.author }}
-              </p>
-              <p class="card-text" style="font-size: 14px;"> 
-                {{ i.data }}
-              </p>
+     <br/>
+    <div class="container" >
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col" v-for="i in filteredList">
+            <div class="card h-100 " >
+              <a :href="i.url" target="_blank">
+              <div class="cardineer">
+              <img :src="i.img" class="pictureimg" style="width: 100%;" >
+            </div>
+            </a>
+              <div class="card-body">
+                <strong><p style="font-size: 16px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
+                <p style="font-size:14px">{{ i.describe }}</p>
+                <p style="font-size:14px">{{ i.author }}</p>
+                <p style="font-size:14px"> {{ i.data }}</p>
+              </div>
             </div>
           </div>
         </div>
@@ -141,10 +135,7 @@
     </div>
   </div>
 </div>
-</div>
 </section>
-
-  
 
 <section id="footer">
   <footer class="footer  py-5 " >

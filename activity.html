@@ -121,20 +121,20 @@
        <input type="text" v-model="search" placeholder="請輸入演講者、類型、專題演講、音樂會等"/>
      </div>
      <br/>
-    
     <div class="container" >
       <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col" v-for="i in filteredList">
             <div class="card h-100 " >
               <a :href="i.url" target="_blank">
+              <div class="cardineer">
               <img :src="i.img" class="pictureimg" style="width: 100%;" >
+            </div>
             </a>
               <div class="card-body">
                 <strong><p style="font-size: 16px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
-                <p style="font-size:14px">演出者/講者：{{ i.author }}</p>
-                <p style="font-size:14px">活動日期：{{i.data}}</p>
+                <p style="font-size:14px"><i class="bi bi-person-video3 pe-2"></i>演出者/講者：{{ i.author }}</p>
+                <p style="font-size:14px"><i class="bi bi-calendar pe-2"></i>活動日期：{{i.data}}</p>
               </div>
-              
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@
   </div>
 </div>
 </section>
-  
+ 
 
 <section id="footer">
   <footer class="footer  py-5 " >
