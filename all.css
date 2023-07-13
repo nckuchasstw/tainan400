@@ -392,9 +392,15 @@
     border-color: #F7F3DC  !important;
     background-color: #F7F3DC;
     color:#B29362;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 2px;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: unset;
+    flex-direction: unset;
+    justify-content: unset;
+    align-content: unset;
+    align-items: center;
     }
 
     .btn-primary:hover{
