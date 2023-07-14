@@ -33,8 +33,16 @@ const app = Vue.createApp({
     }
   })
      
-    app.component('loading',VueLoading.Component)
+  
     app.mount("#app")
+
+
+
+
+
+
+
+
 
     var exampleModal = document.getElementById('exampleModal')
 exampleModal.addEventListener('show.bs.modal', function (event) {

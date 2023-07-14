@@ -38,6 +38,8 @@ gsap.to(".navbar",{
   });
 
   let tl = gsap.timeline({});
+
+  
  
   tl.fromTo(".nav-item",{stagger:{from: "random", 
   amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
@@ -48,8 +50,14 @@ gsap.to(".navbar",{
   tl.fromTo(".btn1",{stagger:{from: "random", 
   amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
   amount: 1 },y:0,ease:"bounce.out",opacity:1,duration:2},"-0.1");
+
+  
  
   AOS.init();
+
+
+ 
+  
 
 
 
@@ -117,6 +125,21 @@ gsap.to(".navbar",{
            
         },
         { // 事件(包含開始時間、結束時間)
+          title: "2023「臺南國際人權藝術節」記者會",
+          start: "2023-10-13T10:00:00",
+          end: "2023-10-13T12:00:00",
+          url:"",
+         
+      },
+      { // 事件(包含開始時間、結束時間)
+        title: "「鬥鬧熱走唱隊」演出",
+        start: "2023-10-14T09:00:00",
+        end: "2023-10-15T17:00:00",
+        url:"",
+       
+    },
+
+        { // 事件(包含開始時間、結束時間)
             title: "「府城飲食文化的趣味」專題演講",
             start: "2023-10-19T15:00:00",
             end: "2023-10-19T17:00:00",
@@ -131,12 +154,33 @@ gsap.to(".navbar",{
            
         },
         { // 事件(包含開始時間、結束時間)
+          title: "國際工作坊",
+          start: "2023-11-11T19:00:00",
+          end: "2023-11-11T17:00:00",
+          url:"",
+         
+      },
+        { // 事件(包含開始時間、結束時間)
+          title: "國際學術研討會",
+          start: "2023-11-17T09:00:00",
+          end: "2023-11-18T17:00:00",
+          url:"",
+         
+      },
+        { // 事件(包含開始時間、結束時間)
             title: "「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」專題演講",
             start: "2023-11-24T15:00:00",
             end: "2023-11-24T17:00:00",
             url:"https://tainan-400.com/activity07.html",
            
         },
+        { // 事件(包含開始時間、結束時間)
+          title: "「展望」論壇",
+          start: "2023-11-25T09:00:00",
+          end: "2023-11-25T17:00:00",
+          url:"",
+         
+      },
         { // 事件(包含開始時間、結束時間)
             title: "「行走臺南四百年：在一座歷史城市裡的感知、考現與書寫」專題演講",
             start: "2023-11-27T15:00:00",
