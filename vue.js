@@ -18,7 +18,7 @@ const app = Vue.createApp({
           {title:'「發現醫學臺南」專題演講',url:'activity08.html',author:'待定',img:'bg01_工作區域 1.jpg',data:"2023.12.1"},
           {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'bg01_工作區域 1.jpg',data:"2023.12.1"},
           {title:'「廟宇信仰與府城四百年」專題演講',url:'activity09.html',author:'待定',img:'bg01_工作區域 1.jpg',data:"2023.12.15"},
-          {title:'「台南400鎮北-百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'bg01_工作區域 1.jpg',data:"2023.12.15"} 
+          {title:'「台南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'bg01_工作區域 1.jpg',data:"2023.12.15"} 
       ]
       }
     },
