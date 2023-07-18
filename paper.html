@@ -112,7 +112,8 @@
      <div class="search-wrapper">
        <input type="text" v-model="search" placeholder="請輸入關鍵字，如：熱蘭遮城、台南"/>
      </div>
-     <br/>
+     <p style="text-align:center;font-size: 10px;">共有{{filteredList.length}}筆相關資料</p>
+     
     <div class="container" >
       <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col" v-for="i in filteredList">
