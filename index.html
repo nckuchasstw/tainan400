@@ -148,7 +148,6 @@
     </div>
   </section>
 
-
   <section id="introduce" >
     <div class="container" data-aos="fade-up"
     data-aos-duration="2000"  >
@@ -264,128 +263,125 @@
     </div>
   </section>
 
-
-<div id="app">
-  <section id="activity">
-    <h3>相關活動<a href="activity.html"><span class="more">more</span></a></h3>
-    <div class="swiper mySwiper" data-aos="fade-up"
-    data-aos-duration="2000" style="padding-top: 20px;">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" v-for="x in activityList" >
-          <a :href="x.url" target="_blank">
-            <img :src="x.img" alt="" class="swiperimg">    
-         </a>
-        </div>
-      </div>
-    </div>  
-  </section>
-
-  <section id="article">
-    <h3>相關文章<a href="paper.html"><span class="more">more</span></a></h3>
-    <div class="container" data-aos="fade-up"
-    data-aos-duration="2000"  >
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col" v-for="i in filteredList.slice(1, 5)">
-          <div class="card h-100 " >
-            <a :href="i.url" target="_blank">
-            <div class="cardineer">
-            <img :src="i.img" class="pictureimg" style="width: 100%;" >
-          </div>
+  <div id="app">
+    <section id="activity">
+      <h3>相關活動<a href="activity.html"><span class="more">more</span></a></h3>
+      <div class="swiper mySwiper" data-aos="fade-up"
+      data-aos-duration="2000" style="padding-top: 20px;">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" v-for="x in activityList" >
+            <a :href="x.url" target="_blank">
+              <img :src="x.img" alt="" class="swiperimg">    
           </a>
-            <div class="card-body" style="text-align: justify;">
-              <strong><p style="font-size: 16px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
-              <p style="font-size:14px">{{ i.describe }}</p>
-              <p style="font-size:14px">{{ i.author }}</p>
-              <p style="font-size:14px"> {{ i.data }}</p>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <section id="article">
+      <h3>相關文章<a href="paper.html"><span class="more">more</span></a></h3>
+      <div class="container" data-aos="fade-up"
+      data-aos-duration="2000"  >
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col" v-for="i in filteredList.slice(1, 5)">
+            <div class="card h-100 " >
+              <a :href="i.url" target="_blank">
+              <div class="cardineer">
+              <img :src="i.img" class="pictureimg" style="width: 100%;" >
+            </div>
+            </a>
+              <div class="card-body" style="text-align: justify;">
+                <strong><p style="font-size: 16px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
+                <p style="font-size:14px">{{ i.describe }}</p>
+                <p style="font-size:14px">{{ i.author }}</p>
+                <p style="font-size:14px"> {{ i.data }}</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-  </section>
+    </section>
 
-
-  <section id="video" >
-    <h3 >相關影音</h3>
-    <div class="container  py-3 " data-aos="fade-up"
-    data-aos-duration="2000" >
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col video ">
-          <div style="position:relative;padding-top:56.25%;padding-left:10%;" ><iframe width="560" height="315" src="https://www.youtube.com/embed/cH0wk64S6zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 30px;"></iframe></div>
-        </div>
-        <div class="col" style="text-align: center;">
-          <p style="color:black;line-height: 30px;letter-spacing: 2px;align-items: center;"><strong>〈慢慢變臺南〉</strong><br/> <br/> 臺南400主題曲〈慢慢變臺南〉，是由臺南在地金曲獎台語歌王謝銘祐，以及同為臺南人的饒舌歌手大支聯手打造。靈感來自常民生活，從輕快旋律，及富有情感的唱詞，帶領聽眾慢慢體驗臺南的變遷，感受著這座城市的氣氛和深厚的歷史文化底蘊。
-          </p>
-          <p>
-            <br/>
-            <button class="btn1 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
-              謝銘祐、大支簡介
-            </button>
-          </p>
-          <div class="collapse" id="collapseExample">
-            <div class="card card-body" >
-              <p style="text-align: justify;">
-             <strong> 謝銘祐</strong>，台灣音樂製作及詞曲創作人、麵包車樂團成員，2000年結束長達10多年在臺北擔任音樂製作人，回到台南故鄉，時常穿梭台南大街小巷，因而自稱「府城流浪漢」。以臺語創作出多首膾炙人口歌曲、獲獎無數，如：個人創作專輯《台南》、《也獸》分別獲得獲第24、26屆金曲獎「最佳台語專輯獎」與「最佳台語男歌手獎」、《舊年》獲第28屆金曲獎「最佳台語男歌手獎」、《舊年》獲31屆金曲獎「最佳作詞人獎」、「最佳單曲製作人獎」。<br/>
-             
-             <strong> 大支</strong>，台灣知名的饒舌歌手和音樂製作人。以其才華洋溢和獨特的音樂風格而聞名。年輕時就對音樂表現出濃厚的興趣，並開始創作自己的歌曲。音樂風格融合了饒舌、嘻哈和節奏藍調等元素，並加入了對社會議題和生活觀察的深刻詮釋。他的歌詞充滿了靈魂和真實的情感，引起了廣大聽眾的共鳴。個人創作專輯《人》獲第3屆金音創作獎「最佳嘻哈專輯獎」、「最佳專輯獎」等。</p>
-            </div>
+    <section id="video" >
+      <h3 >相關影音</h3>
+      <div class="container  py-3 " data-aos="fade-up"
+      data-aos-duration="2000" >
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col video ">
+            <div style="position:relative;padding-top:56.25%;padding-left:10%;" ><iframe width="560" height="315" src="https://www.youtube.com/embed/cH0wk64S6zc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 30px;"></iframe></div>
           </div>
-      </div>
-    </div>
-  </section>
-  
-
-  <section id="url" >
-    <div class="swiper mySwiper" data-aos="fade-up"
-    data-aos-duration="2000" >
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" v-for="i in urlList">
-          <a :href="i.url">
-            <img :src="i.img" alt="" class="swiperurl">
-          </a>
+          <div class="col" style="text-align: center;">
+            <p style="color:black;line-height: 30px;letter-spacing: 2px;align-items: center;"><strong>〈慢慢變臺南〉</strong><br/> <br/> 臺南400主題曲〈慢慢變臺南〉，是由臺南在地金曲獎台語歌王謝銘祐，以及同為臺南人的饒舌歌手大支聯手打造。靈感來自常民生活，從輕快旋律，及富有情感的唱詞，帶領聽眾慢慢體驗臺南的變遷，感受著這座城市的氣氛和深厚的歷史文化底蘊。
+            </p>
+            <p>
+              <br/>
+              <button class="btn1 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" >
+                謝銘祐、大支簡介
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body" >
+                <p style="text-align: justify;">
+              <strong> 謝銘祐</strong>，台灣音樂製作及詞曲創作人、麵包車樂團成員，2000年結束長達10多年在臺北擔任音樂製作人，回到台南故鄉，時常穿梭台南大街小巷，因而自稱「府城流浪漢」。以臺語創作出多首膾炙人口歌曲、獲獎無數，如：個人創作專輯《台南》、《也獸》分別獲得獲第24、26屆金曲獎「最佳台語專輯獎」與「最佳台語男歌手獎」、《舊年》獲第28屆金曲獎「最佳台語男歌手獎」、《舊年》獲31屆金曲獎「最佳作詞人獎」、「最佳單曲製作人獎」。<br/>
+              
+              <strong> 大支</strong>，台灣知名的饒舌歌手和音樂製作人。以其才華洋溢和獨特的音樂風格而聞名。年輕時就對音樂表現出濃厚的興趣，並開始創作自己的歌曲。音樂風格融合了饒舌、嘻哈和節奏藍調等元素，並加入了對社會議題和生活觀察的深刻詮釋。他的歌詞充滿了靈魂和真實的情感，引起了廣大聽眾的共鳴。個人創作專輯《人》獲第3屆金音創作獎「最佳嘻哈專輯獎」、「最佳專輯獎」等。</p>
+              </div>
+            </div>
         </div>
       </div>
-    </div>
-    <a href="#banner" >
-      <button class="btn1" style="float: right;margin-right:30px;margin-top: 10px;" data-aos="fade-up"
-      data-aos-anchor-placement="bottom-bottom">回頂端</button>
-    </a>
-  </section>
-</div>
-  
+    </section>
+    
+
+    <section id="url" >
+      <div class="swiper mySwiper" data-aos="fade-up"
+      data-aos-duration="2000" >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" v-for="i in urlList">
+            <a :href="i.url">
+              <img :src="i.img" alt="" class="swiperurl">
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="#banner" >
+        <button class="btn1" style="float: right;margin-right:30px;margin-top: 10px;" data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">回頂端</button>
+      </a>
+    </section>
+  </div>
+    
   <section id="footer">
-  <footer class="footer  py-5 " >
-    <p class="px-3" style="letter-spacing: 2px;line-height: 30px; text-align: center;color:#B69664" >
-      府看府城<br/>
-      Tel：06-2757575 ext.56056<br/>
-      Fax:06-2088264<br/>
-      Email：nckutwchass@gmail.com<br/>
-      Add：70101 台南市東區大學路一號光復校區雲平大樓東棟北側5樓<br/>
-      </p>
-    <ul class="list-unstyled" style="display: flex;    justify-content: center;" >
-      <li class="px-3 " >
-        <a href="https://www.youtube.com/@user-fq9es9zw3n">
-          <i class="bi bi-youtube  h2""></i></a>
+    <footer class="footer  py-5 " >
+      <p class="px-3" style="letter-spacing: 2px;line-height: 30px; text-align: center;color:#B69664" >
+        府看府城<br/>
+        Tel：06-2757575 ext.56056<br/>
+        Fax:06-2088264<br/>
+        Email：nckutwchass@gmail.com<br/>
+        Add：70101 台南市東區大學路一號光復校區雲平大樓東棟北側5樓<br/>
+        </p>
+      <ul class="list-unstyled" style="display: flex;    justify-content: center;" >
+        <li class="px-3 " >
+          <a href="https://www.youtube.com/@user-fq9es9zw3n">
+            <i class="bi bi-youtube  h2""></i></a>
+        </li>
+        <li class="px-3">
+          <a href="https://www.instagram.com/taiwan_study_ncku/">
+            <i class="bi bi-instagram  h2 "></i></a>
+        </li>
+        <li class="px-3">
+          <a href="https://podcasts.apple.com/us/podcast/%E6%88%90%E5%A4%A7%E4%BA%BA%E8%81%B2-ep-0-%E9%A0%90%E5%91%8A/id1614380302?i=1000554171013">
+            <i class="bi bi-spotify h2 "></i></a>
+        </li>
+        <li class="px-3">
+          <a href="https://www.facebook.com/profile.php?id=100071813840535&ref=embed_page">
+            <i class="bi bi-facebook h2 "></i></i></a>
       </li>
-      <li class="px-3">
-        <a href="https://www.instagram.com/taiwan_study_ncku/">
-          <i class="bi bi-instagram  h2 "></i></a>
-      </li>
-      <li class="px-3">
-        <a href="https://podcasts.apple.com/us/podcast/%E6%88%90%E5%A4%A7%E4%BA%BA%E8%81%B2-ep-0-%E9%A0%90%E5%91%8A/id1614380302?i=1000554171013">
-          <i class="bi bi-spotify h2 "></i></a>
-      </li>
-      <li class="px-3">
-        <a href="https://www.facebook.com/profile.php?id=100071813840535&ref=embed_page">
-          <i class="bi bi-facebook h2 "></i></i></a>
     </li>
-  </li>
-  <li class="immg px-3">
-  <a href="https://lin.ee/CSXZjzvm"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" width="100" border="0"></a>
-  </li>
-      </ul> 
-  </footer>
-</section>
-
+    <li class="immg px-3">
+    <a href="https://lin.ee/CSXZjzvm"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" width="100" border="0"></a>
+    </li>
+        </ul> 
+    </footer>
+  </section>
 
   <!-- Messenger 洽談外掛程式 Code -->
   <div id="fb-root"></div>
@@ -393,10 +389,7 @@
   <!-- Your 洽談外掛程式 code -->
   <div id="fb-customer-chat" class="fb-customerchat">
   </div>
-  </div>
-
-    
-
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.1/dist/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
