@@ -3,7 +3,6 @@ const app = Vue.createApp({
       return{
       text:"這是測試vue",
       isLoading:false,
-    
       search: '',
       postList: [
       {title:'作為一個槓桿去打開城市文化治理的侷限：臺南400，擱來咧？',url:'https://artouch.com/art-views/cultural-policy/content-110719.html',author:'陳思宇',img:'https://d1qlj1o6gdgqqt.cloudfront.net/wp-content/uploads/2023/06/%E6%AD%B7%E5%8F%B2%E5%A0%B4%E5%9F%9F%E8%88%87%E5%B9%B3%E5%8F%B0%E5%A0%B4%E6%AC%A11-min-1110x1065.jpg',describe:"2024年台南400夾帶同樣大量的「展會」形式重新「復出」，但不同於高雄市政府的操作，台南市政府在策略上拋出「文化臺南400年—行動白皮書計畫」、「400+民間參與計畫」等民間參與方法，希冀能採納各方意見形塑「大家」的台南400。究竟後續如何在大型展會的號召下，去細緻回應民眾及各方專家學者在白皮書內提出的內容，對市府而言仍是一大考驗，也是民間需要持續監督的地方。",data:"2023.06.29"},
@@ -30,12 +29,36 @@ const app = Vue.createApp({
       {title:'迎接台南建城400年 黃偉哲視察大員市鎮調查研究成果',url:'https://www.tainan.gov.tw/news_content.aspx?n=13370&s=7625615',author:'南市府新聞及國際關係處',img:'https://w3fs.tainan.gov.tw/001/Upload/1/relpic/9748/7625615/2075c6d9-b13a-4f9d-9716-e2d167d0b072@710x470.jpg',describe:"台南即將在2024年歡慶建城400週年，市府特別成立紀念活動籌備委員會，由市長黃偉哲領軍，一起為四年後即將到來的日子精心策劃。市府並與國立成功大學合作，辦理熱蘭遮城與大員市鎮的調查研究與教育推廣計畫，黃偉哲市長與成大蘇慧貞校長今(5)日一同前往石門國小的大員市鎮考古發掘現場進行視察，為「台南400年」紀念系列活動拉開序幕。市議員李啟維也到場關心。.....",data:"2020.2.5"},
 
       {title:'成大「熱蘭遮城400年」計畫　重現精彩歷史與價值',url:'https://news-secr.ncku.edu.tw/p/404-1037-203159.php',author:'成功大學新聞中心',img:'https://news-secr.ncku.edu.tw/var/file/37/1037/img/2284/IMG_4666.jpg',describe:"舉頭三尺有神明，文化底蘊深厚的府城，掘地三尺有古蹟！在府城生根發展的成大，引領台灣重大歷史事件研究與考古發掘，2月5日在安平發表2019年與台南市政府合作考古荷蘭時期「原大員市」的發掘成果，展現不同於文字的歷史證據。未來成大將進一步整合海內外荷蘭時期台南相關的研究與文獻，跨域調查、探勘與研究，重現精彩的歷史與價值，連接土地與人群的關聯......",data:"2020.02.05"},
-      
 
       {title:'李濠仲專欄：「熱蘭遮城」差點不在安平　在曼哈頓',url:'https://www.upmedia.mg/news_info.php?Type=2&SerialNo=46469',author:'李濠仲',img:'https://www.upmedia.mg/upload/article/20180818083427216900.jpg',describe:"紐約曼哈頓的多彩多姿無庸置疑，讓人目眩神迷的，卻不只是當下炫麗的七彩霓虹，這裡連個「街角」，幾乎都可以說出各樣的故事。奧黛麗·赫本在經典之作《蒂凡內早餐》裡的一幕，取景就是在第五大道和57街街口的Tiffany珠寶店門外；「刺蔣案」的事發地點則在第五大道和59街交會處的廣場飯店前......",data:"2018.8.21"}   
-        
+      ],
+      
+      activityList: [
+      {title:'「一首歌，一個時代」音樂會',url:'activity01.html',author:'蔡明叡、古意唸歌團',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/897854735.svg',data:"2023.4.19"},
+      {title:'「回首與前瞻臺灣鐵路百年時路」專題演講',url:'activity02.html',author:'蘇昭旭',img:'bg01_工作區域 1.jpg',data:"2023.9.19"},
+      {title:'「台灣經濟四百年」專題演講',url:'activity12.html',author:'吳聰敏',img:'bg01_工作區域 1.jpg',data:"2023.9.20"},
+      {title:'「從牛車到五分車—來蔗走走」走讀',url:'activity03.html',author:'陳文松',img:'bg01_工作區域 1.jpg',data:"2023.9.23"},
+      {title:'「重塑被被消音的歷史—臺語電影的發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'bg01_工作區域 1.jpg',data:"2023.10.4"},
+      {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'bg01_工作區域 1.jpg',data:"2023.10.19"},
+      {title:'「臺南400」音樂會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'bg01_工作區域 1.jpg',data:"2023.11.08"},
+      {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」專題演講',url:'activity07.html',author:'王茗禾、家永實',img:'bg01_工作區域 1.jpg',data:"2023.11.24"},
+      {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'bg01_工作區域 1.jpg',data:"2023.11.24"},
+      {title:'「行走臺南四百年：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'bg01_工作區域 1.jpg',data:"2023.11.27"},
+      {title:'「發現醫學臺南」專題演講',url:'activity08.html',author:'待定',img:'bg01_工作區域 1.jpg',data:"2023.12.1"},
+      {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'bg01_工作區域 1.jpg',data:"2023.12.1"},
+      {title:'「廟宇信仰與府城四百年」專題演講',url:'activity09.html',author:'陳益源',img:'bg01_工作區域 1.jpg',data:"2023.12.15"},
+      {title:'「台南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'bg01_工作區域 1.jpg',data:"2023.12.15"} 
+      ],
+
+      urlList:[
+      {url:"https://chass.ncku.edu.tw/index.php",img:"https://chass.ncku.edu.tw/var/file/11/1011/img/logo-02.svg"},
+      {url:"https://tsncku.com.tw/",img:"logo-01.png"},
+      {url:"https://www.ncku.edu.tw/",img:"NCKU_Alt_GraphicSignature NL RGB_AW.png"},
+      {url:"https://www.tnam.museum/",img:"art.jpeg"},
+      {url:"https://culture.tainan.gov.tw/form/index?Parser=28,6,277,276",img:"tainancl.png"},
+      {url:"https://creativetainan.culture.tainan.gov.tw/",img:"cr.jpg"},
+      {url:"https://www.tnpl.tn.edu.tw/w5368759830002704284/index",img:"library.png"},
       ]
-    
       }
     },
     computed: {
@@ -43,29 +66,14 @@ const app = Vue.createApp({
         return this.postList.filter(post => {
           return post.title.toLowerCase().includes(this.search.toLowerCase())||
           post.describe.toLowerCase().includes(this.search.toLowerCase());
+          
         });
+        
+        
       }
     }
       
     })
     
-    
-    app.component('loading',VueLoading.Component)
     app.mount("#app")
 
-    var exampleModal = document.getElementById('exampleModal')
-exampleModal.addEventListener('show.bs.modal', function (event) {
-  // Button that triggered the modal
-  var button = event.relatedTarget
-  // Extract info from data-bs-* attributes
-  var recipient = button.getAttribute('data-bs-whatever')
-  // If necessary, you could initiate an AJAX request here
-  // and then do the updating in a callback.
-  //
-  // Update the modal's content.
-  var modalTitle = exampleModal.querySelector('.modal-title')
-  var modalBodyInput = exampleModal.querySelector('.modal-body input')
-
-  modalTitle.textContent = 'New message to ' + recipient
-  modalBodyInput.value = recipient
-})

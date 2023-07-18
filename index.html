@@ -264,30 +264,23 @@
     </div>
   </section>
 
-  
 
-  <section id="activity"  >
+<div id="app">
+  <section id="activity">
     <h3>相關活動<a href="activity.html"><span class="more">more</span></a></h3>
     <div class="swiper mySwiper" data-aos="fade-up"
     data-aos-duration="2000" style="padding-top: 20px;">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><a href="activity01.html"><img src="https://chass.ncku.edu.tw/var/file/11/1011/img/897854735.svg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity02.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity03.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity04.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity05.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity06.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity07.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity08.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity09.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity10.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
-        <div class="swiper-slide"><a href="activity11.html"><img src="bg01_工作區域 1.jpg" alt="" class="swiperimg"></a></div>
+        <div class="swiper-slide" v-for="x in activityList" >
+          <a :href="x.url" target="_blank">
+            <img :src="x.img" alt="" class="swiperimg">    
+         </a>
+        </div>
       </div>
-    </div>
+    </div>  
   </section>
 
   <section id="article">
-    <div id="app">
     <h3>相關文章<a href="paper.html"><span class="more">more</span></a></h3>
     <div class="container" data-aos="fade-up"
     data-aos-duration="2000"  >
@@ -308,10 +301,7 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
-
-  
 
 
   <section id="video" >
@@ -348,22 +338,19 @@
     <div class="swiper mySwiper" data-aos="fade-up"
     data-aos-duration="2000" >
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><a href="https://chass.ncku.edu.tw/index.php"><img src="	https://chass.ncku.edu.tw/var/file/11/1011/img/logo-02.svg" alt="" class="swiperurl"></a></div>
-        <div class="swiper-slide"><a href="https://tsncku.com.tw/"><img src="logo-01.png" alt="" class="swiperurl"></a></div>
-        <div class="swiper-slide"><a href="https://www.ncku.edu.tw/"><img src="NCKU_Alt_GraphicSignature NL RGB_AW.png" alt="" class="swiperurl"></a></div>
-        <div class="swiper-slide"><a href="https://www.tnam.museum/"><img src="art.jpeg" alt="" class="swiperurl"></a></div>
-        <div class="swiper-slide"><a href="https://culture.tainan.gov.tw/form/index?Parser=28,6,277,276"><img src="tainancl.png" alt="" class="swiperurl"></a></div>
-        <div class="swiper-slide"><a href="https://creativetainan.culture.tainan.gov.tw/"><img src="cr.jpg" alt="" class="swiperurl"></a></div>
-        <div class="swiper-slide"><a href="https://www.tnpl.tn.edu.tw/w5368759830002704284/index"><img src="library.png" alt="" class="swiperurl"></a></div>
+        <div class="swiper-slide" v-for="i in urlList">
+          <a :href="i.url">
+            <img :src="i.img" alt="" class="swiperurl">
+          </a>
+        </div>
       </div>
     </div>
-
-   
     <a href="#banner" >
       <button class="btn1" style="float: right;margin-right:30px;margin-top: 10px;" data-aos="fade-up"
       data-aos-anchor-placement="bottom-bottom">回頂端</button>
     </a>
-    </section>
+  </section>
+</div>
   
   <section id="footer">
   <footer class="footer  py-5 " >

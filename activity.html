@@ -116,14 +116,9 @@
 
 <section class="activitysearch py-5">
 <div id="app">
-    <h1 style="text-align: center;margin-top:0px;">活動搜尋</h1>
-     <div class="search-wrapper">
-       <input type="text" v-model="search" placeholder="請輸入演講者、類型、專題演講、音樂會等"/>
-     </div>
-     <br/>
     <div class="container" >
       <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col" v-for="i in filteredList">
+          <div class="col" v-for="i in activityList">
             <div class="card h-100 " >
               <a :href="i.url" target="_blank">
               <div class="cardineer">
@@ -199,7 +194,7 @@ https://cdn.jsdelivr.net/npm/vue-loading-overlay@6.0.3/dist/index.min.js
 <script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
 <script src="https://static.cloudflareinsights.com/beacon.min.js"></script>
 <script src="all.js"></script>
-<script src="vue.js"></script>
+<script src="vuepaper.js"></script>
 
 
   

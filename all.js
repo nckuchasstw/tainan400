@@ -39,8 +39,6 @@ gsap.to(".navbar",{
 
   let tl = gsap.timeline({});
 
-  
- 
   tl.fromTo(".nav-item",{stagger:{from: "random", 
   amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
   amount: 1 },y:0,ease:"back.out(1.7)",opacity:1,duration:2});
@@ -51,18 +49,8 @@ gsap.to(".navbar",{
   amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
   amount: 1 },y:0,ease:"bounce.out",opacity:1,duration:2},"-0.1");
 
-  
- 
   AOS.init();
-
-
- 
   
-
-
-
-  
-
   $( "#calendar").fullCalendar({
     timeZone: 'UTC',
     // 參數設定[註1]
@@ -220,8 +208,6 @@ gsap.to(".navbar",{
         
     ]
 });
-
-
 
 
     var chatbox = document.getElementById('fb-customer-chat');
