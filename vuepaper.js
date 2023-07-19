@@ -35,7 +35,7 @@ const app = Vue.createApp({
       
       activityList: [
       {title:'「一首歌，一個時代」音樂會',url:'activity01.html',author:'蔡明叡、古意唸歌團',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/897854735.svg',data:"2023.4.19"},
-      {title:'「臺灣鐵道百年史：連結歷史與未來的軌跡」專題演講',url:'activity02.html',author:'蘇昭旭',img:'tainan.jpg',data:"2023.9.19"},
+      {title:'「細說臺灣鐵道百年史：火車歷史的軌跡與現況」專題演講',url:'activity02.html',author:'蘇昭旭',img:'tainan.jpg',data:"2023.9.19"},
       {title:'「臺灣經濟四百年」專題演講',url:'activity12.html',author:'吳聰敏',img:'tainan.jpg',data:"2023.9.20"},
       {title:'「從牛車到五分車—來蔗走走」走讀',url:'activity03.html',author:'陳文松',img:'tainan.jpg',data:"2023.9.23"},
       {title:'「重塑被被消音的歷史—臺語電影的發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'tainan.jpg',data:"2023.10.4"},

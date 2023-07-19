@@ -85,7 +85,7 @@ gsap.to(".navbar",{
             url:"https://tainan-400.com/activity01.html",
         },
         { // 事件(包含開始時間、結束時間)
-            title: "「臺灣鐵道百年史：連結歷史與未來的軌跡」專題演講",
+            title: "「細說臺灣鐵道百年史：火車歷史的軌跡與現況」專題演講",
             start: "2023-09-19T15:00:00",
             end: "2023-09-19T17:00:00",
             url:"https://tainan-400.com/activity02.html",
