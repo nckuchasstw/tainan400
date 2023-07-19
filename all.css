@@ -436,8 +436,7 @@
 
     .pictureimg{
         transform:scale(1,1);
-        transition: all 1s ;
-        ease-out;
+        transition: all 1s ;ease-out;
     }
 
     .pictureimg:hover{
