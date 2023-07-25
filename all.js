@@ -39,15 +39,26 @@ gsap.to(".navbar",{
 
   let tl = gsap.timeline({});
 
+  tl.fromTo(".mainlogo",{y:-70,opacity:0,duration:0.1},{y:0,ease:"sine.out",opacity:1,duration:1.5});
+
   tl.fromTo(".nav-item",{stagger:{from: "random", 
   amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
-  amount: 1 },y:0,ease:"back.out(1.7)",opacity:1,duration:2});
-  tl.fromTo(".bannerpicture",{stagger:{from: "random", 
-  amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
-  amount: 1 },y:0,ease:"bounce.out",opacity:1,duration:2},"-0.1");
-  tl.fromTo(".btn1",{stagger:{from: "random", 
-  amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
-  amount: 1 },y:0,ease:"bounce.out",opacity:1,duration:2},"-0.1");
+  amount: 1 },y:0,ease:"back.out(1.7)",opacity:1,duration:2},'-=1.5');
+
+  tl.fromTo(".chi",{repeat:-1,x:-10,opacity:1,duration:0.1},{repeat:-1,x:10,ease:"sine.out",opacity:0,duration:5},'-=2.5');
+
+  tl.fromTo(".anping",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"bounce.out",opacity:1,duration:0.5},'-=5');
+
+  tl.fromTo(".banyan",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"bounce.out",opacity:1,duration:0.5});
+
+  tl.fromTo(".gate",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"slow(0.7, 0.7, false)",opacity:1,duration:0.1});
+
+  tl.fromTo(".temple",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"power2.out",opacity:1,duration:0.4});
+
+  tl.fromTo(".ship",{x:-70,y:0,opacity:0,duration:0.1},{x:10,y:-70,ease:"sine.out",opacity:1,duration:2.5});
+
+  
+
 
   AOS.init();
   

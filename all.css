@@ -23,16 +23,21 @@
     }
 
     .navbar {
-        background-color: #F7F3DC;
-        
+    background-image: url(fog.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+    margin: 0;
+    padding:0;
+    border:0;
+    background-size: cover;      
     }
 
     .nav-item:hover{
-    border: 0.5px #B69664 solid;
+    border: 0.8px #9A4C2E solid;
     }
 
     .nav-link:hover{
-    color: #B69664;
+    color: #9A4C2E;
     }
 
 
@@ -41,7 +46,7 @@
     }
 
     .nav-link{
-    color: #B69664;
+    color: #9A4C2E;
     font-size: 20px;
     font-weight: 300;
     }
@@ -94,8 +99,10 @@
     background-color:#ffffff; 
     }
 
+    
+
     #banner{
-    background-image: url(https://i.pinimg.com/originals/ae/0b/d9/ae0bd9b9d0c40de4476b4c1486017210.png);
+    background-image: url(banner_工作區域\ 1.png);
     background-color:#F7F3DC; 
     background-repeat: no-repeat;
     background-position:center top;
@@ -103,8 +110,18 @@
     padding:0;
     border:0;
     background-size: cover;
-
     }
+
+    .banner-content{
+    background-image: url(fog_工作區域\ 1.png);
+    background-repeat: no-repeat;
+    background-position:center top;
+    margin: 0;
+    padding:0;
+    border:0;
+    background-size: cover;
+    }
+
     /*banner樣式定位*/  
     #banner .banner-content ul{
     height: 900px;
@@ -128,7 +145,7 @@
 
     #introduce{
     background-color: white;
-    background-image: url(bg-03-01.svg);
+  
     color:#014D7F;
     content: "";
     width: auto;
@@ -138,8 +155,8 @@
     }
 
     #activity,#video{ 
-    background-color: #F7F3DC;
-    /* background-image: url(bgtop-01.jpg); */
+    background-color: #CCB684;
+    background-image: url(bg01_工作區域\ 1.png);
     color:#014D7F;
     content: "";
     width: auto;
@@ -151,8 +168,25 @@
    
 
     .footer{
-    background-color: #F7F3DC;
+    background-image: url(bg01_工作區域\ 1.png);
+    color:#014D7F;
+    content: "";
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position: bottom center;
+    
+    
     }
+
+    .footer > p{
+        color:#9A4C2E;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-align: center;
+    }
+
+   
 
     /*banner按鈕*/  
     .btn1{
@@ -161,8 +195,8 @@
     border-radius: 30px;
     padding: 4px 20px;
     color: #F7F3DC;
-    background-color: #B69664;
-    box-shadow: 0px 6px 0px #8b7145;
+    background-color: #7D4621;
+    box-shadow: 0px 6px 0px #5e3419;
     font-size: 18px;
     
     }
@@ -175,14 +209,14 @@
 
 
      /*banner按鈕*/  
-     .btn2{
+    .btn2{
     width: fit-content;
     top: 0;
     border-radius: 30px;
     padding: 1px 12px;
     color: #fff;
-    background-color: #B69664;
-    box-shadow: 0px 6px 0px #8b7145;
+    background-color: #7D4621;
+    box-shadow: 0px 6px 0px #5e3419;
     font-size: 14px;
     font-weight:bold;
     }
@@ -199,8 +233,8 @@
     border-radius: 30px;
     padding: 1px 14px;
     color: #fff;
-    background-color: #B69664;
-    box-shadow: 0px 6px 0px #8b7145;
+    background-color: #7D4621;
+    box-shadow: 0px 6px 0px #5e3419;
     font-size: 14px;
     font-weight:bold;
     margin: 10px;
@@ -212,84 +246,29 @@
     transition: 0.8s;
     }
 
+
+
+    .person{
+    position: relative;
+    animation: fly 20s infinite;
+    }
+
+    @keyframes fly {
+    0%   {top: 500px;left: 900px;}
+    100% {top: -100px;left: -200px;}
+    }
+
+   
     
 
-    /*banner圖片放大*/  
-    .bannerpicture:hover{
-    transform: scale(1.1);
-    transition: 3s;
-    }
-
-    /*banner船動畫*/ 
-    .bannerpictureship{
-    position: relative;
-    animation: shipmove 120s infinite;
-    }
-
-    @keyframes shipmove {
-    0%   {top: -50px;left: 600px;}
-    45%  {left: 150px;}
-    50%  {top:350px; }
-    55%  {left: 100px; }
-    100% {left: -150px; }
-    }
-
-    /*banner飛機動畫*/ 
-    .bannerpictureplane{
-    position: relative;
-    animation: planemove 20s infinite;
-
-    }
-
-    @keyframes planemove {
-    0%   {top: 700px;left: 300px;}
-    25%  {top: 690px;left: 400px;}
-    50%  {transform: rotate(40deg);top: 680px;left: 480px;}
-    75%  {transform: rotate(175deg);top: 670px;left: 550px;}
-    100% {transform: rotate(210deg);top: 700px;left: 300px;}
-    }
-
-    /*banner車子動畫*/  
-    .bannerpicturecar{
-    position: relative;
-    animation: carmove 30s infinite;
-
-
-    }
-
-    @keyframes carmove {
-    0%   {top: 100px;left: 800px;}
-    25%  {top: 100px;left: 900px;}
-    50%  {top: 100px;left: 950px;}
-    75%  {top: 100px;left: 1000px;}
-    100% {top: 100px;left: 1010px;}
-    }
-
-    /*banner火箭動畫*/  
-    .bannerpicturerocket{
-    position: relative;
-    animation: rocketmove 15s infinite;
-    animation-timing-function: ease-in-out;
-    }
-
-
-    @keyframes rocketmove {
-    0%   {scale:0;top: 300px;left: 800px;} 
-    4% {scale:1;top: 300px;left: 800px;}
-    20% {scale:0.7;transform: rotate(40deg);top: -100px;left: 1000px;}
-    60% {scale:0.5;transform: rotate(120deg);top: -100px;left: 1000px;}
-    100% {scale:0.1;transform: rotate(180deg);top: -300px;left: 800px;}
-
-    }
-
     .bi{
-    color: #B69664;
+    color: #7D4621;
     font-size: 20px;
     }
 
     .swiperimg{
     max-width: 100%;
-    box-shadow: 8px 6px 7px #c9c8c8;
+    box-shadow: 2px 4px 5px #585858;
     }
 
     .swiperimg:hover{
@@ -298,9 +277,9 @@
     }
 
     .swiperurl{
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 
     }
 
@@ -342,7 +321,7 @@
     font-size: 14px;
     text-decoration: none;
     padding: 0 15px;
-    color:#B29362 ;
+    color:#7D4621 ;
     }
 
     a{
@@ -351,7 +330,7 @@
 
     h3{
     font-size: 35px;
-    color:#B29362;
+    color:#7D4621;
     text-align: center;
     padding: 20px 0; 
     font-weight: 300;
@@ -390,8 +369,8 @@
 
    .btn-primary {
     border-color: #F7F3DC  !important;
-    background-color: #F7F3DC;
-    color:#B29362;
+    background-color: #CCB684;
+    color:#7D4621;
     font-size: 16px;
     letter-spacing: 2px;
     border-radius: 10px;
