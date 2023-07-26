@@ -188,7 +188,7 @@
     border-radius: 30px;
     padding: 4px 20px;
     color: #F7F3DC;
-    background-color: #7D4621;
+    background-color: #9A4C2E;
     box-shadow: 0px 6px 0px #5e3419;
     font-size: 18px;
     
@@ -208,7 +208,7 @@
     border-radius: 30px;
     padding: 1px 12px;
     color: #fff;
-    background-color: #7D4621;
+    background-color: #9A4C2E;
     box-shadow: 0px 6px 0px #5e3419;
     font-size: 14px;
     font-weight:bold;
@@ -226,7 +226,7 @@
     border-radius: 30px;
     padding: 1px 14px;
     color: #fff;
-    background-color: #7D4621;
+    background-color: #9A4C2E;
     box-shadow: 0px 6px 0px #5e3419;
     font-size: 14px;
     font-weight:bold;
@@ -240,7 +240,7 @@
     }   
 
     .bi{
-    color: #7D4621;
+    color: #9A4C2E;
     font-size: 20px;
     }
 
@@ -281,7 +281,7 @@
     color:royalblue
     }
     .navbar-toggler{
-    background-color: #b29363;
+    background-color: #9A4C2E;
     border: 1px white solid;
     }
 
@@ -299,7 +299,7 @@
     font-size: 14px;
     text-decoration: none;
     padding: 0 15px;
-    color:#7D4621 ;
+    color:#9A4C2E ;
     }
 
     a{
@@ -308,7 +308,7 @@
 
     h3{
     font-size: 35px;
-    color:#7D4621;
+    color:#9A4C2E;
     text-align: center;
     padding: 20px 0; 
     font-weight: 300;
@@ -349,8 +349,8 @@
 
    .btn-primary {
     border-color: #F7F3DC  !important;
-    background-color: #CCB684;
-    color:#7D4621;
+    background-color: #9A4C2E;
+    color:white;
     font-size: 16px;
     letter-spacing: 2px;
     border-radius: 10px;
