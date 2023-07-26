@@ -5,9 +5,18 @@ const app = Vue.createApp({
       isLoading:false,
       search: '',
       postList: [
+      {title:'崑大旅遊系承辦臺南觀旅局計畫培訓觀光種子大使 首日指導社群經營',url:'https://n.yam.com/Article/20230726193680',author:'中央社',img:'https://imgcdn.cna.com.tw/www/postwrite/2023/20230726/00347019.202307261401168619m.jpg',describe:"崑山科技大學旅遊事業管理系承辦臺南市政府觀光旅遊局「臺南400觀光大使推動計畫」，活動於7月6日正式啟動，19日首先登場的是「觀光種子大使培訓課程」，共有40多位來自各個高中職與大專院校的本國生與外籍生一起參加，期能展現年輕學子與在台生活外國人的多元視角，行銷台南的魅力。",data:"2023.07.26"},
+
       {title:'一起台南世界交陪！台南400首檔特展在佳里蕭壠文化園區',url:'https://reading.udn.com/read/story/122750/7263358',author:'聯合報',img:'https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/06/28/realtime/22892488.jpg&x=0&y=0&sw=0&sh=0&exp=3600&w=465&nt=1',describe:"「台南400」首檔特展「當海洋相遇」，今在佳里蕭壠文化園區展出，邀請台灣、荷蘭6名藝術家，創作出6件藝術裝置，展期持續到明年初。這項特展由蕭壠國際藝術村與荷蘭當代藝術機構iii共同籌畫，策展人是成大創意產業設計研究所副教授陳明惠，在蕭壠文化園區A1、A2及A5館開展，展覽以「海洋、土地與類考古」、「風景與懷舊」、「空間與記憶」三個子題呈現，呼應文化局推廣「一起臺南，世界交陪」的概念，展期至明年1月7日。",data:"2023.07.25"},
 
       {title:'到處看得見！「臺南400」用免驚 公私共造視覺識別系統展豐富創意',url:'https://art.ltn.com.tw/article/breakingnews/4369918',author:'洪瑞琴',img:'https://img.ltn.com.tw/Upload/art/page/800/2023/07/20/4369918_1.jpg',describe:"「臺南400」視覺識別系統，自去年起開放民間單位應用，免收授權費，透過產業響應共同形塑紀念性議題的城市氛圍，並且融入生活到處看得見，南市文化局歡迎各界多元運用，打造「臺南400」的繽紛豐富，以創意靈感一同與「臺南交陪」。",data:"2023.07.20"},
+
+      {title:'黃偉哲市長會見全國日台友好議員協議會 相約台南400再見',url:'https://www.tainan.gov.tw/News_Content.aspx?n=13370&s=8561656',author:'臺南市政府新聞及國際關係處',img:'https://w3fs.tainan.gov.tw/001/Upload/1/relpic/9748/8561656/90564c93-b03d-4e21-a616-a6c8bc4630a1@710x470.jpg',describe:"由日本各地友台議員組成的全國日台友好議員協議會，為了討論今年、明年分別將在仙台、台南舉辦的台日交流高峰會，在昨(19)日由藤田和秀會長率高橋克朋副會長等日本各地議員一行8人造訪台南，並蒞府拜會。該團成員多與台南熟稔，包含甫與黃偉哲市長在日本橫濱會面的橫山正人副會長、促成台南與京都市締盟的寺田一博副會長，還有長年支持台南與和歌山市交流的遠藤富士雄理事長、井上直樹代表理事等，為表歡迎，黃偉哲市長特率新聞及國際關係處蘇恩恩處長親自接待。",data:"2023.07.20"},
+
+      {title:'臺南400觀光種子大使培訓 開跑',url:'https://tw.news.yahoo.com/%E8%87%BA%E5%8D%97400%E8%A7%80%E5%85%89%E7%A8%AE%E5%AD%90%E5%A4%A7%E4%BD%BF%E5%9F%B9%E8%A8%93-%E9%96%8B%E8%B7%91-131016337.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAH3o_FAEP7KLp0SXhCev3kW6g8_IkpDohW-b_XxfucLri4QCKXbPA-MCHthKiVhS92kaogX0GXjimJ8gSp3LdA_Zzqa6U8Rxdc-Ca9fj5t3s2dG2qOtk4MWR2ivke5t4XCJCwdyaqpTkIOc8bHxF6LOk1_-mqLt_D0Gq_iXuKC8e',author:'汪惠松',img:'https://s.yimg.com/ny/api/res/1.2/cslmSIXo74QSlpkrJP592g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTQ4OTtjZj13ZWJw/https://media.zenfs.com/ko/cdns.com.tw/1a254483f478f1caf5a7af1dde080b53',describe:"迎接二０二四年「臺南４００」盛事，台南市府觀旅局偕同崑山科大推出觀光種子大使培訓活動，六日舉行啟動儀式，內容包括影片邀請卡創作大賽、外國人體驗台南影片徵件，期透過學生及在台生活外國人多元創新的視角推廣台南的魅力。",data:"2023.07.06"},
+
+      {title:'迎台南400 2024台灣燈會伴手禮徵選起跑',url:'https://www.chinatimes.com/realtimenews/20230705004621-260405?chdtv',author:'中時 曹婷婷',img:'https://images.chinatimes.com/newsphoto/2023-07-05/1024/20230705004622.jpg',describe:"迎接台南400首場國際大型觀光活動「2024台灣燈會」，台南市政府將選拔出百大燈會推薦伴手禮及30件指定燈會伴手禮，市長黃偉哲鼓勵優質商家踴躍報名，他說，預估相關活動商機可達數億元，希望業者能呈現最具台南特色、最好的伴手禮被全國看見。",data:"2023.07.05"},
+
 
       {title:'作為一個槓桿去打開城市文化治理的侷限：臺南400，擱來咧？',url:'https://artouch.com/art-views/cultural-policy/content-110719.html',author:'陳思宇',img:'https://d1qlj1o6gdgqqt.cloudfront.net/wp-content/uploads/2023/06/%E6%AD%B7%E5%8F%B2%E5%A0%B4%E5%9F%9F%E8%88%87%E5%B9%B3%E5%8F%B0%E5%A0%B4%E6%AC%A11-min-1110x1065.jpg',describe:"2024年臺南400夾帶同樣大量的「展會」形式重新「復出」，但不同於高雄市政府的操作，臺南市政府在策略上拋出「文化臺南400年—行動白皮書計畫」、「400+民間參與計畫」等民間參與方法，希冀能採納各方意見形塑「大家」的臺南400。究竟後續如何在大型展會的號召下，去細緻回應民眾及各方專家學者在白皮書內提出的內容，對市府而言仍是一大考驗，也是民間需要持續監督的地方。",data:"2023.06.29"},
 
