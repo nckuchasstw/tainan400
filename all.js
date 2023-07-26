@@ -39,6 +39,7 @@ gsap.to(".navbar",{
 
   let tl = gsap.timeline({});
 
+
   tl.fromTo(".mainlogo",{y:-70,opacity:0,duration:0.1},{y:0,ease:"sine.out",opacity:1,duration:1.5});
 
   tl.fromTo(".nav-item",{stagger:{from: "random", 
@@ -55,7 +56,15 @@ gsap.to(".navbar",{
 
   tl.fromTo(".temple",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"power2.out",opacity:1,duration:0.4});
 
-  tl.fromTo(".ship",{x:-70,y:0,opacity:0,duration:0.1},{x:10,y:-70,ease:"sine.out",opacity:1,duration:2.5});
+  tl.fromTo(".cloudleft",{repeat:-1,y:160,x:200,opacity:1,duration:20},{repeat:-1,y:20,x:60,ease:"sine.out",opacity:0,duration:20},'-=6');
+
+  tl.fromTo(".cloudright",{repeat:-1,x:-210,y:120,opacity:0.7,duration:20},{repeat:-1,x:-300,y:30,ease:"sine.out",opacity:0,duration:20},'-=16');
+
+  tl.fromTo(".ship",{repeat:-1,y:-300,x:-400,opacity:1,duration:20},{repeat:-1,y:80,x:190,ease:"sine.out",opacity:1,duration:20},'-=46');
+
+  tl.fromTo(".person",{repeat:-1,y:260,x:300,opacity:1,duration:40},{repeat:-1,y:-80,x:-400,ease:"sine.out",opacity:1,duration:40},'-=22');
+
+ 
 
   
 
