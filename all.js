@@ -243,10 +243,10 @@ gsap.to(".navbar",{
     var chatbox = document.getElementById('fb-customer-chat');
     chatbox.setAttribute("page_id", "104877438580876");
     chatbox.setAttribute("attribution", "biz_inbox");
-
+ 
 
     <!-- Your SDK code -->
-
+   
       window.fbAsyncInit = function() {
         FB.init({
           xfbml            : true,
