@@ -1,21 +1,14 @@
-    /*banner手機RWD*/       
-    @media screen and (max-width: 600px){
-    #banner .banner-content ul li:nth-of-type(even),
-    #banner .banner-content ul li:nth-of-type(1),
-    #banner .banner-content ul li:nth-of-type(7){
-    display: none;
-    }
-    }
 
    
 
     /*圖片RWD*/
     @media only screen and (max-width: 552px){
-    .picture{
+    .cloudleft , .cloudright, .ship ,.chi,.sugarfactory,.train,.way ,.person ,.banyan{
     display: none;
     }
     }
 
+ 
 
     body{
     font-family: 'Noto Serif TC', serif;
@@ -29,7 +22,8 @@
     margin: 0;
     padding:0;
     border:0;
-    background-size: cover;      
+    background-size: cover;
+    z-index: 9999;    
     }
 
     .nav-item:hover{
@@ -38,6 +32,10 @@
 
     .nav-link:hover{
     color: #9A4C2E;
+    }
+
+    .navbar-brand{
+        margin: 0;
     }
 
 
