@@ -23,7 +23,7 @@
     padding:0;
     border:0;
     background-size: cover;
-    z-index: 9999;    
+    z-index: 99;    
     }
 
     .nav-item:hover{
@@ -338,10 +338,12 @@
     #calendar {
     max-width: 900px;
     margin: 40px auto;
+
     }
+  
     
    .modal-content{
-       background-color:#F7F3DC;
+       background-color:#F7F3DC;  
 
    }
 
