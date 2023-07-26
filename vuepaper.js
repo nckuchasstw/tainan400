@@ -65,7 +65,7 @@ const app = Vue.createApp({
       {title:'「重塑被被消音的歷史—臺語電影的發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'mainposter.jpg',data:"2023.10.4"},
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'mainposter.jpg',data:"2023.10.19"},
       {title:'2023臺南國際人權藝術節',url:'',author:'---',img:'mainposter.jpg',data:"2023.10~12"},
-      {title:'「臺南400」音樂會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'mainposter.jpg',data:"2023.11.08"},
+      {title:'「慢慢變臺南」音樂會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'mainposter.jpg',data:"2023.11.08"},
       {title:'「展．望」論壇',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.10"},
       {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11"},
       {title:'「不獨具人類的歷史」國際學術研討會',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.17~18"},
