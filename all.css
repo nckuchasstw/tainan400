@@ -154,7 +154,7 @@
 
     #activity,#video{ 
     background-color: #CCB684;
-    background-image: url(bg01_工作區域\ 1.png);
+    background-image: url(secbg.jpg);
     color:#014D7F;
     content: "";
     width: auto;
@@ -167,7 +167,7 @@
    
 
     .footer{
-    background-image: url(bg01_工作區域\ 1.png);
+    background-image: url(footerbg.jpg);
     color:#014D7F;
     content: "";
     width: auto;
