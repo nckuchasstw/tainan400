@@ -2,6 +2,13 @@
    
 
     /*圖片RWD*/
+
+    @media only screen and (max-width: 1000px){
+    .ship {
+    display: none;
+    }
+    }
+
     @media only screen and (max-width: 552px){
     .cloudleft , .cloudright, .ship ,.chi,.sugarfactory,.train,.way ,.person ,.banyan{
     display: none;
