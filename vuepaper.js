@@ -5,6 +5,12 @@ const app = Vue.createApp({
       isLoading:false,
       search: '',
       postList: [
+      {title:'熱蘭遮會動的古地圖 呈現台南400',url:'https://tw.sports.yahoo.com/news/%E7%86%B1%E8%98%AD%E9%81%AE%E6%9C%83%E5%8B%95%E7%9A%84%E5%8F%A4%E5%9C%B0%E5%9C%96-%E5%91%88%E7%8F%BE%E5%8F%B0%E5%8D%97400-125058988.html',author:'中華日報記者林雪娟',img:'https://s.yimg.com/ny/api/res/1.2/qNlcxfuKn4O.dJtiJbAPLQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMDtjZj13ZWJw/https://media.zenfs.com/ko/cdns.com.tw/e06ada5cb255fe81afa4a593036f48f8',describe:"迎接台南四百，但你知道，四百年前的台南，是什麼樣子？熱蘭遮博物館將於今年九月二十三日，在進入二０二四年倒數一百天時，以「從大員到台灣」為主題，透過古地圖超展開，推出大型地圖動畫，呈現台南四百年滄海如何演化成為桑田變遷；展區正積極布展中，敬請期待。",data:"2023.08.03"},
+
+      {title:'日本前眾議員拜會市長 上野宏史：來台灣定得要造訪台南',url:'https://www.storm.mg/localarticle/4847923',author:'徐炳文',img:'https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2023/08/03/20230803-052800_U20715_M877251_5562.jpg?itok=lG9tC0uU',describe:"日本前眾議員上野宏史今（3）日拜會台南市長黃偉哲。黃偉哲除了再次感謝七月出訪上野前議員選區群馬縣時日方的接待外，也請他與家人在台南停留期間，務必品嚐芒果、火龍果等當令水果，黃市長也推薦他們可走訪台南市內保存完好的日本時代古蹟，並邀請明年來台南參加「台南400」盛大的活動。",data:"2023.08.03"},
+      
+      {title:'在新加坡發現臺南400 古都形象躍國際',url:'https://money.udn.com/money/story/5635/7340455',author:'經濟日報 張傑',img:'https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/08/01/2/23649864.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050&exp=3600&exp=3600',describe:"2024年是台南400的重要里程碑，台南市政府觀光旅遊局為了讓世界認識台南，積極規劃在亞洲各國，投放台南國際形象廣告，尤其是觀光市場成熟的新加坡，自去年(111)年10月13日邊境政策鬆綁後，新加坡來台旅客人次高達9萬人次，高居全球來台旅遊國家第二名，市府透過投放台南形象廣告，誠摯邀請新加坡民眾共同迎接2024台南400，向世界展示台南魅力與熱情。",data:"2023.08.01"},
+
       {title:'崑大旅遊系承辦臺南觀旅局計畫培訓觀光種子大使 首日指導社群經營',url:'https://n.yam.com/Article/20230726193680',author:'中央社',img:'https://imgcdn.cna.com.tw/www/postwrite/2023/20230726/00347019.202307261401168619m.jpg',describe:"崑山科技大學旅遊事業管理系承辦臺南市政府觀光旅遊局「臺南400觀光大使推動計畫」，活動於7月6日正式啟動，19日首先登場的是「觀光種子大使培訓課程」，共有40多位來自各個高中職與大專院校的本國生與外籍生一起參加，期能展現年輕學子與在台生活外國人的多元視角，行銷臺南的魅力。",data:"2023.07.26"},
 
       {title:'一起臺南世界交陪！臺南400首檔特展在佳里蕭壠文化園區',url:'https://reading.udn.com/read/story/122750/7263358',author:'聯合報',img:'https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/06/28/realtime/22892488.jpg&x=0&y=0&sw=0&sh=0&exp=3600&w=465&nt=1',describe:"「臺南400」首檔特展「當海洋相遇」，今在佳里蕭壠文化園區展出，邀請臺灣、荷蘭6名藝術家，創作出6件藝術裝置，展期持續到明年初。這項特展由蕭壠國際藝術村與荷蘭當代藝術機構iii共同籌畫，策展人是成大創意產業設計研究所副教授陳明惠，在蕭壠文化園區A1、A2及A5館開展，展覽以「海洋、土地與類考古」、「風景與懷舊」、「空間與記憶」三個子題呈現，呼應文化局推廣「一起臺南，世界交陪」的概念，展期至明年1月7日。",data:"2023.07.25"},
