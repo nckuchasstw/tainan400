@@ -64,23 +64,23 @@ const app = Vue.createApp({
       
       activityList: [
       {title:'「一首歌，一個時代」音樂會',url:'activity01.html',author:'蔡明叡、古意唸歌團',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/897854735.svg',data:"2023.4.19"},
-      {title:'「細說臺灣鐵道百年史：火車歷史的軌跡與現況」專題演講',url:'activity02.html',author:'蘇昭旭',img:'mainposter.jpg',data:"2023.9.19"},
-      {title:'「臺灣荷治時期的鹿與原住民」專題演講',url:'activity12.html',author:'吳聰敏',img:'mainposter.jpg',data:"2023.9.20"},
-      {title:'「從牛車到五分車—來蔗走走」走讀',url:'activity03.html',author:'陳文松、林大偉',img:'mainposter.jpg',data:"2023.9.23"},
-      {title:'「迢迢織路：臺南紡織工業 400 年」專題演講',url:'activity13.html',author:'曾繁絹',img:'mainposter.jpg',data:"2023.09.27"},
-      {title:'「重塑被邊緣的歷史—全球史視角的台語影視發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'mainposter.jpg',data:"2023.10.4"},
-      {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'mainposter.jpg',data:"2023.10.19"},
+      {title:'「細說臺灣鐵道百年史：火車歷史的軌跡與現況」專題演講',url:'activity02.html',author:'蘇昭旭',img:'0919.jpg',data:"2023.9.19"},
+      {title:'「臺灣荷治時期的鹿與原住民」專題演講',url:'activity12.html',author:'吳聰敏',img:'0920.jpg',data:"2023.9.20"},
+      {title:'「從牛車到五分車—來蔗走走」走讀',url:'activity03.html',author:'陳文松、林大偉',img:'0923.jpg',data:"2023.9.23"},
+      {title:'「迢迢織路：臺南紡織工業 400 年」專題演講',url:'activity13.html',author:'曾繁絹',img:'0927.jpg',data:"2023.09.27"},
+      {title:'「重塑被邊緣的歷史—全球史視角的台語影視發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'1004.jpg',data:"2023.10.4"},
+      {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'1019.jpg',data:"2023.10.19"},
       {title:'2023臺南國際人權藝術節',url:'',author:'---',img:'mainposter.jpg',data:"2023.10~12"},
-      {title:'「慢慢變臺南」音樂會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'mainposter.jpg',data:"2023.11.08"},
+      {title:'「慢慢變臺南」音樂會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'1108.jpg',data:"2023.11.08"},
       {title:'「展．望」論壇',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.10"},
       {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11"},
       {title:'「不獨具人類的歷史」國際學術研討會',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.17~18"},
       {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'mainposter.jpg',data:"2023.11.24"},
-      {title:'「行走臺南四百年：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'mainposter.jpg',data:"2023.11.27"},
+      {title:'「行走臺南四百年：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'1127.jpg',data:"2023.11.27"},
      
       {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'mainposter.jpg',data:"2023.12.1"},
       {title:'「廟宇信仰與府城四百年」專題演講',url:'activity09.html',author:'陳益源',img:'mainposter.jpg',data:"2023.12.15"},
-      {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'mainposter.jpg',data:"2023.12.15"},
+      {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'1215.jpg',data:"2023.12.15"},
      
       ],
 
