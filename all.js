@@ -31,6 +31,10 @@ gsap.to(".navbar",{
         spaceBetween: 40,
       },
       1024: {
+        slidesPerView: 5,
+        spaceBetween: 50,
+      },
+      1700: {
         slidesPerView: 6,
         spaceBetween: 50,
       },
