@@ -72,14 +72,14 @@ const app = Vue.createApp({
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'1019.jpg',data:"2023.10.19"},
       {title:'2023臺南國際人權藝術節',url:'',author:'---',img:'mainposter.jpg',data:"2023.10~12"},
       {title:'「慢慢變臺南」音樂會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'1108.jpg',data:"2023.11.08"},
-      {title:'「展．望」論壇',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.10"},
+      {title:'「展．望」國際前瞻論壇',url:'',author:'--',img:'1110.jpg',data:"2023.11.10"},
       {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11"},
       {title:'「不獨具人類的歷史」國際學術研討會',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.17~18"},
-      {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'mainposter.jpg',data:"2023.11.24"},
+      {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'1124.jpg',data:"2023.11.24"},
       {title:'「行走臺南四百年：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'1127.jpg',data:"2023.11.27"},
      
-      {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'mainposter.jpg',data:"2023.12.1"},
-      {title:'「廟宇信仰與府城四百年」專題演講',url:'activity09.html',author:'陳益源',img:'mainposter.jpg',data:"2023.12.15"},
+      {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'1201.jpg',data:"2023.12.1"},
+      {title:'「廟宇信仰與府城四百年」專題演講',url:'activity09.html',author:'陳益源',img:'121501.jpg',data:"2023.12.15"},
       {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'1215.jpg',data:"2023.12.15"},
      
       ],
