@@ -81,6 +81,7 @@ const app = Vue.createApp({
       {title:'「展．望」國際前瞻論壇',url:'activity14.html',author:'--',img:'1110.jpg',data:"2023.11.10"},
       {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11"},
       {title:'「不獨具人類的歷史」國際學術研討會',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.17~18"},
+      {title:'「文學、思想與宗教」國際學術研討會',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.18~19"},
       {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'1124.jpg',data:"2023.11.24"},
       {title:'「行走臺南四百年：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'1127.jpg',data:"2023.11.27"},
      
