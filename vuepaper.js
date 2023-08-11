@@ -5,6 +5,12 @@ const app = Vue.createApp({
       isLoading:false,
       search: '',
       postList: [
+      {title:'台南做16歲有看頭 乘遊艇穿越福爾摩沙、體驗400今昔',url:'https://udn.com/news/story/7326/7357252',author:'聯合報／ 記者鄭惠仁',img:'https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/08/09/realtime/23904224.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&w=930&nt=1',describe:"「做16歲」是台南的成年傳統習俗，市府8月20日將在安平開台天后宮舉行成年禮儀式，市長黃偉哲今在記者會表示，此儀式除肯定16歲青年的能力，也期待年輕人站出來，承擔更多社會責任，扛起國家未來。",data:"2023.08.09"},
+      
+      {title:'台南400視覺識別系統 公私協力展豐富創意',url:'https://news.homeplus.net.tw/single/55685',author:'中嘉新聞網楊舜淮',img:'https://w3fs.tainan.gov.tw/001/Upload/1/relpic/9748/7907698/59f7804d-8d8f-40c1-a824-6cda89f553c5@710x470.jpg',describe:"為了迎接明年台南400年，台南市文化局自去年起，將主視覺識別系統，開放給民間單位，應用在商品開發、空間布置等等，要讓台南400融入生活，更顯繽紛。橡皮擦、手工拖鞋、茶葉罐、椪餅，從吃的到生活用品，外觀全都換上台南400年的主視覺，台南市文化局形塑「台南400」，透過民間響應，將此紀念性議題，充滿城市氛圍。",data:"2023.08.04"},
+      
+      {title:'台南散步導覽員 今(3)日辦「臺南400美食與小吃」研習',url:'https://www.tainan.gov.tw/News_Content.aspx?n=13370&s=8579097',author:'臺南市政府觀光局',img:'https://w3fs.tainan.gov.tw/001/Upload/1/relpic/9748/8579097/e3cb0579-0604-4d63-979a-5d2d5872d916@710x470.png',describe:"繼去年《米其林指南》美食評鑑，台南多家美食、小吃及餐廳，獲得入選及必比登推薦後，今年6月公布的第一屆500碗台灣著名小吃全台小吃指南，台南更創佳績，入選多達57家，足見台南美食的魅力不容小覷。為此，觀旅局今(3)日辦理台南散步導覽員及導覽志工講習，以「臺南米其林紅色指南與500碗推薦之台南小吃」為課程主題，期望第一線旅遊服務人員，一起宣傳推廣台南的旅遊與在地美食。",data:"2023.08.03"},
+
       {title:'熱蘭遮會動的古地圖 呈現台南400',url:'https://tw.sports.yahoo.com/news/%E7%86%B1%E8%98%AD%E9%81%AE%E6%9C%83%E5%8B%95%E7%9A%84%E5%8F%A4%E5%9C%B0%E5%9C%96-%E5%91%88%E7%8F%BE%E5%8F%B0%E5%8D%97400-125058988.html',author:'中華日報記者林雪娟',img:'https://s.yimg.com/ny/api/res/1.2/qNlcxfuKn4O.dJtiJbAPLQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMDtjZj13ZWJw/https://media.zenfs.com/ko/cdns.com.tw/e06ada5cb255fe81afa4a593036f48f8',describe:"迎接台南四百，但你知道，四百年前的台南，是什麼樣子？熱蘭遮博物館將於今年九月二十三日，在進入二０二四年倒數一百天時，以「從大員到台灣」為主題，透過古地圖超展開，推出大型地圖動畫，呈現台南四百年滄海如何演化成為桑田變遷；展區正積極布展中，敬請期待。",data:"2023.08.03"},
 
       {title:'日本前眾議員拜會市長 上野宏史：來台灣定得要造訪台南',url:'https://www.storm.mg/localarticle/4847923',author:'徐炳文',img:'https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2023/08/03/20230803-052800_U20715_M877251_5562.jpg?itok=lG9tC0uU',describe:"日本前眾議員上野宏史今（3）日拜會台南市長黃偉哲。黃偉哲除了再次感謝七月出訪上野前議員選區群馬縣時日方的接待外，也請他與家人在台南停留期間，務必品嚐芒果、火龍果等當令水果，黃市長也推薦他們可走訪台南市內保存完好的日本時代古蹟，並邀請明年來台南參加「台南400」盛大的活動。",data:"2023.08.03"},
