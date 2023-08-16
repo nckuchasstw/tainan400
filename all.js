@@ -167,7 +167,7 @@ gsap.to(".navbar",{
            
         },
         { // 事件(包含開始時間、結束時間)
-            title: "「慢慢變臺南」音樂會",
+            title: "「慢慢變臺南」演唱會",
             start: "2023-11-08T19:00:00",
             end: "2023-11-08T21:00:00",
             url:"https://tainan-400.com/activity11.html",
