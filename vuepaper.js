@@ -75,6 +75,7 @@ const app = Vue.createApp({
       {title:'「從牛車到五分車—來蔗走走」走讀',url:'activity03.html',author:'陳文松、林大偉',img:'0923.jpg',data:"2023.9.23",register:'尚未開放報名'},
       {title:'「迢迢織路：臺南紡織工業 400 年」專題演講',url:'activity13.html',author:'曾繁絹',img:'0927.jpg',data:"2023.09.27",register:'尚未開放報名'},
       {title:'「重塑被邊緣的歷史—全球史視角的台語影視發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'1004.jpg',data:"2023.10.4",register:'尚未開放報名'},
+      {title:'鬥鬧熱走唱隊',url:'',author:'鬥鬧熱走唱隊',img:'mainposter.jpg',data:"2023.10.14",register:'尚未開放報名'},
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'1019.jpg',data:"2023.10.19",register:'尚未開放報名'},
       {title:'2023臺南國際人權藝術節',url:'',author:'---',img:'mainposter.jpg',data:"2023.10~12",register:'尚未開放報名'},
       {title:'「慢慢變臺南」音樂會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'1108.jpg',data:"2023.11.08",register:'尚未開放報名'},
