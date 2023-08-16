@@ -124,11 +124,14 @@
               <div class="cardineer">
               <img :src="i.img" class="pictureimg" style="width: 100%;" >
             </div>
-            </a>
+            
               <div class="card-body">
+                <p style="font-size:14px;text-align: center;background-color: #9A4C2E;color: white;border-radius: 10px;">{{i.register}}</p>
+              </a>
                 <strong><p style="font-size: 16px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
                 <p style="font-size:14px"><i class="bi bi-person-video3 pe-2"></i>演出者/講者：{{ i.author }}</p>
                 <p style="font-size:14px"><i class="bi bi-calendar pe-2"></i>活動日期：{{i.data}}</p>
+                
             </div>
           </div>
         </div>
