@@ -383,6 +383,7 @@
     float: right;
     position: fixed;
     right: 0;
+    top:20%;
     z-index: 999;
     writing-mode: vertical-lr ;
     }
