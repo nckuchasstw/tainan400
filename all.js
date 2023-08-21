@@ -224,9 +224,9 @@ gsap.to(".navbar",{
         end: "2023-12-09T17:00:00",
         url:"https://tainan-400.com/activity08.html",
        
-    },
+      },
         { // 事件(包含開始時間、結束時間)
-            title: "「廟宇信仰與府城四百年」專題演講",
+            title: "「廟宇信仰與府城四百」專題演講",
             start: "2023-12-15T10:10:00",
             end: "2023-12-15T12:10:00",
             url:"https://tainan-400.com/activity09.html",
