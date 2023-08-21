@@ -86,6 +86,7 @@ const app = Vue.createApp({
   
       {title:'「行走臺南四百年：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'231127.jpg',data:"2023.11.27",register:'開放報名中'},
       {title:'「步入臺南街屋的時間隧道：探訪城市中的歷史與人文寶藏」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'mainposter.jpg',data:"2023.12.02",register:'尚未開放報名'},
+      {title:'「臺灣風雲．戰火波瀾」木偶戲',url:'',author:'古都木偶戲劇團',img:'mainposter.jpg',data:"2023.12.08",register:'尚未開放報名'},
       {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'mainposter.jpg',data:"2023.12.09",register:'尚未開放報名'},
       {title:'「廟宇信仰與府城四百」專題演講',url:'activity09.html',author:'陳益源',img:'231215.jpg',data:"2023.12.15",register:'尚未開放報名'},
       {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'121502.jpg',data:"2023.12.15",register:'尚未開放報名'},
