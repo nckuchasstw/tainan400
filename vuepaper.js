@@ -85,7 +85,7 @@ const app = Vue.createApp({
       {title:'「文學、思想與宗教」國際學術研討會',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.18~19",register:'尚未開放報名'},
   
       {title:'「行走臺南四百：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'0231127.jpg',data:"2023.11.27",register:'開放報名中'},
-      {title:'「散策米街味自慢」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'231202.jpg',data:"2023.12.02",register:'尚未開放報名'},
+      {title:'「散策米街味自慢」走讀',url:'activity07.html',author:'王茗禾',img:'2312021.jpg',data:"2023.12.02",register:'尚未開放報名'},
       {title:'「大員風雲．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'231206.jpg',data:"2023.12.06",register:'尚未開放報名'},
       {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'mainposter.jpg',data:"2023.12.09",register:'尚未開放報名'},
       {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'0231215.jpg',data:"2023.12.15",register:'尚未開放報名'},
