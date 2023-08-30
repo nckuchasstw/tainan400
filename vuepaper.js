@@ -93,7 +93,7 @@ const app = Vue.createApp({
       {title:'「大員風雲．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'231206.jpg',data:"2023.12.06",register:'尚未開放報名'},
       {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'mainposter.jpg',data:"2023.12.09",register:'尚未開放報名'},
       {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'0231215.jpg',data:"2023.12.15",register:'尚未開放報名'},
-      {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'121502.jpg',data:"2023.12.15",register:'尚未開放報名'},
+      {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'121502.jpg',data:"2023.12.15",register:'開放報名中'},
      
       ],
 
