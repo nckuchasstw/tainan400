@@ -5,6 +5,8 @@ const app = Vue.createApp({
       isLoading:false,
       search: '',
       postList: [
+
+      {title:'2023臺灣文博會臺南館推巨型臺南古地圖 臺北也能沉浸體驗400年前臺南',url:'https://www.tainan.gov.tw/News_Content.aspx?n=13370&s=8589939',author:'台南市政府文化局',img:'https://w3fs.tainan.gov.tw/001/Upload/1/relpic/9748/8589939/a4fce439-848f-4e63-bb43-c6e3e630d0b4@710x470.jpg',describe:"為迎接即將到來的臺南400，萬眾矚目的臺灣文化博覽會即將於09月22日在臺北隆重登場。今年規模更甚以往，展演範圍擴及臺北五大文化場域，而策展「空總臺灣當代文化實驗場」的臺南館，跳脫以往的傳統文化展演方式，以沈浸式體驗，讓參觀者沿著歷史的軸線，感受當時的人文色彩、滄海桑田。",data:"2023.09.13"},
     
       {title:'越南國際旅展 「臺南400」意象營造跨時旅趣亮點掀熱潮',url:'https://news.ltn.com.tw/news/life/breakingnews/4423888',author:'自由時報 記者王姝琇',img:'https://img.ltn.com.tw/Upload/news/600/2023/09/10/4423888_2_1.jpg',describe:"為拓展越南旅客到台南觀光，南市府投入參與第17屆胡志明市國際旅遊展，以「臺南400」為主題，搭配旗袍意象行銷跨時旅趣，同時展示芒果乾、鳳梨乾、柚花咖啡及柚子蔘等農特產品和文創小物，吸引逾2萬名民眾及國際買家參觀，感受台南古都風華。",data:"2023.09.10"},
 
