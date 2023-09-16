@@ -135,7 +135,7 @@ gsap.to(".navbar",{
           title: "2023「臺南國際人權藝術節」記者會",
           start: "2023-09-27T10:00:00",
           end: "2023-09-27T12:00:00",
-          url:"",
+          url:"https://www.tihrf-nckumuseum.com/",
          
       },
         { // 事件(包含開始時間、結束時間)

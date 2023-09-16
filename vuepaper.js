@@ -99,7 +99,7 @@ const app = Vue.createApp({
       {title:'「重塑被邊緣的歷史—全球史視角的台語影視發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'231004.jpg',data:"2023.10.4",register:'開放報名中'},
       {title:'鬥鬧熱走唱隊',url:'',author:'鬥鬧熱走唱隊',img:'mainposter.jpg',data:"2023.10.14",register:'尚未開放報名'},
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'231019.jpg',data:"2023.10.19",register:'開放報名中'},
-      {title:'2023臺南國際人權藝術節',url:'',author:'---',img:'mainposter.jpg',data:"2023.10~12",register:'尚未開放報名'},
+      {title:'2023臺南國際人權藝術節',url:'https://www.tihrf-nckumuseum.com/',author:'---',img:'mainposter.jpg',data:"2023.10~12",register:'尚未開放報名'},
       {title:'「臺南400」演唱會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'231108.jpg',data:"2023.11.08",register:'開放報名中'},
       // {title:'「展．望」國際前瞻論壇',url:'activity14.html',author:'--',img:'1110.jpg',data:"2023.11.10",register:'尚未開放報名'},
       // {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11",register:'尚未開放報名'},
