@@ -95,7 +95,7 @@ const app = Vue.createApp({
       {title:'「細說臺灣鐵道百年史：火車歷史的軌跡與現況」專題演講',url:'activity02.html',author:'蘇昭旭',img:'230919.jpg',data:"2023.9.19",register:'活動已結束'},
       {title:'「臺灣荷治時期的鹿與原住民」專題演講',url:'activity12.html',author:'吳聰敏',img:'230920.jpg',data:"2023.9.20",register:'活動已結束'},
       {title:'「從牛車到五分車—來蔗走走」走讀',url:'activity03.html',author:'陳文松、許乃懿、林大偉',img:'20230923.jpg',data:"2023.9.23",register:'活動已結束'},
-      {title:'「迢迢織路：臺南紡織工業 400 年」專題演講',url:'activity13.html',author:'曾繁絹、段洪坤、王子碩',img:'2023092711.jpg',data:"2023.09.27",register:'開放報名中'},
+      {title:'「迢迢織路：臺南紡織工業 400 年」專題演講',url:'activity13.html',author:'曾繁絹、段洪坤、王子碩',img:'2023092711.jpg',data:"2023.09.27",register:'活動已結束'},
       {title:'「重塑被邊緣的歷史—全球史視角的台語影視發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'231004.jpg',data:"2023.10.4",register:'開放報名中'},
       {title:'鬥鬧熱走唱隊',url:'',author:'鬥鬧熱走唱隊',img:'mainposter.jpg',data:"2023.10.14",register:'尚未開放報名'},
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'231019.jpg',data:"2023.10.19",register:'開放報名中'},
