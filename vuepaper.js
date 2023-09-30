@@ -99,7 +99,7 @@ const app = Vue.createApp({
       {title:'「重塑被邊緣的歷史—全球史視角的台語影視發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'231004.jpg',data:"2023.10.4",register:'開放報名中'},
       {title:'鬥鬧熱走唱隊',url:'https://www.tihrf-nckumuseum.com/%e9%ac%a5%e9%ac%a7%e7%86%b1%e8%b5%b0%e5%94%b1%e9%9a%8a/',author:'鬥鬧熱走唱隊',img:'https://www.tihrf-nckumuseum.com/wp-content/uploads/2023/09/%E9%AC%A5%E9%AC%A7%E7%86%B1%E8%B5%B0%E5%94%B1%E9%9A%8A%E6%B5%B7%E5%A0%B1-3-1085x1536.png',data:"2023.10.14",register:'自由入場'},
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'231019.jpg',data:"2023.10.19",register:'開放報名中'},
-      {title:'2023臺南國際人權藝術節',url:'https://www.tihrf-nckumuseum.com/',author:'---',img:'https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/379124589_815346827265091_3819267781469719789_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=49d041&_nc_ohc=rYHqGgULzpsAX9i1y_W&_nc_ht=scontent-tpe1-1.xx&cb_e2o_trans=t&oh=00_AfCl-2iikwMYI_RFfq00OiVNpiGZoP260ZGbY1-rR9rZZw&oe=6519B7AC',data:"2023.10~12",register:'開放報名中'},
+      {title:'2023臺南國際人權藝術節',url:'https://www.tihrf-nckumuseum.com/',author:'---',img:'humanright.jpg',data:"2023.10~12",register:'開放報名中'},
       {title:'「臺南400」演唱會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'231108.jpg',data:"2023.11.08",register:'開放報名中'},
       // {title:'「展．望」國際前瞻論壇',url:'activity14.html',author:'--',img:'1110.jpg',data:"2023.11.10",register:'尚未開放報名'},
       // {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11",register:'尚未開放報名'},
