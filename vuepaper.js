@@ -102,7 +102,7 @@ const app = Vue.createApp({
       {title:'鬥鬧熱走唱隊',url:'https://www.tihrf-nckumuseum.com/%e9%ac%a5%e9%ac%a7%e7%86%b1%e8%b5%b0%e5%94%b1%e9%9a%8a/',author:'鬥鬧熱走唱隊',img:'https://www.tihrf-nckumuseum.com/wp-content/uploads/2023/09/%E9%AC%A5%E9%AC%A7%E7%86%B1%E8%B5%B0%E5%94%B1%E9%9A%8A%E6%B5%B7%E5%A0%B1-3-1085x1536.png',data:"2023.10.14",register:'自由入場'},
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'231019.jpg',data:"2023.10.19",register:'開放報名中'},
   
-      {title:'「臺南400」演唱會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'231108.jpg',data:"2023.11.08",register:'開放報名中'},
+      {title:'「臺南400」演唱會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'1121108.jpg',data:"2023.11.08",register:'開放報名中'},
       // {title:'「展．望」國際前瞻論壇',url:'activity14.html',author:'--',img:'1110.jpg',data:"2023.11.10",register:'尚未開放報名'},
       // {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11",register:'尚未開放報名'},
       {title:'「不獨具人類的歷史」國際學術研討會',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.17~18",register:'尚未開放報名'},
@@ -111,8 +111,8 @@ const app = Vue.createApp({
       {title:'「散策米街味自慢」走讀',url:'activity07.html',author:'王茗禾',img:'2312021.jpg',data:"2023.12.02",register:'尚未開放報名'},
       {title:'「府城傳奇．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'20231206.jpg',data:"2023.12.06",register:'開放報名中'},
       {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'mainposter.jpg',data:"2023.12.09",register:'尚未開放報名'},
-      {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'0231215.jpg',data:"2023.12.15",register:'開放報名中'},
-      {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'121502.jpg',data:"2023.12.15",register:'尚未開放報名'},
+      {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'1121215.jpg',data:"2023.12.15",register:'開放報名中'},
+      {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'112121502.jpg',data:"2023.12.15",register:'尚未開放報名'},
      
       ],
 
