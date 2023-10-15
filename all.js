@@ -53,16 +53,17 @@ gsap.to(".navbar",{
   amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
   amount: 1 },y:0,ease:"back.out(1.7)",opacity:1,duration:2},'-=2.5');
 
+  
 
   tl.fromTo(".chi",{repeat:-1,x:-10,opacity:1,duration:0.1},{repeat:-1,x:10,ease:"sine.out",opacity:0,duration:5},'-=2.5');
 
-  tl.fromTo(".anping",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"bounce.out",opacity:1,duration:0.5},'-=4');
+  tl.fromTo(".anping",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"bounce.out",opacity:1,duration:0.5},'-=5');
 
   tl.fromTo(".banyan",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"bounce.out",opacity:1,duration:0.5});
 
-  tl.fromTo(".gate",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"slow(0.7, 0.7, false)",opacity:1,duration:0.1},'-=1');
+  tl.fromTo(".gate",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"slow(0.7, 0.7, false)",opacity:1,duration:0.1});
 
-  tl.fromTo(".temple",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"power2.out",opacity:1,duration:0.4},'-=1');
+  tl.fromTo(".temple",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"power2.out",opacity:1,duration:0.4});
 
   tl.fromTo(".train",{repeat:-1,y:-2,x:-2,opacity:1,duration:20},{repeat:-1,y:-20,x:-25,ease:"sine.out",opacity:1,duration:20},'-=4');
 
@@ -73,7 +74,7 @@ gsap.to(".navbar",{
 
   tl.fromTo(".cloudright",{repeat:-1,x:-150,y:120,opacity:0.7,duration:20},{repeat:-1,x:-300,y:30,ease:"sine.out",opacity:0,duration:20},'-=30');
 
-  tl.fromTo(".ship",{repeat:-1,y:-300,x:-400,opacity:1,duration:20},{repeat:-1,y:80,x:190,ease:"sine.out",opacity:1,duration:20},'-=48');
+  tl.fromTo(".ship",{repeat:-1,y:-300,x:-400,opacity:1,duration:20},{repeat:-1,y:80,x:190,ease:"sine.out",opacity:1,duration:20},'-=49');
 
   tl.fromTo(".person",{repeat:-1,y:260,x:300,opacity:1,duration:40},{repeat:-1,y:-80,x:-400,ease:"sine.out",opacity:1,duration:40},'-=25');
 
