@@ -95,17 +95,7 @@
       </div>
     </div>
 </nav>
-<div id="app">
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide" v-for="y in pic0419">
-        <a :href="y.url" target="_blank" >
-          <img :src="y.img" alt="">
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+
  
   <section style="padding: 40px 0 ;">
     <div class="container text-center ">
@@ -141,7 +131,6 @@
                 <strong>蔡明叡</strong>，鋼琴家，以獨奏和室內樂的形式舉辦多場令人感動激賞的音樂會，同時他也培育出多位優秀的年輕學子。在獲得漢堡音樂戲劇學院的鋼琴演奏碩士文憑後，於國立臺灣師範大學音樂學系獲得音樂藝術博士學位（PhD）。期間曾受邀到臺灣、香港、深圳、廣州、上海、杭州、廈門等地開設大師班。他的演奏以敏銳多變的音色、觸鍵，及深刻動人的詮釋受到讚賞，是一位理性與感性兼具的鋼琴家。<br/>
                 <br/>
                 <strong>古意唸歌團</strong>，由臺南出身的羅士哲團長，與一群熱愛臺灣古調的「古意囡仔」組成，活躍於府城，自成軍以來致力推廣在地傳統音樂，藉著「歌仔車鼓太平歌」傳承臺灣百年記憶，以唸歌、陣頭與南管的樂音，重現古早味的府城。「唸歌」是臺灣的傳統說唱藝術，以月琴等傳統樂器和豐富多變的曲調搭配「歌仔」，傳唱豐富的在地題材，記述各時代、各階層臺灣人民的生活經驗。當中獨特的詞彙、語音和調式，更保存了臺灣歷經時代更迭的社會風貌，為臺灣珍貴的文化資產。<br/></p>
-                <img src="https://chass.ncku.edu.tw/var/file/11/1011/img/170019202.jpg" alt="" style="width: 100%;"> 
                 
           </div>
         </div>
@@ -149,7 +138,17 @@
        
     </div>
   </section>
-
+  <div id="app">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" v-for="y in pic0419">
+          <a :href="y.url" target="_blank" >
+            <img :src="y.img" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   

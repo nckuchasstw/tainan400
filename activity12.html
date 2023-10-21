@@ -96,18 +96,7 @@
     </div>
 </nav>
 
-<div id="app">
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide" v-for="y in pic0920">
-        <a :href="y.url" target="_blank" >
-          <img :src="y.img" alt="">
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
- 
+
  
   <section style="padding: 40px 0 ;">
     <div class="container text-center ">
@@ -144,7 +133,18 @@
     </div>
   </section>
 
-
+  <div id="app">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" v-for="y in pic0920">
+          <a :href="y.url" target="_blank" >
+            <img :src="y.img" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   
 
   
 
