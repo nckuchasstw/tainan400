@@ -12,7 +12,8 @@ gsap.to(".navbar",{
 
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 2,
-    spaceBetween: 10,
+    spaceBetween: 15,
+    
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -24,22 +25,26 @@ gsap.to(".navbar",{
     breakpoints: {
       640: {
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween: 15,
       },
       768: {
         slidesPerView: 4,
-        spaceBetween: 40,
+        spaceBetween: 15,
       },
       1024: {
         slidesPerView: 5,
-        spaceBetween: 50,
+        spaceBetween: 15,
       },
       1700: {
         slidesPerView: 6,
-        spaceBetween: 50,
+        spaceBetween: 15,
       },
     },
   });
+
+
+  
+
 
   let tl = gsap.timeline({});
 
