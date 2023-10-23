@@ -168,7 +168,7 @@ gsap.to(".navbar",{
         title: "「鬥鬧熱走唱隊」演出",
         start: "2023-10-14T13:45:00",
         end: "2023-10-14T14:15:00",
-        url:"https://www.tihrf-nckumuseum.com/%e9%ac%a5%e9%ac%a7%e7%86%b1%e8%b5%b0%e5%94%b1%e9%9a%8a/",
+        url:"activity17.html",
       },
         { // 事件(包含開始時間、結束時間)
             title: "「府城飲食文化的趣味」專題演講",

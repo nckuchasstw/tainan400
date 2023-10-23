@@ -94,6 +94,22 @@ const app = Vue.createApp({
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/370110935_335223552214770_3386944487188086502_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wkEGN9CvaGwAX8TAfUO&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfD3pn812xj8YvGXQIzZ4cTym86sm4-dZmnBGKVVcPR82g&oe=6538E276",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/370110935_335223552214770_3386944487188086502_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wkEGN9CvaGwAX8TAfUO&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfD3pn812xj8YvGXQIzZ4cTym86sm4-dZmnBGKVVcPR82g&oe=6538E276"},
        
       ],
+
+      pic0919:[
+        {url:"101401.jpg",img:"101401.jpg"},
+        {url:"101402.jpg",img:"101402.jpg"},
+        {url:"101403.jpg",img:"101403.jpg"},
+        {url:"101411.jpg",img:"101411.jpg"},
+        {url:"101404.jpg",img:"101404.jpg"},
+        {url:"101405.jpg",img:"101405.jpg"},
+        {url:"101406.jpg",img:"101406.jpg"},
+        {url:"101407.jpg",img:"101407.jpg"},
+        {url:"101408.jpg",img:"101408.jpg"},
+        {url:"101409.jpg",img:"101409.jpg"},
+        {url:"101410.jpg",img:"101410.jpg"},
+        
+       
+      ],
       
       pic1019:[
        
@@ -205,7 +221,7 @@ const app = Vue.createApp({
       {title:'「重塑被邊緣的歷史—全球史視角的台語影視發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'231004.jpg',data:"2023.10.4",register:'活動已結束'},
       {title:'島鏈思想',url:'https://archipelago-thinking.com',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/286988831.jpg',data:"2023.10~12",register:'開放報名中'},
       {title:'2023臺南國際人權藝術節',url:'https://www.tihrf-nckumuseum.com/',author:'---',img:'humanright.jpg',data:"2023.10~12",register:'開放報名中'},
-      {title:'鬥鬧熱走唱隊',url:'https://www.tihrf-nckumuseum.com/%e9%ac%a5%e9%ac%a7%e7%86%b1%e8%b5%b0%e5%94%b1%e9%9a%8a/',author:'鬥鬧熱走唱隊',img:'https://www.tihrf-nckumuseum.com/wp-content/uploads/2023/09/%E9%AC%A5%E9%AC%A7%E7%86%B1%E8%B5%B0%E5%94%B1%E9%9A%8A%E6%B5%B7%E5%A0%B1-3-1085x1536.png',data:"2023.10.14",register:'活動已結束'},
+      {title:'鬥鬧熱走唱隊',url:'activity17.html',author:'鬥鬧熱走唱隊',img:'https://www.tihrf-nckumuseum.com/wp-content/uploads/2023/09/%E9%AC%A5%E9%AC%A7%E7%86%B1%E8%B5%B0%E5%94%B1%E9%9A%8A%E6%B5%B7%E5%A0%B1-3-1085x1536.png',data:"2023.10.14",register:'活動已結束'},
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'231019.jpg',data:"2023.10.19",register:'活動已結束'},
   
       {title:'「臺南400」演唱會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'1121108.jpg',data:"2023.11.08",register:'開放報名中'},
