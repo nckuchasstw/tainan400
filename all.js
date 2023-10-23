@@ -181,7 +181,7 @@ gsap.to(".navbar",{
           title: "詩光墨影——黃華安成大文學院之美個展",
           start: "2023-10-30T09:00:00",
           end: "2023-11-14T17:00:00",
-          url:"https://tainan-400.com/activity05.html",
+          url:"activity18.html",
          
       },
       { // 事件(包含開始時間、結束時間)
