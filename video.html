@@ -16,14 +16,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vue-loading-overlay@6.0.3/dist/css/index.min.css" rel="stylesheet">
     
 </head>
 <body>
-  <style> 
+  <style>
+
+
+
+    
+  
+  
+
+    
     input{
       outline-style: none ;
       border: 1px solid #ccc; 
       background-color: rgb(235, 235, 235);
+     
       padding: 13px 14px;
       width: 300px;
       font-size: 14px;
@@ -62,7 +72,7 @@
   
   </style>
   
-
+  <div id="top"></div>
   <nav class="navbar navbar-expand-lg  sticky-top" >
     <div class="container-fluid">
         <a class="navbar-brand px-4 d-lg-none" href="index.html">
@@ -83,7 +93,6 @@
           <a class="navbar-brand px-5 d-none d-lg-block " href="index.html">
             <img src="mainlogo-01.svg" alt="Logo" width="auto" height="70" class="d-inline-block align-text-top ">
           </a>
-         
           <li class="nav-item px-3" >
             <a class="nav-link " aria-current="page" href="video.html">相關影音</a>
           </li>
@@ -95,85 +104,84 @@
     </div>
 </nav>
 
- 
-  <section style="padding: 40px 0 ;">
-    <div class="container text-center ">
-        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="activity.html" style="color:#163D50">相關活動</a></li>
-              <li class="breadcrumb-item active" aria-current="page">文學、思想與宗教國際學術研討會
-            </li>
-            </ol>
-          </nav>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col ">
-            <img src="111819.jpg" alt="" style="width:100%">
-          </div>
-          <div class="col" >
-            <p style="line-height: 35px;letter-spacing: 2px;text-align: justify;">
-                
-                <strong>【活動資訊】</strong><br/>
-                主題︱文學、思想與宗教國際學術研討會<br/>
-                時間︱112年11月18-19日（星期六、日）<br/>
-                地點︱國立成功大學中國文學系<br/>
-                （11月18日）會場A. 中文系三樓視聽教室 / 會場B. 中文系二樓21201教室 <br/>
-                （11月19日）會場C. 文學院學術演講廰 / 會場D. 中文系一樓會議室 <br/>
-                主辦單位︱財團法人臺南市臺疆祖廟大觀音亭暨祀典興濟宮、國立成功大學人文社會科學中心、臺灣中文學會<br/>
-                承辦單位︱國立成功大學中國文學系、府城觀興文化藝術基金會<br/>
-                大會議程｜<a href="111819.pdf"><button class="btn2"  type="button" >前往觀看</button></a><br/>  
-                <br/>  
-                報名連結︱<a href="https://reurl.cc/OjrMq9"><button class="btn2"  type="button" >前往報名</button></a><br/>  
-                <span style="font-size:14px;color: brown;">（即日起開放學員報名，會議每日可接受報名人數為70人，額滿為止。）</span><br/>    
-                <br/>  
-                <strong>【研討會聯絡人】</strong><br/>  
-                聯絡人：鄭小姐<br/>  
-                電話：06-2757575轉52121<br/>  
-                E-mail：nckuch52121@gmail.com<br/>  
 
-                     
+
+<section class="activitysearch py-5">
+  <div id="app">
+    <!-- <h1 style="text-align: center;margin-top:0px;">文章搜尋</h1>
+     <div class="search-wrapper">
+       <input type="text" v-model="search" placeholder="請輸入關鍵字，如：熱蘭遮城、臺南"/>
+     </div>
+     <p style="text-align:center;font-size: 10px;">共有{{filteredList.length}}筆相關資料</p> -->
+     
+    <div class="container" >
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col" v-for="i in videoList">
+            <div class="card h-100 " >
+              <a :href="i.url" target="_blank">
+              <div class="cardineer">
+                <iframe width="100%" height="315" :src="i.img" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            </div>
+            </a>
+              <div class="card-body" style="text-align: justify;">
+                <strong><p style="font-size: 16px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
+                <p style="font-size:14px">{{ i.describe }}</p>
+                <p style="font-size:14px">{{ i.author }}</p>
+                <p style="font-size:14px"> {{ i.data }}</p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </div>
-  </section>
+  </div>
+</div>
+<a href="#top" >
+  <button class="btn1" style="float: right;margin-right:30px;margin-top: 10px;" data-aos="fade-up"
+  data-aos-anchor-placement="bottom-bottom">回頂端</button>
+</a>
+</section>
 
-
-
-  
-
-  <section id="footer">
-    <footer class="footer  py-5 " >
-      <p class="px-3">
-        <img src="taiwanstudy-01.svg" alt="" style="width: 100px;"><br/>
-        Tel：06-2757575 ext.56056<br/>
-        Fax:06-2088264<br/>
-        Email：nckutwchass@gmail.com<br/>
-        Add：70101 臺南市東區大學路一號光復校區雲平大樓東棟北側5樓<br/>
-        </p>
-      <ul class="list-unstyled" style="display: flex;    justify-content: center;" >
-        <li class="px-3 " >
-          <a href="https://www.youtube.com/@user-fq9es9zw3n">
-            <i class="bi bi-youtube  h2""></i></a>
-        </li>
-        <li class="px-3">
-          <a href="https://www.instagram.com/taiwan_study_ncku/">
-            <i class="bi bi-instagram  h2 "></i></a>
-        </li>
-        <li class="px-3">
-          <a href="https://podcasts.apple.com/us/podcast/%E6%88%90%E5%A4%A7%E4%BA%BA%E8%81%B2-ep-0-%E9%A0%90%E5%91%8A/id1614380302?i=1000554171013">
-            <i class="bi bi-spotify h2 "></i></a>
-        </li>
-        <li class="px-3">
-          <a href="https://www.facebook.com/profile.php?id=100071813840535&ref=embed_page">
-            <i class="bi bi-facebook h2 "></i></i></a>
+<section id="footer">
+  <footer class="footer  py-5 " >
+    <p class="px-3"  >
+      <img src="taiwanstudy-01.svg" alt="" style="width: 100px;"><br/>
+      Tel：06-2757575 ext.56056<br/>
+      Fax:06-2088264<br/>
+      Email：nckutwchass@gmail.com<br/>
+      Add：70101 臺南市東區大學路一號光復校區雲平大樓東棟北側5樓<br/>
+      </p>
+    <ul class="list-unstyled" style="display: flex;    justify-content: center;" >
+      <li class="px-3 " >
+        <a href="https://www.youtube.com/@user-fq9es9zw3n">
+          <i class="bi bi-youtube  h2""></i></a>
       </li>
+      <li class="px-3">
+        <a href="https://www.instagram.com/taiwan_study_ncku/">
+          <i class="bi bi-instagram  h2 "></i></a>
+      </li>
+      <li class="px-3">
+        <a href="https://podcasts.apple.com/us/podcast/%E6%88%90%E5%A4%A7%E4%BA%BA%E8%81%B2-ep-0-%E9%A0%90%E5%91%8A/id1614380302?i=1000554171013">
+          <i class="bi bi-spotify h2 "></i></a>
+      </li>
+      <li class="px-3">
+        <a href="https://www.facebook.com/profile.php?id=100071813840535&ref=embed_page">
+          <i class="bi bi-facebook h2 "></i></i></a>
     </li>
-    <li class="immg px-3">
-    <a href="https://lin.ee/CSXZjzvm"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" width="100" border="0"></a>
-    </li>
-        </ul> 
-    </footer>
-  </section>
+  </li>
+  <li class="immg px-3">
+  <a href="https://lin.ee/CSXZjzvm"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" width="100" border="0"></a>
+  </li>
+      </ul> 
+  </footer>
+</section>
+ <!-- Messenger 洽談外掛程式 Code -->
+ <div id="fb-root"></div>
 
+ <!-- Your 洽談外掛程式 code -->
+ <div id="fb-customer-chat" class="fb-customerchat">
+ </div>
  
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -186,10 +194,29 @@ https://cdn.jsdelivr.net/npm/vue-loading-overlay@6.0.3/dist/index.min.js
 "></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js."></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="all.js"></script>
-<script src="vue.js"></script>
-<script src="gsap.js"></script>
+<script src="vuepaper.js"></script>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+ chatbox.setAttribute("page_id", "104877438580876");
+ chatbox.setAttribute("attribution", "biz_inbox");
+
+ window.fbAsyncInit = function() {
+   FB.init({
+     xfbml            : true,
+     version          : 'v17.0'
+   });
+ };
+
+ (function(d, s, id) {
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) return;
+   js = d.createElement(s); js.id = id;
+   js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+   fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
+</script>
 
 
   
