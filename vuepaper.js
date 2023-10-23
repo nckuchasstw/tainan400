@@ -81,6 +81,11 @@ const app = Vue.createApp({
       ],
       
       pic1019:[
+       
+        {url:"101901.jpg",img:"101901.jpg"},
+        {url:"101902.jpg",img:"101902.jpg"},
+        {url:"101903.jpg",img:"101903.jpg"},
+        {url:"101900.jpg",img:"101900.jpg"},
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/393721680_343290581408067_3064982271932521321_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MMoUx_xX-l4AX9nwqx9&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfAVlQPqzqOeJzw0hGmAqQ7DcF26hH4DwiiFwg8MCgdT6Q&oe=6537F5F0",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/393721680_343290581408067_3064982271932521321_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MMoUx_xX-l4AX9nwqx9&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfAVlQPqzqOeJzw0hGmAqQ7DcF26hH4DwiiFwg8MCgdT6Q&oe=6537F5F0"},
         {url:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/394479968_343290568074735_3835444827949012024_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Z6Ooc72_kcsAX_rmV7B&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCspdCB82WIHGfMI-ydloAyllBebF2BsWLLEj_W526m5w&oe=65383AFF",img:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/394479968_343290568074735_3835444827949012024_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Z6Ooc72_kcsAX_rmV7B&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCspdCB82WIHGfMI-ydloAyllBebF2BsWLLEj_W526m5w&oe=65383AFF"},
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/393766777_343290558074736_1348691891092724739_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qiHBlOzdhkQAX9Lle0S&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCn7550V3Q6U6-Sz7DjaPY_MUtqSuEXSYnWmQJvTZ4rJQ&oe=65388194",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/393766777_343290558074736_1348691891092724739_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qiHBlOzdhkQAX9Lle0S&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCn7550V3Q6U6-Sz7DjaPY_MUtqSuEXSYnWmQJvTZ4rJQ&oe=65388194"},
@@ -194,7 +199,7 @@ const app = Vue.createApp({
       {title:'「不獨具人類的歷史」國際學術研討會',url:'activity16.html',author:'--',img:'112111718.jpg',data:"2023.11.17~18",register:'開放報名中'},
       {title:'「文學、思想與宗教」國際學術研討會',url:'activity14.html',author:'--',img:'111819.jpg',data:"2023.11.18~19",register:'開放報名中'},
       {title:'「行走臺南四百：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'2023112701.jpg',data:"2023.11.27",register:'開放報名中'},
-      {title:'「散策米街明治町」走讀',url:'activity07.html',author:'王茗禾',img:'2312021.jpg',data:"2023.12.02",register:'尚未開放報名'},
+      {title:'「散策米街明治町」走讀',url:'activity07.html',author:'王茗禾',img:'11212021.jpg',data:"2023.12.02",register:'尚未開放報名'},
       {title:'「府城傳奇．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'20231206.jpg',data:"2023.12.06",register:'開放報名中'},
       {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'mainposter.jpg',data:"2023.12.09",register:'尚未開放報名'},
       {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'1121215.jpg',data:"2023.12.15",register:'開放報名中'},
