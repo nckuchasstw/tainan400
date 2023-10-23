@@ -5,6 +5,7 @@ const app = Vue.createApp({
       isLoading:false,
       search: '',
       pic0419:[
+        {url:"https://chass.ncku.edu.tw/var/file/11/1011/img/170019202.jpg",img:"https://chass.ncku.edu.tw/var/file/11/1011/img/170019202.jpg"},
         {url:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/342199620_620970173259750_3646645506792300955_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=q3BwQYmjUqAAX84OER_&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfDLih4HsGtWfo9AZQKPYvxToKAjgD-nA4tCXkZA2bpUAw&oe=65381285",img:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/342199620_620970173259750_3646645506792300955_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=q3BwQYmjUqAAX84OER_&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfDLih4HsGtWfo9AZQKPYvxToKAjgD-nA4tCXkZA2bpUAw&oe=65381285"},
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/342505919_1190748574976532_3829191402133032544_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HF7ly1bS4aEAX9diz6m&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfAVDDeZ8-Y4ituPfsx3wlqaSZLwgzyLb_kcKHAJAsDGpg&oe=65386432",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/342505919_1190748574976532_3829191402133032544_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HF7ly1bS4aEAX9diz6m&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfAVDDeZ8-Y4ituPfsx3wlqaSZLwgzyLb_kcKHAJAsDGpg&oe=65386432"},
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/342065326_6168786513230673_8318119962336914160_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=JQPn3X-EWEwAX_U0SQd&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDlxLnnIXo9ak9603CrZ96_urzGxAoQD9FH3MxJF9FXzg&oe=65383E4D",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/342065326_6168786513230673_8318119962336914160_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=JQPn3X-EWEwAX_U0SQd&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDlxLnnIXo9ak9603CrZ96_urzGxAoQD9FH3MxJF9FXzg&oe=65383E4D"},
@@ -45,6 +46,7 @@ const app = Vue.createApp({
       ],
 
       pic0923:[
+        {url:"092300.jpg",img:"092300.jpg"},
         {url:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/382462321_328648219538970_6318552503959984754_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-g0WDO2dedgAX8djrTR&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCaZ5F4GEN4fMiFr2KtWdYyTbgugoyCO--bX2waTuXZqA&oe=6538215C",img:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/382462321_328648219538970_6318552503959984754_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-g0WDO2dedgAX8djrTR&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCaZ5F4GEN4fMiFr2KtWdYyTbgugoyCO--bX2waTuXZqA&oe=6538215C"},
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382468849_328648049538987_416283852727057093_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cWqzPjKuekkAX-9jZ5a&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDtAQLyOvazre2EqV8lR2730zrBCkrhfNEBU2X8tY3hRg&oe=653907D3",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382468849_328648049538987_416283852727057093_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cWqzPjKuekkAX-9jZ5a&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDtAQLyOvazre2EqV8lR2730zrBCkrhfNEBU2X8tY3hRg&oe=653907D3"},
         {url:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/382484526_328648196205639_6381837513938191558_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=odLnx7NOsm0AX_yd5XY&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCiJKsvEwmI7-tnuWhD044cwFBej6hSBuX3lues0q6qjA&oe=6537D67F",img:"     https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/382484526_328648196205639_6381837513938191558_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=odLnx7NOsm0AX_yd5XY&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCiJKsvEwmI7-tnuWhD044cwFBej6hSBuX3lues0q6qjA&oe=6537D67F"},
@@ -192,7 +194,7 @@ const app = Vue.createApp({
       {title:'「不獨具人類的歷史」國際學術研討會',url:'activity16.html',author:'--',img:'112111718.jpg',data:"2023.11.17~18",register:'開放報名中'},
       {title:'「文學、思想與宗教」國際學術研討會',url:'activity14.html',author:'--',img:'111819.jpg',data:"2023.11.18~19",register:'開放報名中'},
       {title:'「行走臺南四百：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'2023112701.jpg',data:"2023.11.27",register:'開放報名中'},
-      {title:'「散策米街味自慢」走讀',url:'activity07.html',author:'王茗禾',img:'2312021.jpg',data:"2023.12.02",register:'尚未開放報名'},
+      {title:'「散策米街明治町」走讀',url:'activity07.html',author:'王茗禾',img:'2312021.jpg',data:"2023.12.02",register:'尚未開放報名'},
       {title:'「府城傳奇．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'20231206.jpg',data:"2023.12.06",register:'開放報名中'},
       {title:'「發現醫學臺南」走讀',url:'activity08.html',author:'待定',img:'mainposter.jpg',data:"2023.12.09",register:'尚未開放報名'},
       {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'1121215.jpg',data:"2023.12.15",register:'開放報名中'},
