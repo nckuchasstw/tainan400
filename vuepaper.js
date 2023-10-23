@@ -47,11 +47,20 @@ const app = Vue.createApp({
 
       pic0923:[
         {url:"092300.jpg",img:"092300.jpg"},
+        {url:"092301.jpg",img:"092301.jpg"},
+        {url:"092302.jpg",img:"092302.jpg"},
+        {url:"092303.jpg",img:"092303.jpg"},
+        {url:"092304.jpg",img:"092304.jpg"},
+        {url:"092305.jpg",img:"092305.jpg"},
+        {url:"092306.jpg",img:"092306.jpg"},
+        {url:"092307.jpg",img:"092307.jpg"},
+        {url:"092308.jpg",img:"092308.jpg"},
+        {url:"092310.jpg",img:"092310.jpg"},
         {url:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/382462321_328648219538970_6318552503959984754_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-g0WDO2dedgAX8djrTR&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCaZ5F4GEN4fMiFr2KtWdYyTbgugoyCO--bX2waTuXZqA&oe=6538215C",img:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/382462321_328648219538970_6318552503959984754_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-g0WDO2dedgAX8djrTR&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCaZ5F4GEN4fMiFr2KtWdYyTbgugoyCO--bX2waTuXZqA&oe=6538215C"},
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382468849_328648049538987_416283852727057093_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cWqzPjKuekkAX-9jZ5a&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDtAQLyOvazre2EqV8lR2730zrBCkrhfNEBU2X8tY3hRg&oe=653907D3",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382468849_328648049538987_416283852727057093_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cWqzPjKuekkAX-9jZ5a&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDtAQLyOvazre2EqV8lR2730zrBCkrhfNEBU2X8tY3hRg&oe=653907D3"},
         {url:"https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/382484526_328648196205639_6381837513938191558_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=odLnx7NOsm0AX_yd5XY&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCiJKsvEwmI7-tnuWhD044cwFBej6hSBuX3lues0q6qjA&oe=6537D67F",img:"     https://scontent.ftpe2-2.fna.fbcdn.net/v/t39.30808-6/382484526_328648196205639_6381837513938191558_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=odLnx7NOsm0AX_yd5XY&_nc_ht=scontent.ftpe2-2.fna&oh=00_AfCiJKsvEwmI7-tnuWhD044cwFBej6hSBuX3lues0q6qjA&oe=6537D67F"},
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382455822_328648129538979_4656301454805970038_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KMIoqWR6LSsAX8_K2cg&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfC8WnkOhTwABeM5tlV407xzbKzWViSHA6qVqFREpIditw&oe=6537961E",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382455822_328648129538979_4656301454805970038_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KMIoqWR6LSsAX8_K2cg&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfC8WnkOhTwABeM5tlV407xzbKzWViSHA6qVqFREpIditw&oe=6537961E"},
-        {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382489911_328648082872317_6688810914694503152_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Y0O0MB04fhUAX_HoGmM&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCmMhYxzG-4nUgeyW8T8_fRy3Au42kaYK8OYtYFAGpXng&oe=653956EF",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382489911_328648082872317_6688810914694503152_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Y0O0MB04fhUAX_HoGmM&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCmMhYxzG-4nUgeyW8T8_fRy3Au42kaYK8OYtYFAGpXng&oe=653956EF"},
+      
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/380648221_328648156205643_2391093562253605361_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qhPfyCXSEfQAX_opezX&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDk3q2qoe5wjfl7ndCJt1EaMQebXqvvMfUcwUsCjgK7Yw&oe=65398A04",img:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/380648221_328648156205643_2391093562253605361_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qhPfyCXSEfQAX_opezX&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfDk3q2qoe5wjfl7ndCJt1EaMQebXqvvMfUcwUsCjgK7Yw&oe=65398A04"},
         {url:"https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382446026_328648206205638_7622717895002803994_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eSKppFS__yMAX83O0Eh&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCS5cQeKEo8G0DECkBwxIExSwhCjn82yTjqBNLQRJxE5g&oe=6538061A",img:"     https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/382446026_328648206205638_7622717895002803994_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eSKppFS__yMAX83O0Eh&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfCS5cQeKEo8G0DECkBwxIExSwhCjn82yTjqBNLQRJxE5g&oe=6538061A"},
 
