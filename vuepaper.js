@@ -22,6 +22,7 @@ const app = Vue.createApp({
         {url:"041910.jpg",img:"041910.jpg"},
         {url:"041911.jpg",img:"041911.jpg"},
         {url:"041912.jpg",img:"041912.jpg"},
+        {url:"041918.jpg",img:"041918.jpg"},
       ],
 
       pic0919:[
