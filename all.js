@@ -252,7 +252,7 @@ gsap.to(".navbar",{
         },
         { // 事件(包含開始時間、結束時間)
           title: "「發現醫學臺南」走讀",
-          start: "2023-12-09T14:00:00",
+          start: "2023-12-10T14:00:00",
           end: "2023-12-10T17:00:00",
           url:"https://tainan-400.com/activity08.html",
         
