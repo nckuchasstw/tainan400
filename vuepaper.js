@@ -109,6 +109,43 @@ const app = Vue.createApp({
         {url:"101907.jpg",img:"101907.jpg"},
         {url:"101908.jpg",img:"101908.jpg"},
       ],
+
+      pic1108:[
+        {url:"110810.jpg",img:"110810.jpg"},
+        {url:"110829.jpg",img:"110829.jpg"},
+        {url:"110830.jpg",img:"110830.jpg"},
+        {url:"110826.jpg",img:"110826.jpg"},
+       
+        {url:"110828.jpg",img:"110828.jpg"},
+        {url:"110802.jpg",img:"110802.jpg"},
+        {url:"110803.jpg",img:"110803.jpg"},
+        {url:"110804.jpg",img:"110804.jpg"},
+        {url:"110805.jpg",img:"110805.jpg"},
+        {url:"110806.jpg",img:"110806.jpg"},
+        {url:"110807.jpg",img:"110807.jpg"},
+        {url:"110808.jpg",img:"110808.jpg"},
+        {url:"110809.jpg",img:"110809.jpg"},
+       
+        {url:"110811.jpg",img:"110811.jpg"},
+        {url:"110812.jpg",img:"110812.jpg"},
+        {url:"110813.jpg",img:"110813.jpg"},
+        {url:"110814.jpg",img:"110814.jpg"},
+        {url:"110815.jpg",img:"110815.jpg"},
+        {url:"110816.jpg",img:"110816.jpg"},
+        {url:"110818.jpg",img:"110818.jpg"},
+        {url:"110819.jpg",img:"110819.jpg"},
+        {url:"110820.jpg",img:"110820.jpg"},
+        {url:"110821.jpg",img:"110821.jpg"},
+        {url:"110822.jpg",img:"110822.jpg"},
+        {url:"110823.jpg",img:"110823.jpg"},
+        {url:"110824.jpg",img:"110824.jpg"},
+        {url:"110825.jpg",img:"110825.jpg"},
+      
+        {url:"110827.jpg",img:"110827.jpg"},
+        {url:"110801.jpg",img:"110801.jpg"},
+      
+       
+      ],
       postList: [
       {title:'臺南400官網',url:'https://www.tainan-400.tw/index.html',author:'台南市政府',img:'1016.png',describe:"回望臺南過去的歷史，來自世界各地的族群在這片土地交流，每個時期的文化樣貌在這座城市不斷堆疊、 交融與翻新，塑造出今日令人驕傲的歷史文化古都。2024年臺南將繼續全方位深化，再次讓世界看到台灣 ，邀請大家一起銘刻下這片土地的重要記憶，見證臺南嶄新的未來式！",data:"2023.10.14"},
 
