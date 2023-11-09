@@ -115,7 +115,6 @@ const app = Vue.createApp({
         {url:"110829.jpg",img:"110829.jpg"},
         {url:"110830.jpg",img:"110830.jpg"},
         {url:"110826.jpg",img:"110826.jpg"},
-       
         {url:"110828.jpg",img:"110828.jpg"},
         {url:"110802.jpg",img:"110802.jpg"},
         {url:"110803.jpg",img:"110803.jpg"},
@@ -125,7 +124,6 @@ const app = Vue.createApp({
         {url:"110807.jpg",img:"110807.jpg"},
         {url:"110808.jpg",img:"110808.jpg"},
         {url:"110809.jpg",img:"110809.jpg"},
-       
         {url:"110811.jpg",img:"110811.jpg"},
         {url:"110812.jpg",img:"110812.jpg"},
         {url:"110813.jpg",img:"110813.jpg"},
@@ -140,7 +138,6 @@ const app = Vue.createApp({
         {url:"110823.jpg",img:"110823.jpg"},
         {url:"110824.jpg",img:"110824.jpg"},
         {url:"110825.jpg",img:"110825.jpg"},
-      
         {url:"110827.jpg",img:"110827.jpg"},
         {url:"110801.jpg",img:"110801.jpg"},
       
