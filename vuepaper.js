@@ -112,9 +112,22 @@ const app = Vue.createApp({
 
       pic1108:[
         {url:"111001.jpg",img:"111001.jpg"},
+        {url:"111013.jpg",img:"111013.jpg"},
+        {url:"111014.jpg",img:"111014.jpg"},
+        {url:"111015.jpg",img:"111015.jpg"},
         {url:"111002.jpg",img:"111002.jpg"},
+        {url:"111008.jpg",img:"111008.jpg"},
+        {url:"111009.jpg",img:"111009.jpg"},
+        {url:"111010.jpg",img:"111010.jpg"},
+        {url:"111011.jpg",img:"111011.jpg"},
+        {url:"111012.jpg",img:"111012.jpg"},
+        {url:"111003.jpg",img:"111003.jpg"},
+        {url:"111004.jpg",img:"111004.jpg"},
+        {url:"111005.jpg",img:"111005.jpg"},
+        {url:"111006.jpg",img:"111006.jpg"},
+        {url:"111007.jpg",img:"111007.jpg"},
+        
        
-      
       ],
       postList: [
       {title:'臺南400官網',url:'https://www.tainan-400.tw/index.html',author:'台南市政府',img:'1016.png',describe:"回望臺南過去的歷史，來自世界各地的族群在這片土地交流，每個時期的文化樣貌在這座城市不斷堆疊、 交融與翻新，塑造出今日令人驕傲的歷史文化古都。2024年臺南將繼續全方位深化，再次讓世界看到台灣 ，邀請大家一起銘刻下這片土地的重要記憶，見證臺南嶄新的未來式！",data:"2023.10.14"},
