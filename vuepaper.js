@@ -111,21 +111,9 @@ const app = Vue.createApp({
       ],
 
       pic1108:[
-        {url:"01108011.jpg",img:"01108011.jpg"},
-        {url:"01108012.jpg",img:"01108012.jpg"},
-        {url:"01108013.jpg",img:"01108013.jpg"},
-        {url:"01108014.jpg",img:"01108014.jpg"},
-        {url:"01108015.jpg",img:"01108015.jpg"},
-        {url:"01108001.jpg",img:"01108001.jpg"},
-        {url:"01108002.jpg",img:"01108002.jpg"},
-        {url:"01108003.jpg",img:"01108003.jpg"},
-        {url:"01108004.jpg",img:"01108004.jpg"},
-        {url:"01108005.jpg",img:"01108005.jpg"},
-        {url:"01108006.jpg",img:"01108006.jpg"},
-        {url:"01108007.jpg",img:"01108007.jpg"},
-        {url:"01108008.jpg",img:"01108008.jpg"},
-        {url:"01108009.jpg",img:"01108009.jpg"},
-        {url:"01108010.jpg",img:"01108010.jpg"},
+        {url:"111001.jpg",img:"111001.jpg"},
+        {url:"111002.jpg",img:"111002.jpg"},
+       
       
       ],
       postList: [
