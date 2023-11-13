@@ -251,7 +251,7 @@ gsap.to(".navbar",{
          
         },
         { // 事件(包含開始時間、結束時間)
-          title: "Xi Jinping and the Tibet Question: Core Issues, Policies and Its Implication",
+          title: "Xi Jinping and the Tibet Question: Core Issues, Policies and Implications",
           start: "2023-12-08T13:10:00",
           end: "2023-12-08T15:10:00",
           url:"activity19.html",
