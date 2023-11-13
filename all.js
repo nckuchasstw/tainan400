@@ -108,7 +108,7 @@ gsap.to(".navbar",{
     monthNamesShort:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
     dayNames:['日','一','二','三','四','五','六'],
     dayNamesShort:['日','一','二','三','四','五','六'],
-    defaultDate: "2023-10-01", // 起始日期
+    defaultDate: "2023-11-10", // 起始日期
     weekends: true, // 顯示星期六跟星期日
     // editable: true,  // 啟動拖曳調整日期
     eventBackgroundColor:'#B69664',
@@ -248,6 +248,13 @@ gsap.to(".navbar",{
           start: "2023-12-06T19:30:00",
           end: "2023-12-06T21:00:00",
           url:"activity15.html",
+         
+        },
+        { // 事件(包含開始時間、結束時間)
+          title: "Xi Jinping and the Tibet Question: Core Issues, Policies and Its Implication",
+          start: "2023-12-08T13:10:00",
+          end: "2023-12-08T15:10:00",
+          url:"activity19.html",
          
         },
         { // 事件(包含開始時間、結束時間)
