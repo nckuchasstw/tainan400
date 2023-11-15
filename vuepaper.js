@@ -264,7 +264,7 @@ const app = Vue.createApp({
       {title:'「行走臺南四百：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'2023112701.jpg',data:"2023.11.27",register:'開放報名中'},
       {title:'「散策米街明治町」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'11212021.jpg',data:"2023.12.02",register:'開放報名中'},
       {title:'「府城傳奇．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'20231206.jpg',data:"2023.12.06",register:'開放報名中'},
-      {title:'Xi Jinping and the Tibet Question: Core Issues, Policies and Implications',url:'activity19.html',author:'--',img:'231208.jpg',data:"2023.12.08",register:'尚未開放報名'},
+      {title:'Xi Jinping and the Tibet Question: Core Issues, Policies and Implications',url:'activity19.html',author:'--',img:'20231208.jpg',data:"2023.12.08",register:'尚未開放報名'},
       {title:'「從驅疾到療疫─府城醫療地景踏查」走讀',url:'activity08.html',author:'鄭佩雯',img:'1210001.jpg',data:"2023.12.10",register:'開放報名中'},
       {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'1121215.jpg',data:"2023.12.15",register:'開放報名中'},
       {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'112121502.jpg',data:"2023.12.15",register:'開放報名中'},
