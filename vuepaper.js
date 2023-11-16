@@ -261,7 +261,7 @@ const app = Vue.createApp({
       // {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11",register:'尚未開放報名'},
       {title:'「不獨具人類的歷史」國際學術研討會',url:'activity16.html',author:'--',img:'111718.jpg',data:"2023.11.17~18",register:'開放報名中'},
       {title:'「文學、思想與宗教」國際學術研討會',url:'activity14.html',author:'--',img:'111819.jpg',data:"2023.11.18~19",register:'開放報名中'},
-      {title:'「從台語授課至教學實踐研究：設計過程與教學成效」工作坊',url:'activity20.html',author:'蔡美慧',img:'112701.jpg',data:"2023.11.27",register:'開放報名中'},
+      {title:'「從台語授課至教學實踐研究：設計過程與教學成效」工作坊',url:'activity20.html',author:'蔡美慧',img:'112702.jpg',data:"2023.11.27",register:'開放報名中'},
       {title:'「行走臺南四百：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'2023112701.jpg',data:"2023.11.27",register:'開放報名中'},
       {title:'「散策米街明治町」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'11212021.jpg',data:"2023.12.02",register:'開放報名中'},
       {title:'「府城傳奇．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'20231206.jpg',data:"2023.12.06",register:'開放報名中'},
