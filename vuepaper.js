@@ -264,7 +264,7 @@ const app = Vue.createApp({
       {title:'「從台語授課至教學實踐研究：設計過程與教學成效」工作坊',url:'activity20.html',author:'蔡美慧',img:'112702.jpg',data:"2023.11.27",register:'開放報名中'},
       {title:'「行走臺南四百：在一座歷史城市裡的感知、考現與書寫」專題演講',url:'activity06.html',author:'蘇峯楠',img:'2023112701.jpg',data:"2023.11.27",register:'開放報名中'},
       {title:'「散策米街明治町」走讀',url:'activity07.html',author:'王茗禾、家永實',img:'11212021.jpg',data:"2023.12.02",register:'開放報名中'},
-      {title:'「唸歌起源與發展」走讀',url:'activity21.html',author:'羅士哲',img:'120501.jpg',data:"2023.12.05",register:'開放報名中'},
+      {title:'「唸歌唬lān展現代」走讀',url:'activity21.html',author:'羅士哲',img:'120502.jpg',data:"2023.12.05",register:'開放報名中'},
       {title:'「府城傳奇．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'20231206.jpg',data:"2023.12.06",register:'開放報名中'},
       {title:'Xi Jinping and the Tibet Question: Core Issues, Policies and Implications',url:'activity19.html',author:'--',img:'20231208.jpg',data:"2023.12.08",register:'尚未開放報名'},
       {title:'「從驅疾到療疫─府城醫療地景踏查」走讀',url:'activity08.html',author:'鄭佩雯',img:'1210001.jpg',data:"2023.12.10",register:'開放報名中'},
