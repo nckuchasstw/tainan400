@@ -156,7 +156,7 @@ const app = Vue.createApp({
        
       ],
       postList: [
-      {title:'臺南400官網',url:'https://www.tainan-400.tw/',author:'台南市政府',img:'1016.png',describe:"回望臺南過去的歷史，來自世界各地的族群在這片土地交流，每個時期的文化樣貌在這座城市不斷堆疊、 交融與翻新，塑造出今日令人驕傲的歷史文化古都。2024年臺南將繼續全方位深化，再次讓世界看到台灣 ，邀請大家一起銘刻下這片土地的重要記憶，見證臺南嶄新的未來式！",data:"2023.10.14"},
+      {title:'臺南400官網',url:'https://www.tainan-400.tw/  ',author:'台南市政府',img:'1016.png',describe:"回望臺南過去的歷史，來自世界各地的族群在這片土地交流，每個時期的文化樣貌在這座城市不斷堆疊、 交融與翻新，塑造出今日令人驕傲的歷史文化古都。2024年臺南將繼續全方位深化，再次讓世界看到台灣 ，邀請大家一起銘刻下這片土地的重要記憶，見證臺南嶄新的未來式！",data:"2023.10.14"},
 
       {title:'迎接臺南400年　台南大飯店3場講座解密古都歷史',url:'https://www.taiwanhot.net/news/1047480/%E8%BF%8E%E6%8E%A5%E8%87%BA%E5%8D%97400%E5%B9%B4+%E5%8F%B0%E5%8D%97%E5%A4%A7%E9%A3%AF%E5%BA%973%E5%A0%B4%E8%AC%9B%E5%BA%A7%E8%A7%A3%E5%AF%86%E5%8F%A4%E9%83%BD%E6%AD%B7%E5%8F%B2',author:'記者吳順永',img:'https://www.taiwanhot.net/cache/1113155/lgnw/medias-20231014-652a5ef5c37b5.jpeg',describe:"明年是臺南建城400年，同時也是台南大飯店一甲子，為了迎接這個特殊慶典，台南大飯店攜手台南市文化古蹟導覽解說發展協會，推出【探巡府城400年】文化巡禮，邀您一同探尋市區豐富的人文歷史，報名從速，以免向隅！。",data:"2023.10.14"},
 
@@ -255,7 +255,7 @@ const app = Vue.createApp({
       {title:'2023臺南國際人權藝術節',url:'https://www.tihrf-nckumuseum.com/',author:'---',img:'humanright.jpg',data:"2023.10~12",register:'開放報名中'},
       {title:'鬥鬧熱走唱隊',url:'activity17.html',author:'鬥鬧熱走唱隊',img:'https://www.tihrf-nckumuseum.com/wp-content/uploads/2023/09/%E9%AC%A5%E9%AC%A7%E7%86%B1%E8%B5%B0%E5%94%B1%E9%9A%8A%E6%B5%B7%E5%A0%B1-3-1085x1536.png',data:"2023.10.14",register:'活動已結束'},
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'231019.jpg',data:"2023.10.19",register:'活動已結束'},
-      {title:'詩光墨影——黃華安成大文學院之美個展',url:'activity18.html',author:'--',img:'20231030.jpg',data:"2023.10.30~11.14",register:'自由入場'},
+      {title:'詩光墨影——黃華安成大文學院之美個展',url:'activity18.html',author:'--',img:'20231030.jpg',data:"2023.10.30~11.14",register:'活動已結束'},
       {title:'「臺南400」演唱會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'1121108.jpg',data:"2023.11.08",register:'活動已結束'},
       // {title:'「展．望」國際前瞻論壇',url:'activity14.html',author:'--',img:'1110.jpg',data:"2023.11.10",register:'尚未開放報名'},
       // {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11",register:'尚未開放報名'},
