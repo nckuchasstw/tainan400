@@ -278,7 +278,7 @@ const app = Vue.createApp({
       {title:'「唸歌唬lān展現代」專題演講',url:'activity21.html',author:'羅士哲',img:'120503.jpg',data:"2023.12.05",register:'開放報名中'},
       {title:'「府城傳奇．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'20231206.jpg',data:"2023.12.06",register:'開放報名中'},
       {title:'Xi Jinping and the Tibet Question: Core Issues, Policies and Implications',url:'activity19.html',author:'--',img:'20231208.jpg',data:"2023.12.08",register:'開放報名中'},
-      {title:'「從驅疾到療疫─府城醫療地景踏查」走讀',url:'activity08.html',author:'鄭佩雯',img:'1210001.jpg',data:"2023.12.10",register:'開放報名中'},
+      {title:'「從驅疾到療疫─府城醫藥地景踏查」走讀',url:'activity08.html',author:'鄭佩雯',img:'1210001.jpg',data:"2023.12.10",register:'開放報名中'},
       {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'1121215.jpg',data:"2023.12.15",register:'開放報名中'},
       {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'112121502.jpg',data:"2023.12.15",register:'開放報名中'},
      
