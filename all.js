@@ -299,6 +299,14 @@ gsap.to(".navbar",{
               url:"https://tainan-400.com/activity10.html",
             
           },
+          { // 事件(包含開始時間、結束時間)
+            title: "「新冷戰時代的國際經濟變動與趨勢 — 美中台的地緣政治和經貿科技競爭與合作」論壇",
+            start: "2023-12-19T14:00:00",
+            end: "2023-12-19T16:00:00",
+            url:"https://tainan-400.com/activity23.html",
+          
+        },
+
 
         
     ]
