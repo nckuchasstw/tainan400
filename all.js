@@ -278,6 +278,13 @@ gsap.to(".navbar",{
           url:"https://tainan-400.com/activity08.html",
         
         },
+        { // 事件(包含開始時間、結束時間)
+          title: "「我是án-chóaⁿ學/講台語—美國人學台語ê經驗kap台灣人建立台語意識ê重要」專題演講",
+          start: "2023-12-12T13:10:00",
+          end: "2023-12-12T15:00:00",
+          url:"https://tainan-400.com/activity09.html",
+        
+      },
           { // 事件(包含開始時間、結束時間)
               title: "「臺南奇廟對談的奇妙故事」專題演講",
               start: "2023-12-15T10:10:00",
