@@ -279,7 +279,7 @@ const app = Vue.createApp({
       {title:'「府城傳奇．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'20231206.jpg',data:"2023.12.06",register:'活動已結束'},
       {title:'Xi Jinping and the Tibet Question: Core Issues, Policies and Implications',url:'activity19.html',author:'--',img:'20231208.jpg',data:"2023.12.08",register:'活動已結束'},
       {title:'「從驅疾到療疫─府城醫藥地景踏查」走讀',url:'activity08.html',author:'鄭佩雯',img:'1210230.jpg',data:"2023.12.10",register:'活動已結束'},
-      {title:'「我是án-chóaⁿ學/講台語—美國人學台語ê經驗kap台灣人建立台語意識ê重要」專題演講',url:'activity22.html',author:'美國阿勇',img:'1212.jpg',data:"2023.12.12",register:'開放報名中'},
+      {title:'「我是án-chóaⁿ學/講台語—美國人學台語ê經驗kap台灣人建立台語意識ê重要」專題演講',url:'activity22.html',author:'美國阿勇',img:'1212.jpg',data:"2023.12.12",register:'活動已結束'},
       {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'1121215.jpg',data:"2023.12.15",register:'開放報名中'},
       {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'112121502.jpg',data:"2023.12.15",register:'開放報名中'},
       {title:'「新冷戰時代的國際經濟變動與趨勢 — 美中台的地緣政治和經貿科技競爭與合作」論壇',url:'activity23.html',author:'--',img:'1219.jpg',data:"2023.12.19",register:'開放報名中'},
