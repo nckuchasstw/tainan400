@@ -282,7 +282,7 @@ const app = Vue.createApp({
       {title:'「我是án-chóaⁿ學/講台語—美國人學台語ê經驗kap台灣人建立台語意識ê重要」專題演講',url:'activity22.html',author:'美國阿勇',img:'1212.jpg',data:"2023.12.12",register:'活動已結束'},
       {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'1121215.jpg',data:"2023.12.15",register:'活動已結束'},
       {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'112121502.jpg',data:"2023.12.15",register:'活動已結束'},
-      {title:'「新冷戰時代的國際經濟變動與趨勢 — 美中台的地緣政治和經貿科技競爭與合作」論壇',url:'activity23.html',author:'--',img:'1219.jpg',data:"2023.12.19",register:'開放報名中'},
+      {title:'「新冷戰時代的國際經濟變動與趨勢 — 美中台的地緣政治和經貿科技競爭與合作」論壇',url:'activity23.html',author:'--',img:'1219.jpg',data:"2023.12.19",register:'活動已結束'},
      
       ],
 
