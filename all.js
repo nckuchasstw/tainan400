@@ -48,11 +48,11 @@ gsap.to(".navbar",{
 
   let tl = gsap.timeline({});
 
-  tl.fromTo(".mainlogo",{y:-70,opacity:0,duration:0.1},{y:0,ease:"sine.out",opacity:1,duration:1.5});
+  tl.fromTo(".瞻望.svg",{y:-70,opacity:0,duration:0.1},{y:0,ease:"sine.out",opacity:1,duration:3});
 
   tl.fromTo(".nav-item",{stagger:{from: "random", 
   amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
-  amount: 1 },y:0,ease:"back.out(1.7)",opacity:1,duration:2},'-=1.5');
+  amount: 1 },y:0,ease:"back.out(1.7)",opacity:1,duration:2},'-=2.5');
 
   tl.fromTo(".nav-item2",{stagger:{from: "random", 
   amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
@@ -60,17 +60,17 @@ gsap.to(".navbar",{
 
   
 
-  tl.fromTo(".chi",{repeat:-1,x:-10,opacity:1,duration:0.1},{repeat:-1,x:10,ease:"sine.out",opacity:0,duration:5},'-=2.5');
+  // tl.fromTo(".chi",{repeat:-1,x:-10,opacity:1,duration:0.1},{repeat:-1,x:10,ease:"sine.out",opacity:0,duration:5},'-=2.5');
 
-  tl.fromTo(".anping",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"bounce.out",opacity:1,duration:0.5},'-=5');
+  // tl.fromTo(".anping",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"bounce.out",opacity:1,duration:0.5},'-=5');
 
-  tl.fromTo(".banyan",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"bounce.out",opacity:1,duration:0.5});
+  // tl.fromTo(".banyan",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"bounce.out",opacity:1,duration:0.5});
 
-  tl.fromTo(".gate",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"slow(0.7, 0.7, false)",opacity:1,duration:0.1});
+  // tl.fromTo(".gate",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"slow(0.7, 0.7, false)",opacity:1,duration:0.1});
 
-  tl.fromTo(".temple",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"power2.out",opacity:1,duration:0.4});
+  // tl.fromTo(".temple",{scale: 0.1,opacity:0,duration:0.1},{scale: 1,ease:"power2.out",opacity:1,duration:0.4});
 
-  tl.fromTo(".train",{repeat:-1,y:-2,x:-2,opacity:1,duration:20},{repeat:-1,y:-20,x:-25,ease:"sine.out",opacity:1,duration:20},'-=4');
+  // tl.fromTo(".train",{repeat:-1,y:-2,x:-2,opacity:1,duration:20},{repeat:-1,y:-20,x:-25,ease:"sine.out",opacity:1,duration:20},'-=4');
 
   
 
@@ -79,11 +79,11 @@ gsap.to(".navbar",{
 
   tl.fromTo(".cloudright",{repeat:-1,x:-150,y:120,opacity:0.7,duration:20},{repeat:-1,x:-300,y:30,ease:"sine.out",opacity:0,duration:20},'-=30');
 
-  tl.fromTo(".ship",{repeat:-1,y:-300,x:-400,opacity:1,duration:20},{repeat:-1,y:80,x:190,ease:"sine.out",opacity:1,duration:20},'-=49');
+  // tl.fromTo(".ship",{repeat:-1,y:-300,x:-400,opacity:1,duration:20},{repeat:-1,y:80,x:190,ease:"sine.out",opacity:1,duration:20},'-=49');
 
-  tl.fromTo(".person",{repeat:-1,y:260,x:300,opacity:1,duration:40},{repeat:-1,y:-80,x:-400,ease:"sine.out",opacity:1,duration:40},'-=25');
+  // tl.fromTo(".person",{repeat:-1,y:260,x:300,opacity:1,duration:40},{repeat:-1,y:-80,x:-400,ease:"sine.out",opacity:1,duration:40},'-=25');
 
-  tl.fromTo(".slogan",{x:-100,opacity:0,duration:0.1},{x:20,ease:"sine.ot",opacity:1,duration:4},'+=3');
+  tl.fromTo(".slogan",{x:-100,opacity:0,duration:0.1},{x:20,ease:"sine.ot",opacity:1,duration:4},'+=6');
 
 
   AOS.init();
@@ -305,10 +305,39 @@ gsap.to(".navbar",{
             end: "2023-12-19T16:00:00",
             url:"https://tainan-400.com/activity23.html",
           
-        },
+          },
+          { // 事件(包含開始時間、結束時間)
+            title: "「臺灣所得不均」專題演講",
+            start: "2024-05-08T10:10:00",
+            end: "2024-05-08T12:00:00",
+            url:"activity24.html",
+          
+          },
+          { // 事件(包含開始時間、結束時間)
+            title: "「居住正義？行同陌路的所得與房價」人社前瞻論壇",
+            start: "2024-05-14T10:10:00",
+            end: "2024-05-14T12:00:00",
+            url:"activity25.html",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "「成為臺灣人——島內與海外敘事」國際學術交流研討會",
+            start: "2024-09-24T09:00:00",
+            end: "2024-09-27T17:00:00",
+            url:"activity28.html",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "「展．望」人社國際前瞻論壇",
+            start: "2024-10-08T09:00:00",
+            end: "2024-10-08T17:00:00",
+            url:"activity29.html",
+          
+          },
 
 
-        
     ]
 });
 

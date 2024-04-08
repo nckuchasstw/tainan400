@@ -167,6 +167,14 @@ const app = Vue.createApp({
        
       ],
       postList: [
+      {title:'台南400 2 / 台南400亮點多 城市各角落熱鬧一整年',url:'https://www.cna.com.tw/news/ahel/202403160014.aspx',author:'中央社記者張榮祥、楊思瑞',img:'https://imgcdn.cna.com.tw/www/WebPhotos/1024/20240316/1152x768_wmkn_0_C20240316000006.jpg',describe:"1624年荷蘭人抵達台南安平，成為台灣走進世界舞台起點，台南市政府在2024年推動「台南400」，除了量身訂做系列展演，更爭取到台灣燈會、台灣文博會、台灣設計展等國家級大型活動，搭配推動民間參與及共享資源，城市各角落熱鬧一整年。",data:"2024.03.16"},
+
+      {title:'台南建城400年，維也納交響也要來！全年最完整活動推薦一次看',url:'https://www.gvm.com.tw/article/108853',author:'遠見',img:'https://imgs.gvm.com.tw/upload/gallery/20231229/159833.jpg',describe:"台灣自大航海時代在世界展露頭角。1624年，荷蘭人自台南安平登陸，建立熱蘭遮市（城），即今日台南市安平區位置。400年來，台南自上而下傳承歷史、文化、產業（糖）、教育、飲食文化、多元種族等，不僅成為台南在地特色，也成為台南市政府慶祝400年的建城歷史，規劃長達走訪台南一整年的「臺南400」活動。讓現代人可以依循過去400年的軌跡及成就，透過文化展演項目，從歷史的洪流中進一步認識，2024成為台南的觀光年。",data:"2024.02.17"},
+
+      {title:'琅琅悅讀歡慶台南400！推5大系列活動 從圖文、聲音LOG IN 台南',url:'https://reading.udn.com/read/story/122858/7769663',author:'琅琅悅讀',img:'https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2024/02/15/0/28972232.jpg&x=0&y=0&sw=0&sh=0&exp=3600&w=930&nt=1',describe:"2024年迎來台南400年！這座古城乘載著悠久的歷史脈絡與豐富的文化傳承，台南對你而言，是怎樣的一座城市呢？無論是否為台南出身的在地人，或是久久到此一遊的其他縣市島民，都深深地被四百年累積堆疊而成的古蹟建築、飲食風味、民俗文化給吸引，也許我們沒辦法像穿越小說一樣回到過去的某個時間點，仍能透過不同方式走在這條歷史延續的道路上。",data:"2024.02.16"},
+
+      {title:'臺南400臺南37區美食旅遊手冊',url:'https://www.twtainan.net/zh-tw/publication/374 ',author:'台南旅遊網',img:'https://www.twtainan.net/content/images/publications/100815/1024x768_publications-image-bul1qkqpqkqytiw7uikrta.jpg',describe:"臺南400臺南37區美食旅遊手冊",data:"2024.01.29"},
+
       {title:'臺南400官網',url:'https://www.tainan-400.tw/  ',author:'台南市政府',img:'1016.png',describe:"回望臺南過去的歷史，來自世界各地的族群在這片土地交流，每個時期的文化樣貌在這座城市不斷堆疊、 交融與翻新，塑造出今日令人驕傲的歷史文化古都。2024年臺南將繼續全方位深化，再次讓世界看到台灣 ，邀請大家一起銘刻下這片土地的重要記憶，見證臺南嶄新的未來式！",data:"2023.10.14"},
 
       {title:'迎接臺南400年　台南大飯店3場講座解密古都歷史',url:'https://www.taiwanhot.net/news/1047480/%E8%BF%8E%E6%8E%A5%E8%87%BA%E5%8D%97400%E5%B9%B4+%E5%8F%B0%E5%8D%97%E5%A4%A7%E9%A3%AF%E5%BA%973%E5%A0%B4%E8%AC%9B%E5%BA%A7%E8%A7%A3%E5%AF%86%E5%8F%A4%E9%83%BD%E6%AD%B7%E5%8F%B2',author:'記者吳順永',img:'https://www.taiwanhot.net/cache/1113155/lgnw/medias-20231014-652a5ef5c37b5.jpeg',describe:"明年是臺南建城400年，同時也是台南大飯店一甲子，為了迎接這個特殊慶典，台南大飯店攜手台南市文化古蹟導覽解說發展協會，推出【探巡府城400年】文化巡禮，邀您一同探尋市區豐富的人文歷史，報名從速，以免向隅！。",data:"2023.10.14"},
@@ -268,8 +276,6 @@ const app = Vue.createApp({
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'231019.jpg',data:"2023.10.19",register:'活動已結束'},
       {title:'詩光墨影——黃華安成大文學院之美個展',url:'activity18.html',author:'--',img:'20231030.jpg',data:"2023.10.30~11.14",register:'活動已結束'},
       {title:'「臺南400」演唱會',url:'activity11.html',author:'謝銘祐、大支、阿雞、韓森',img:'1121108.jpg',data:"2023.11.08",register:'活動已結束'},
-      // {title:'「展．望」國際前瞻論壇',url:'activity14.html',author:'--',img:'1110.jpg',data:"2023.11.10",register:'尚未開放報名'},
-      // {title:'國際工作坊',url:'',author:'--',img:'mainposter.jpg',data:"2023.11.11",register:'尚未開放報名'},
       {title:'「不獨具人類的歷史」國際學術研討會',url:'activity16.html',author:'--',img:'111718.jpg',data:"2023.11.17~18",register:'活動已結束'},
       {title:'「文學、思想與宗教」國際學術研討會',url:'activity14.html',author:'--',img:'111819.jpg',data:"2023.11.18~19",register:'活動已結束'},
       {title:'「從台語授課至教學實踐研究：設計過程與教學成效」工作坊',url:'activity20.html',author:'蔡美慧',img:'112702.jpg',data:"2023.11.27",register:'活動已結束'},
@@ -285,6 +291,20 @@ const app = Vue.createApp({
       {title:'「新冷戰時代的國際經濟變動與趨勢 — 美中台的地緣政治和經貿科技競爭與合作」論壇',url:'activity23.html',author:'--',img:'1219.jpg',data:"2023.12.19",register:'活動已結束'},
      
       ],
+
+      activityList2024: [
+    
+        {title:'「臺灣所得不均」專題演講',url:'activity24.html',author:'朱敬一',img:'1130508.jpg',data:"2024.05.08",register:'活動尚未開始'},
+        {title:'「居住正義？行同陌路的所得與房價」人社前瞻論壇',url:'activity25.html',author:'蔡群立、張金鶚、許聖章、陳彥仲',img:'1130514.jpg',data:"2024.05.14",register:'活動尚未開始'},
+        {title:'「400+50，大南方的科技未來」人社前瞻論壇',url:'activity26.html',author:'--',img:'2024.jpg',data:"2024.05",register:'活動尚未開始'},
+        {title:'「光電產業與國土治理」人社前瞻論壇',url:'activity27.html',author:'--',img:'2024.jpg',data:"2024.06",register:'活動尚未開始'},
+        {title:'「成為臺灣人——島內與海外敘事」國際學術交流研討會',url:'activity28.html',author:'--',img:'2024.jpg',data:"2024.09.24~27",register:'活動尚未開始'},
+        {title:'「展．望」人社國際前瞻論壇',url:'activity29.html',author:'--',img:'2024.jpg',data:"2024.10.08",register:'活動尚未開始'},
+       
+       
+        ],
+
+
 
       urlList:[
       {url:"https://chass.ncku.edu.tw/index.php",img:"https://chass.ncku.edu.tw/var/file/11/1011/img/logo-02.svg"},
