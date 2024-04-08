@@ -295,7 +295,7 @@ const app = Vue.createApp({
       activityList2024: [
     
         {title:'「臺灣所得不均」專題演講',url:'activity24.html',author:'朱敬一',img:'1130508.jpg',data:"2024.05.08",register:'活動尚未開始'},
-        {title:'「居住正義？行同陌路的所得與房價」人社前瞻論壇',url:'activity25.html',author:'蔡群立、張金鶚、許聖章、陳彥仲',img:'1130514.jpg',data:"2024.05.14",register:'活動尚未開始'},
+        {title:'「居住正義？行同陌路的所得與房價」人社前瞻論壇',url:'activity25.html',author:'--',img:'2024.jpg',data:"2024.05.14",register:'活動尚未開始'},
         {title:'「400+50，大南方的科技未來」人社前瞻論壇',url:'activity26.html',author:'--',img:'2024.jpg',data:"2024.05",register:'活動尚未開始'},
         {title:'「光電產業與國土治理」人社前瞻論壇',url:'activity27.html',author:'--',img:'2024.jpg',data:"2024.06",register:'活動尚未開始'},
         {title:'「成為臺灣人——島內與海外敘事」國際學術交流研討會',url:'activity28.html',author:'--',img:'2024.jpg',data:"2024.09.24~27",register:'活動尚未開始'},
