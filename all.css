@@ -427,6 +427,11 @@
         text-align: justify;
     }
 
+    .dropdown-menu {
+        --bs-dropdown-link-active-bg: #9A4C2E;
+    }
+        
+
    
     
     
