@@ -294,7 +294,7 @@ const app = Vue.createApp({
 
       activityList2024: [
     
-        {title:'「台灣有哪些地方不平等」專題演講',url:'activity24.html',author:'朱敬一、蔡群立',img:'臺灣有哪些不平等.jpg',data:"2024.05.08",register:'開放報名中'},
+        {title:'「台灣有哪些地方不平等」專題演講',url:'activity24.html',author:'朱敬一、蔡群立',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/0506-01.jpg',data:"2024.05.08",register:'開放報名中'},
         {title:'「居住正義？行同陌路的所得與房價」人社前瞻論壇',url:'activity25.html',author:'蔡群立、陳彥仲、許聖章、吳國仕',img:'0514113.jpg',data:"2024.05.14",register:'開放報名中'},
         // {title:'「400+50，大南方的科技未來」人社前瞻論壇',url:'activity26.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/185978630.jpg',data:"2024.05",register:'活動尚未開始'},
         {title:'「光電產業與國土治理」人社前瞻論壇',url:'activity27.html',author:'林財富、王筱雯、傅耀賢、葉婉如、蔡卉荀',img:'1130604.jpg',data:"2024.06.04",register:'開放報名中'},
