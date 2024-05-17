@@ -1,11 +1,21 @@
+gsap.registerPlugin(ScrollTrigger);
+gsap.to(".navbar",{
 
+    scrollTrigger:{
+        markers:false,
+        start:"top -4%",
+        
+        trigger:".carousel",
+        toggleClass:{ targets:".navbar",className:"navbar-active" },
+    }
+})
 
   
 
 
   let tl = gsap.timeline({});
 
-  tl.fromTo(".瞻望.svg",{y:-70,opacity:0,duration:0.1},{y:0,ease:"sine.out",opacity:1,duration:3});
+  tl.fromTo(".slo",{y:40,opacity:0,duration:0.1},{y:0,ease:"sine.out",opacity:1,duration:3});
 
   tl.fromTo(".nav-item",{stagger:{from: "random", 
   amount: 1 } ,y:-70,opacity:0,duration:0.1},{stagger:{from: "random", 
@@ -28,6 +38,25 @@
 
   AOS.init();
   
+  	// 當用戶滾動超過20px時，顯示按鈕
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  const topBtn = document.getElementById("topBtn");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topBtn.style.display = "block";
+  } else {
+      topBtn.style.display = "none";
+  }
+}
+
+// 當用戶點擊按鈕時，回到頁面頂部
+function topFunction() {
+  document.body.scrollTop = 0; // 對於Safari
+  document.documentElement.scrollTop = 0; // 對於Chrome, Firefox, IE 和 Opera
+}
   
 
 
