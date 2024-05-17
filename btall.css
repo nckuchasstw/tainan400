@@ -54,12 +54,15 @@
 
     .nav-link{
     color: #D3A581;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
+    font-family: "kaisei-harunoumi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     }
 
     .navbarli{
-        font-size: 10px;
+        font-size: 11px;
     }
 
 
@@ -219,27 +222,7 @@
     .bi-facebook:hover{
     color:royalblue
     }
-    .navbar-toggler{
-    background-color: #9A4C2E;
-    border: 1px white solid;
-    }
-
-    .card-body{
-    line-height: 30px;
-    letter-spacing: 2px;
-    }
-
-    .card{
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px #dddddd;
-    }
-
-    .more{
-    font-size: 15px;
-    text-decoration: none;
-    padding: 0 15px;
-    color:#9A4C2E ;
-    }
+    
 
     a{
     text-decoration: none;
@@ -276,17 +259,7 @@
     }
 
    
-    #calendar {
-    max-width: 900px;
-    margin: 40px auto;
-
-    }
   
-    
-   .modal-content{
-       background-color:#F7F3DC;  
-
-   }
 
    .btn-primary {
     border-color: #F7F3DC  !important;
@@ -303,6 +276,9 @@
     align-items: center;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: "kaisei-harunoumi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     }
 
     .btn-primary:hover{
@@ -383,7 +359,7 @@
     }
     
     .tab-button.active {
-        background-color: #9A4C2E;
+        background-color: #D3A581;
       
         color: white;
     }
@@ -420,7 +396,7 @@
       }
   
       tr:hover {
-        background-color: rgb(240, 240, 240);
+        background-color: #F7F7EE;
       }
     
 
@@ -429,7 +405,7 @@
 
       }
       .tobody{
-        background-color:#9A4C2E;
+        background-color:#D3A581;
         color: white;
       }
 
@@ -438,6 +414,20 @@
           font-size: 16px;
       }
 
+
+      tr , td{
+          border: 1px #D3A581 solid;
+          color: gray;
+          font-size: 13px;
+          
+      }
+
+      .losp{
+          color: #D3A581;
+          font-family: "kaisei-harunoumi", sans-serif;
+          font-weight: 700;
+          font-style: normal;
+      }
 
 
 
