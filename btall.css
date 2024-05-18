@@ -286,6 +286,7 @@
     top:60%;
     z-index: 999;
     writing-mode: vertical-lr ;
+    vertical-align: baseline;
     }
 
     .fc-day-grid-event .fc-content {
