@@ -315,7 +315,7 @@ const app = Vue.createApp({
           {unit:'國立成功大學歷史系教授兼副校長',url:'activity24.html',name:'陳玉女',img:'陳玉女.png'},
           {unit:'美國加州大學聖地牙哥分校台灣研究中心教授',url:'activity24.html',name:'廖炳惠',img:'廖炳惠.png'},  
           {unit:'陽明交通大學社會與文化研究所助理教授',url:'activity24.html',name:'楊子樵',img:'楊子樵.png'},
-          {unit:'美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授',url:'activity24.html',name:'Sabine Frühstück',img:'Sabinef.png'},
+          {unit:'美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授',url:'activity24.html',name:'Sabine Frühstück',img:'薩賓.png'},
           {unit:'國立成功大學考古學研究所副教授兼多元文化中心主任',url:'activity24.html',name:'熊仲卿',img:'熊仲卿.png'},
           {unit:'英國倫敦大學亞非學院台灣研究中心研究員',url:'activity24.html',name:'蔡明燁',img:'蔡明燁.png'},
           {unit:'國立成功大學歷史學系助理教授',url:'activity24.html',name:'簡宏逸',img:'簡宏逸.png'},
