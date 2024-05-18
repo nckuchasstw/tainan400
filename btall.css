@@ -253,7 +253,7 @@
     border-color: #F7F3DC  !important;
     background-color: #BE907F;
     color:white;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 5px;
     border-radius: 30px;
     display: flex;
@@ -267,6 +267,7 @@
     font-family: "kaisei-harunoumi", sans-serif;
     font-weight: 700;
     font-style: normal;
+    vertical-align: baseline;
     }
 
     .btn-primary:hover{
@@ -279,10 +280,9 @@
     }
 
     .activitybar{
-    padding-top: 20px;
-    float: right;
+    padding-top: 5px;
+    right: 20px;
     position: fixed;
-    right: 0;
     top:60%;
     z-index: 999;
     writing-mode: vertical-lr ;
