@@ -304,6 +304,51 @@ const app = Vue.createApp({
        
         ],
 
+        activityList2025: [
+    
+         
+          {unit:'國立成功大學台灣文學系教授兼華語中心主任',url:'activity24.html',name:'吳玫瑛',img:'吳玫瑛.png'},
+          {unit:'美國西雅圖華盛頓大學歷史學系助理教授',url:'activity24.html',name:'林于翔',img:'林翔.png'},
+          {unit:'美國加州聖塔芭芭拉分校臺灣研究中心主任',url:'activity24.html',name:'姜學豪',img:'姜學豪.png'},
+          {unit:'美國加州大學聖地牙哥分校教授',url:'activity24.html',name:'Nancy Guy',img:'nancy.png'},   
+          {unit:'國立成功大學經濟系教授兼人社中心主任',url:'activity24.html',name:'蔡群立',img:'蔡群立.png'},
+          {unit:'國立成功大學歷史系教授兼副校長',url:'activity24.html',name:'陳玉女',img:'陳玉女.png'},
+          {unit:'美國加州大學聖地牙哥分校台灣研究中心教授',url:'activity24.html',name:'廖炳惠',img:'廖炳惠.png'},  
+          {unit:'陽明交通大學社會與文化研究所助理教授',url:'activity24.html',name:'楊子樵',img:'楊子樵.png'},
+          {unit:'國立成功大學考古學研究所副教授兼多元文化中心主任',url:'activity24.html',name:'熊仲卿',img:'熊仲卿.png'},
+          {unit:'英國倫敦大學亞非學院台灣研究中心研究員',url:'activity24.html',name:'蔡明燁',img:'蔡明燁.png'},
+          {unit:'美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授',url:'activity24.html',name:'Sabine Frühstück',img:'Sabine.png'},
+          {unit:'國立成功大學歷史學系助理教授',url:'activity24.html',name:'簡宏逸',img:'簡宏逸.png'},
+          {unit:'國立成功大學歷史學系副教授',url:'activity24.html',name:'李啟彰',img:'李啟彰.png'},
+          {unit:'國立台灣師範大學台灣史研究所教授兼所長',url:'activity24.html',name:'康培德',img:'康培德.png'},
+          {unit:'國立高雄師範大學台灣文化與歷史語言研究所副教授兼所長',url:'activity24.html',name:'吳玲青',img:'吳玲青.png'},
+          {unit:'美國聖湯瑪斯大學國際研究和現代語言講座教授兼所長',url:'activity24.html',name:'葉耀元',img:'葉耀元.png'},
+          {unit:'澳亞臺灣研究協會秘書長',url:'activity24.html',name:'黃鈺婷',img:'黃鈺婷.png'},
+          {unit:'美國史丹佛大學博士生兼NATSA會長',url:'activity24.html',name:'鍾宜庭',img:'鍾宜庭.png'},
+          {unit:'國立台灣師範大學博士生',url:'activity24.html',name:'應修平',img:'應修平.png'},
+          {unit:'國立台灣大學台灣文學研究所副教授',url:'activity24.html',name:'張俐璇',img:'張俐璇.png'},
+          {unit:'國立中興大學台灣文學與 跨國文化研究所副教授',url:'activity24.html',name:'詹閔旭',img:'詹閔旭.png'},
+          {unit:'國立台北教育大學台灣文化研究所教授',url:'activity24.html',name:'何義麟',img:'何義麟.png'},
+          {unit:'國立成功大學考古所特聘教授',url:'activity24.html',name:'劉益昌',img:'劉益昌.png'},
+          {unit:'國立成功大學考古學研究所副教授',url:'activity24.html',name:'鍾國風',img:'鍾國風.png'},
+          {unit:'國立成功大學台灣文學系副教授',url:'activity24.html',name:'廖淑芳',img:'廖淑芳.png'},
+          {unit:'國立成功大學歷史學系教授兼任博物館副館長',url:'activity24.html',name:'陳文松',img:'陳文松.png'},
+          {unit:'國立成功大學考古所所長',url:'activity24.html',name:'趙金勇',img:'趙金勇.png'},
+          {unit:'中央研究院台灣史研究所副研究員',url:'activity24.html',name:'鄭維中',img:'鄭維中.png'},
+          {unit:'國立台灣師範大學台灣史研究所教授',url:'activity24.html',name:'許佩賢',img:'許佩賢.png'},
+          {unit:'美國德州大學奧斯汀分校亞洲研究博士候選人',url:'activity24.html',name:'湯舒雯',img:'湯舒雯.png'},
+          {unit:'台灣歷史博物館副研究員',url:'activity24.html',name:'黃裕元',img:'黃裕元.png'},
+          {unit:'美國德州奧斯汀大學台灣研究中心主任',url:'activity24.html',name:'張誦聖',img:'張誦聖.png'},
+          // {unit:'國立台南大學戲劇創作與應用學系教授',url:'activity24.html',name:'王婉容',img:'0518_01.png'},
+          // {unit:'國立台灣師範大學歷史學系副教授',url:'activity24.html',name:'林欣宜',img:'0518_02.png'},
+          // {unit:'臺灣文學館副研究員',url:'activity24.html',name:'林佩蓉',img:'0518_02.png'},
+          // {unit:'國立成功大學中文系助理教授',url:'activity24.html',name:'蔡林縉',img:'0518_01.png'},
+          // {unit:'國立成功大學不分系副教授',url:'activity24.html',name:'吳易叡',img:'0518_02.png'},
+
+         
+          ],
+  
+
         
   
 

@@ -52,13 +52,13 @@
               <a class="nav-link " aria-current="page" href="#about">前言 <span class="navbarli">About</span></a>
             </li>
             <li class="nav-item px-3" >
-              <a class="nav-link " aria-current="page" href="#keynote">專題演講 <span class="navbarli" >Keynote speech</span></a>
+              <a class="nav-link " aria-current="page" href="#lineup">研討會陣容 <span class="navbarli" >lineup</span></a>
             </li>
             <li class="nav-item px-3" >
               <a class="nav-link " aria-current="page" href="#agenda">議程 <span class="navbarli">Agenda</span></a>
             </li>
             <a class="navbar-brand px-5 d-none d-lg-block " href="becomingtaiwanese.html">
-              <img src="mainlogo1.png" alt="Logo" width="auto" height="80" class="mainlogo d-inline-block align-text-top ">
+              <img src="mainlogo1.png" alt="Logo" width="auto" height="70" class="mainlogo d-inline-block align-text-top ">
             </a>
             <li class="nav-item px-3" >
               <a class="nav-link " aria-current="page" href="#information">交通資訊 <span class="navbarli">Information</span></a>
@@ -184,32 +184,57 @@
   </section>
 
   <div id="app">
-    <section id="keynote">
-      <div class="container  py-3 " data-aos="fade-up"
-      data-aos-duration="2000" >
-        <div class="row row-cols-1 row-cols-md-2 g-4 ">
+   
+      <section id="lineup">
+        <h3 style="text-align: center;color: white;">研討會陣容 <span class="h3span">Lineup</span></h3>
+        <div class="swiper mySwiper" data-aos="fade-up"
+        data-aos-duration="2000" style="padding-top: 20px;">
+          <div class="swiper-wrapper">
+              <ul class="swiper-slide" v-for="x in activityList2025.slice(0,16)" >
+                <!-- <a :href="x.url" target="_blank"> -->
+                <li class="lslide active" style="width: 212px; margin-right: 10px;">
+                  <div class="host" dataimg="images/host1_clr.png" datades="">
+                   <img :src="x.img" class="head_cover">
+                   <div class="host_info">
+                     <div class="host_title">
+                       {{x.unit}}
+                     </div>   
+                     <div class="host_name">
+                      {{x.name}}
+                     </div> 
+                   </div>
+                 </div> 
+                </li>
+              <!-- </a> -->
+              </ul>
+            </div>
+        </div>  
+        <div class="swiper mySwiper" data-aos="fade-up"
+        data-aos-duration="2000" style="padding-top: 20px;">
+          <div class="swiper-wrapper">
+              <ul class="swiper-slide" v-for="x in activityList2025.slice(16,32)" >
+                <a :href="x.url" target="_blank">
+                <li class="lslide active" style="width: 212px; margin-right: 10px;">
+                  <div class="host" dataimg="images/host1_clr.png" datades="">
+                   <img :src="x.img" class="head_cover">
+                   <div class="host_info">
+                     <div class="host_title">
+                       {{x.unit}}
+                     </div>   
+                     <div class="host_name">
+                      {{x.name}}
+                     </div> 
+                   </div>
+                 </div> 
+                </li>
+              </a>
+              </ul>
+            </div>
+            
+            
+        </div>  
          
-          <div class="col" style="text-align: justify;">
-            <h3>專題演講 <span class="h3span">Keynote speech</span></h3>
-           
-              <p class="losp"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-              </svg> 主講人keynote speaker | 廖炳惠 Ping-hui Liao</p>
-              <p style="color:gray;line-height: 30px;letter-spacing: 2px;align-items: center;"> 
-                Professor Liao received his Ph.D. degree in Comparative Literature from the Literature Department, UCSD in 1987, having studied under eminent scholars such as Michel de Certeau. In addition to receiving competitive fellowships and grants from agencies like the Rockefeller Foundation and the National Science Council of Taiwan, Professor Liao served as a visiting scholar or professor at such prestigious institutions as Princeton University (1991-1992), Harvard-Yenching Institute of Harvard University (1996-1997) and Columbia University (2001-2002). He has won numerous awards such as the May Fourth Prize for the Best Literary Critic of the Year in 2004 and the Wu Yung-fu Prize for the Best Literary Critic of the Year in 2007. 
-                
-                Liao is an internationally recognized authority in Taiwan Studies, specializing in Taiwan cultural history (from the Japanese colonial period to the current era of globalization), East-West comparative literature, inter-arts studies (fiction, film, poetry, painting, and opera), popular culture, and critical theory (poststructuralism, postmodernism, postcolonialism). 
-            </p>
-          
-              </div>
-              <div class="col video ">
-                <div style="position:relative;padding-top:56.25%;padding-left:10%;" ><iframe width="560" height="315" src="https://www.youtube.com/embed/nzmVnDt74tk?si=Lw0j7YrY751u356A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:120%;border-radius: 10px;border: 2px solid #D3A581;"></iframe></div>
-              </div>
-            </div> 
-        </div>
-     
-    </section>
+      </section>
 
     <section id="agenda">
       <div class="container" data-aos="fade-up"
@@ -455,7 +480,7 @@
                 </tr>
                 <tr>
                   <td rowspan="2">蔡明燁<br>（英國倫敦大學亞非學院台灣研究中心研究員）</td>
-                  <td >Sabine Fruhstuck(美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授）</td>
+                  <td >Sabine Frühstück(美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授）</td>
                   <td >台美人的「台灣童年」書寫</td>
                 </tr>
                 <tr>
@@ -659,7 +684,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js."></script>
+  <script src="vuepaper.js"></script>
   <script src="btall.js"></script>
+ 
 
   <script>
      var chatbox = document.getElementById('fb-customer-chat');

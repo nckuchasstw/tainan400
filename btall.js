@@ -10,6 +10,39 @@ gsap.to(".navbar",{
     }
 })
 
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 2,
+  spaceBetween: 15,
+  
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 15,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 15,
+    },
+    1700: {
+      slidesPerView: 6,
+      spaceBetween: 15,
+    },
+  },
+});
+
+
   
 
 
@@ -57,6 +90,7 @@ function topFunction() {
   document.body.scrollTop = 0; // 對於Safari
   document.documentElement.scrollTop = 0; // 對於Chrome, Firefox, IE 和 Opera
 }
+
   
 
 
