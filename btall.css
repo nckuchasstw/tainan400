@@ -558,6 +558,7 @@
         .btn-secondary{
             background-color: #BA8D7D;
             border: 1px white solid;
+            font-size: 14px;
         }
         .btn-secondary:hover{
             background-color: #68522e;
