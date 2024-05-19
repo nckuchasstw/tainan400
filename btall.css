@@ -539,7 +539,7 @@
 
 
         .modal-content{
-            background-color: #BA8D7D;
+            background-image: linear-gradient(180deg, #CFB3A3,#BA8D7D);
             color: white;
         }
         .modal-title{
