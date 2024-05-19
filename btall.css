@@ -20,9 +20,8 @@
     display: none;
     }
     }
-    
 
-    
+   
  
 
     body{
@@ -271,7 +270,6 @@
     font-size: 14px;
     letter-spacing: 1px;
     border-radius: 30px;
-  
     cursor: pointer;
     transition: background-color 0.3s;
     font-family: "kaisei-harunoumi", sans-serif;
@@ -298,6 +296,9 @@
     writing-mode: vertical-lr ;
     vertical-align: baseline;
     }
+
+    
+    
 
     .fc-day-grid-event .fc-content {
     white-space: break-spaces  !important;
@@ -468,14 +469,14 @@
         .head_cover{
             display: inline-block;
             width: 100%;
-            transform:scale(1.01);
+            transform:scale(1);
             transition: all 1s ;ease-out;
            
         
         }
 
         .head_cover:hover{
-            transform:scale(1.2,1.2);
+            transform:scale(1.1);
         
         }
 
@@ -501,9 +502,20 @@
         margin-top: 5px;
         font-weight: 700;
         font-family: "kaisei-harunoumi", sans-serif;
-        font-weight: 700;
         font-style: normal;
         }
+
+        .host_ename{
+            float: left;
+            width: 100%;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            font-weight: 700;
+            font-family: "kaisei-harunoumi", sans-serif;
+            font-style: normal;
+            }
 
 
         .host_title{
@@ -519,4 +531,47 @@
         
         }
 
-      
+        .swiper-slide{
+          
+            padding: 0px;
+        }
+
+
+        .modal-content{
+            background-color: #BA8D7D;
+            color: white;
+        }
+        .modal-title{
+            font-weight: 700;
+            font-family: "kaisei-harunoumi", sans-serif;
+            font-style: normal;
+        
+        }
+
+        .modal-body-p{
+            color: white;
+            font-size: 14px;
+            line-height: 30px;
+        }
+
+        .btn-secondary{
+            background-color: #BA8D7D;
+            border: 1px white solid;
+        }
+        .btn-secondary:hover{
+            background-color: #68522e;
+            
+        }
+
+        .btn-clos{
+            background-color: white;
+        }
+
+        .img-fluid{
+            height: 100%;
+            max-width: 150px; 
+            margin-right: 20px;
+        }
+            
+
+        

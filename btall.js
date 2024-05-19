@@ -10,37 +10,50 @@ gsap.to(".navbar",{
     }
 })
 
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 2,
-  spaceBetween: 15,
-  
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  autoplay: {
+document.addEventListener('DOMContentLoaded', function () {
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 15,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
       delay: 2500,
       disableOnInteraction: false,
     },
-  breakpoints: {
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 15,
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 15,
+      },
+      1024: {
+        slidesPerView: 5,
+        spaceBetween: 15,
+      },
+      1700: {
+        slidesPerView: 6,
+        spaceBetween: 15,
+      },
     },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 15,
-    },
-    1024: {
-      slidesPerView: 5,
-      spaceBetween: 15,
-    },
-    1700: {
-      slidesPerView: 6,
-      spaceBetween: 15,
-    },
-  },
+  });
+
+  var swiperContainer = document.querySelector('.mySwiper');
+
+  swiperContainer.addEventListener('mouseenter', function () {
+    swiper.autoplay.stop();
+  });
+
+  swiperContainer.addEventListener('mouseleave', function () {
+    swiper.autoplay.start();
+  });
 });
+
+
 
 
   
