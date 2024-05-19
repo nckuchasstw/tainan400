@@ -152,8 +152,8 @@
     }
 
     #lineup{ 
-        background-color: #BA8D7D;
-        
+       
+        background-image: linear-gradient(180deg, #CFB3A3,#BA8D7D);
         color:#014D7F;
         content: "";
         width: auto;
@@ -485,7 +485,7 @@
         .host_info{
         float: left;
         width: 100%;
-        background-color: #BA8D7D;
+ 
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
