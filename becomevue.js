@@ -24,7 +24,7 @@ const app = Vue.createApp({
   
           {unit:'陽明交通大學社會與文化研究所助理教授',url:'https://srcs.nycu.edu.tw/member_inner.aspx?fid=46&pid=11&id=70&pfid=43',name:'楊子樵',ename:'Zi-Qiao Yang',img:'楊子樵.png',field:'媒介與電影研究、批判理論、冷戰文化工業與政治宣傳、基礎設施批判研究、現代華語文學與報刊',cv1:'美國柏克萊加州大學東亞研究博士',cv2:'與談人Discussant'},
   
-          {unit:'美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授',url:'https://www.sabinefruhstuck.com/',name:'Sabine Frühstück',img:'薩賓.png',field:'Cultural history and ethnography, modern and contemporary Japan in global context; theory and history of sexuality and gender, knowledge systems, colonial and postcolonial history, military-societal relations, violence and the state, visual culture, childhood studies, immortality, hyper-ageing society, and death. ',cv1:'Ph.D. 1996, Japanese Studies, History and Social Study of Science, University of Vienna ',cv2:'發表人Presenter'},
+          {unit:'美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授',url:'https://www.sabinefruhstuck.com/',name:'Sabine Frühstück',img:'薩賓.png',field:'Cultural history and ethnography, modern and contemporary Japan in global context; theory and history of sexuality and gender, knowledge systems, colonial and postcolonial history, military-societal relations, violence and the state, visual culture, childhood studies, immortality, hyper-ageing society, and death. ',cv1:'Ph.D. Japanese Studies, History and Social Study of Science, University of Vienna ',cv2:'發表人Presenter'},
   
           {unit:'美國德州奧斯汀大學台灣研究中心主任',url:'https://liberalarts.utexas.edu/asianstudies/faculty/changs',name:'張誦聖',ename:'Sung-sheng Chang',img:'張誦聖.png',field:'中國電影與文學',cv1:'美國史丹佛大學亞洲語言博士',cv2:'發表人Presenter'},
   
