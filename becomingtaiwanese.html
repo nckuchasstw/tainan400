@@ -52,7 +52,7 @@
               <a class="nav-link " aria-current="page" href="#about">研討會前言 <span class="navbarli">About</span></a>
             </li>
             <li class="nav-item px-3" >
-              <a class="nav-link " aria-current="page" href="#lineup">研討會陣容 <span class="navbarli" >lineup</span></a>
+              <a class="nav-link " aria-current="page" href="#lineup">研討會與會人<span class="navbarli" > attendees</span></a>
             </li>
             <li class="nav-item px-3" >
               <a class="nav-link " aria-current="page" href="#agenda">議程 <span class="navbarli">Agenda</span></a>
@@ -189,18 +189,20 @@
     <div id="app">
       <section id="lineup">
         <h3 style="text-align: center; color: white;">
-          研討會陣容 <span class="h3span">Lineup</span>
+          研討會與會人 <span class="h3span">Attendees</span>
         </h3>
         <div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="2000" style="padding-top: 20px;">
           <div class="swiper-wrapper">
             <ul class="swiper-slide" v-for="(x, index) in activityList2025.slice(0,34)" :key="index">
               <li class="lslide active" style="width: 212px; margin-right: 10px;" @click="openModal(index)">
                 <div class="host" dataimg="images/host1_clr.png" datades="">
+                  <div class="cv2">{{x.cv2}}</div>
                   <img :src="x.img" class="head_cover">
                   <div class="host_info">
-                    <div class="host_title">{{ x.unit }}</div>
                     <div class="host_name">{{ x.name }}</div>
                     <div class="host_ename">{{ x.ename }}</div>
+                    <div class="host_title">{{ x.unit }}</div>
+                   
                   </div>
                 </div>
               </li>
@@ -484,7 +486,7 @@
                 <tr>
                   <td class="tobody">主持人<br/>Moderator</td>
                   <td class="tobody">發表人<br/>Presenter</td>
-                  <td class="tobody">主題<br/>Presenter</td>
+                  <td class="tobody">主題<br/>Presentation Topic</td>
                 </tr>
                 <tr>
                   <td rowspan="2">蔡明燁<br>（英國倫敦大學亞非學院台灣研究中心研究員）</td>
@@ -508,7 +510,7 @@
             <tr>
               <td class="tobody">主持人<br/>Moderator</td>
               <td class="tobody">發表人<br/>Presenter</td>
-              <td class="tobody">主題<br/>Presenter</td>
+              <td class="tobody">主題<br/>Presentation Topic</td>
             </tr>
             <tr>
               <td rowspan="3">待定</td>
@@ -520,7 +522,7 @@
               <td >國際學者如何觀察台灣的文學外譯（暫定）</td>
             </tr>
             <tr>
-              <td >王婉容國立台南大學戲劇創作與應用學系教授）</td>
+              <td >王婉容(國立台南大學戲劇創作與應用學系教授）</td>
               <td >台灣劇本文學外譯的經驗（暫定）</td>
             </tr>
             <tr>
