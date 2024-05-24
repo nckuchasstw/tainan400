@@ -30,7 +30,8 @@
     }
 
     .navbar {
-    background-color: #F7F7EE;
+    background-image: url(bmainbg2.jpg);
+    background-color: #F4F2E4;
     background-repeat: no-repeat;
     background-position:center top;
     margin: 0;
@@ -108,7 +109,7 @@
 
 
     #banner{
-    background-image: url(bg.jpg);
+    background-image: url(bmainbg.jpg);
     background-color:#F7F3DC; 
     background-repeat: no-repeat;
     background-position:center top;
@@ -167,8 +168,8 @@
     
 
     #information,#footer{ 
+    background-image: url(bmainbg2.jpg);
     background-color: #F7F7EE;
-    
     color:#014D7F;
     content: "";
     width: auto;
