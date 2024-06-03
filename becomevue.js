@@ -47,7 +47,7 @@ const app = Vue.createApp({
   
           {unit:'美國史丹佛大學博士生兼NATSA會長',url:'https://history.stanford.edu/people/yi-ting-chung',name:'鍾宜庭',ename:'Yi-Ting Chung',img:'鍾宜庭.png',field:'日本帝國史與跨太平洋史',cv1:'美國史丹佛大學歷史系博士',cv2:'發表人Presenter'},
   
-          {unit:'國立台灣師範大學博士生',url:'',name:'應修平',ename:'Grace Shiu-Ping Ying',img:'應修平.png',field:'北美臺灣人研究，致力於以研究為基底、劇本創作與策展為途徑，透過戲劇再現歷史',cv1:'國立陽明交通大學社會與文化研究所博士班',cv2:'發表人Presenter'},
+          {unit:'國立陽明交通大學社會與文化研究所博士生',url:'',name:'應修平',ename:'Grace Shiu-Ping Ying',img:'應修平.png',field:'北美臺灣人研究，致力於以研究為基底、劇本創作與策展為途徑，透過戲劇再現歷史',cv1:'國立陽明交通大學社會與文化研究所博士班',cv2:'發表人Presenter'},
   
           {unit:'國立台灣大學台灣文學研究所副教授',url:'https://scholars.lib.ntu.edu.tw/cris/rp/rp00284',name:'張俐璇',ename:'LI HSUAN CHANG',img:'張俐璇.png',field:'戰後臺灣文學場域、臺灣文學的研究與轉譯、數位人文研究',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
   
