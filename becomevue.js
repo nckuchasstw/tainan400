@@ -19,10 +19,13 @@ const app = Vue.createApp({
   
           {unit:'美國加州聖塔芭芭拉分校臺灣研究中心主任',url:'https://howardchiang.faculty.eastasian.ucsb.edu/',name:'姜學豪',ename:'HOWARD CHIANG',img:'姜學豪.png',field:'批判理論、文化研究、東亞研究、性別理論與研究',cv1:'美國普林斯頓大學歷史學博士',cv2:'發表人Presenter'},
   
-          {unit:'美國加州大學聖地牙哥分校教授',url:'https://music-cms.ucsd.edu/people/faculty/regular_faculty/nancy-guy/index.html',name:'Nancy Guy',img:'nancy.png',field:'台灣、中國音樂、歌劇、生態批判研究',cv1:'',cv2:'發表人Presenter'},   
+          {unit:'美國加州大學聖地牙哥分校教授',url:'https://music-cms.ucsd.edu/people/faculty/regular_faculty/nancy-guy/index.html',name:'Nancy Guy',img:'nancy.png',field:'Music in Taiwan, Chinese opera, ecomusicology, ethnomusicology',cv1:'',cv2:'發表人Presenter'},   
     
   
           {unit:'陽明交通大學社會與文化研究所助理教授',url:'https://srcs.nycu.edu.tw/member_inner.aspx?fid=46&pid=11&id=70&pfid=43',name:'楊子樵',ename:'Zi-Qiao Yang',img:'楊子樵.png',field:'媒介與電影研究、批判理論、冷戰文化工業與政治宣傳、基礎設施批判研究、現代華語文學與報刊',cv1:'美國柏克萊加州大學東亞研究博士',cv2:'與談人Discussant'},
+
+
+          {unit:'"中央研究院民族學研究所副研究員"',url:'https://www.wenliu.info/',name:'劉文',ename:'Zi-Qiao Yang',img:'劉文.png',field:'跨越社會心理學、酷兒研究、亞裔研究',cv1:'Ph.D., City University of New York, Graduate Center, New York, NY ',cv2:'與談人Discussant'},
   
           {unit:'美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授',url:'https://www.sabinefruhstuck.com/',name:'Sabine Frühstück',img:'薩賓.png',field:'Cultural history and ethnography, modern and contemporary Japan in global context; theory and history of sexuality and gender, knowledge systems, colonial and postcolonial history, military-societal relations, violence and the state, visual culture, childhood studies, immortality, hyper-ageing society, and death. ',cv1:'Ph.D. Japanese Studies, History and Social Study of Science, University of Vienna ',cv2:'發表人Presenter'},
   
@@ -73,7 +76,7 @@ const app = Vue.createApp({
   
           {unit:'台灣歷史博物館副研究員',url:'https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202301/b9cc5cc8-8f79-4efb-9446-f0a95e0c6caf.pdf',name:'黃裕元',ename:'Huang, Yuyuan',img:'黃裕元.png',field:'台語歌謠',cv1:' 國立臺灣大學歷史學系 ',cv2:'發表人Presenter'},
         
-          {unit:'國立台南大學戲劇創作與應用學系教授',url:'https://drama.nutn.edu.tw/ch/teachers_detail.asp?G0=1&Sn=16&Page=1',name:'王婉容',ename:' Wan–Jung Wang',img:'王婉容.png',field:'應用戲劇創作、展演及研究、老人劇場創作展演研究、國際劇場交流主義研究、當代文化理論與戲劇理論與批評、社區劇場創作演出研究、博物館劇場創作演出研究',cv1:'英國倫敦大學皇家霍洛威學院戲劇系研究所博士 ',cv2:'發表人Presenter'},
+          {unit:'國立台南大學戲劇創作與應用學系教授',url:'https://drama.nutn.edu.tw/ch/teachers_detail.asp?G0=1&Sn=16&Page=1',name:'王婉容',ename:' Wan–Jung Wang',img:'王婉容.png',field:'多元應用戲劇創作與研究，社區劇場，博物館劇場，口述歷史劇場與戲劇教育',cv1:'英國倫敦大學皇家霍洛威學院戲劇系研究所博士 ',cv2:'發表人Presenter'},
 
           {unit:'國立台灣師範大學歷史學系副教授',url:'activity24.html',name:'林欣宜',ename:'Hsin-yi Lin',img:'林欣宜.png',field:'臺灣史',cv1:'D.Phil thesis of Oriental Studies, University of Oxford, U.K.',cv2:'與談人Discussant'},
 
