@@ -301,7 +301,8 @@ const app = Vue.createApp({
         {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0924.jpg',data:"2024.09.24~27",register:'活動尚未開始'},
       
         {title:'「展．望」國際人社前瞻論壇',url:'envision.html',author:'--',img:'展望論壇.jpg',data:"2024.10.18",register:'活動尚未開始'},
-        {title:'「在宅醫療與醫學教育：臺日經驗與展望」國際人社前瞻論壇',url:'homebasedmedical.html',author:'--',img:'展望論壇.jpg',data:"2024.11.11",register:'活動尚未開始'},
+
+        {title:'「在宅醫療與醫學教育：臺日經驗與展望」國際人社前瞻論壇',url:'homebasedmedical.html',author:'--',img:'1101.jpg',data:"2024.11.01",register:'活動尚未開始'},
        
        
         ],
