@@ -46,7 +46,7 @@ const app = Vue.createApp({
   
           {unit:'美國聖湯瑪斯大學國際研究講座教授兼台灣與東亞研究計畫主任',url:'https://sites.google.com/site/yeh2sctw/home?authuser=0',name:'葉耀元',ename:'Yao-Yuan Yeh',img:'葉耀元.png',field:'比較政治、國際政治、東亞研究、中國研究、台灣研究、政治暴力、恐怖主義',cv1:'德克薩斯A&M大學政治學博士',cv2:'發表人Presenter'},
   
-          {unit:'澳亞臺灣研究協會秘書長',url:'https://mail.google.com/mail/u/2?ui=2&ik=129c6711c4&attid=0.4&permmsgid=msg-f:1796455382085600332&th=18ee4aa6e80d044c&view=att&disp=inline&realattid=f_lv1qhv1r4',name:'黃鈺婷',ename:'Phyllis Yu-ting Huang',img:'黃鈺婷.png',field:'Taiwanese Literature; Literary works by mainlander Taiwanese writers; Taiwanese immigrants ',cv1:'PhD in Chinese Studies, Monash University, Australia',cv2:'發表人Presenter'},
+          {unit:'莫納許大學研究員/澳亞台灣研究學會副會長',url:'https://mail.google.com/mail/u/2?ui=2&ik=129c6711c4&attid=0.4&permmsgid=msg-f:1796455382085600332&th=18ee4aa6e80d044c&view=att&disp=inline&realattid=f_lv1qhv1r4',name:'黃鈺婷',ename:'Phyllis Yu-ting Huang',img:'黃鈺婷.png',field:'Taiwanese Literature; Literary works by mainlander Taiwanese writers; Taiwanese immigrants ',cv1:'PhD in Chinese Studies, Monash University, Australia',cv2:'發表人Presenter'},
   
           {unit:'美國史丹佛大學博士生兼NATSA會長',url:'https://history.stanford.edu/people/yi-ting-chung',name:'鍾宜庭',ename:'Yi-Ting Chung',img:'鍾宜庭.png',field:'日本帝國史與跨太平洋史',cv1:'美國史丹佛大學歷史系博士',cv2:'發表人Presenter'},
   
