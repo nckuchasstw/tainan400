@@ -306,7 +306,7 @@ const app = Vue.createApp({
 
 
 
-        // {title:'「在宅醫療與醫學教育：臺日經驗與展望」國際人社前瞻論壇',url:'homebasedmedical.html',author:'--',img:'1101.jpg',data:"2024.11.01",register:'活動尚未開始'},
+        {title:'「在宅醫療與醫學教育：臺日經驗與展望」國際人社前瞻論壇',url:'homebasedmedical.html',author:'--',img:'1101.jpg',data:"2024.11.01",register:'活動尚未開始'},
        
        
         ],
