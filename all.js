@@ -108,7 +108,7 @@ gsap.to(".navbar",{
     monthNamesShort:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
     dayNames:['日','一','二','三','四','五','六'],
     dayNamesShort:['日','一','二','三','四','五','六'],
-    defaultDate: "2024-06-01", // 起始日期
+    defaultDate: "2024-07-01", // 起始日期
     weekends: true, // 顯示星期六跟星期日
     // editable: true,  // 啟動拖曳調整日期
     eventBackgroundColor:'#B69664',
