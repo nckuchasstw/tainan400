@@ -300,7 +300,7 @@ const app = Vue.createApp({
         {title:'「光電產業與國土治理」人社前瞻論壇',url:'activity27.html',author:'林財富、王筱雯、傅耀賢、葉婉如、蔡卉荀',img:'1130604.jpg',data:"2024.06.04",register:'活動已結束'},
         {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0924.jpg',data:"2024.09.24~27",register:'活動尚未開始'},
       
-        {title:'「展．望」國際人社前瞻論壇',url:'envision.html',author:'--',img:'展望論壇.jpg',data:"2024.10.18",register:'活動尚未開始'},
+        {title:'「展．望」人社國際前瞻論壇',url:'envision.html',author:'--',img:'展望論壇.jpg',data:"2024.10.18",register:'活動尚未開始'},
 
         {title:'「2024年美國總統大選與台美中關係初探」專題演講',url:'activity30.html',author:'高碩泰',img:'1023.jpg',data:"2024.10.23",register:'活動尚未開始'},
 
