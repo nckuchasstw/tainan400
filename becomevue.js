@@ -4,7 +4,7 @@ const app = Vue.createApp({
       return {
         text:'文字',
         activityList2025: [    
-          {unit:'國立成功大學台灣文學系特聘教授兼華語中心主任',url:'https://mywu1965.wixsite.com/mysite',name:'吳玫瑛',ename:'Mei-Ying WU',img:'吳玫瑛.png',field:'兒童文學、青少年文學、跨國文學與文化研究、圖像敘事、檔案研究、性別研究',cv1:'PhD, Curriculum and Instruction , University of Idaho, USA',cv2:'主持人Moderator'},
+          {unit:'國立成功大學台灣文學系特聘教授兼華語中心主任',url:'https://mywu1965.wixsite.com/mysite',name:'吳玫瑛',ename:'Mei-Ying WU',img:'吳玫瑛.png',field:'兒童文學、青少年文學、跨國文學與跨文化研究、圖像敘事、童年研究、性別研究',cv1:'PhD, Curriculum and Instruction , University of Idaho, USA',cv2:'主持人Moderator'},
   
           {unit:'美國德州大學奧斯汀分校亞洲研究博士候選人',url:'https://www.threads.net/@tangshuwen_?hl=zh-tw',name:'湯舒雯',ename:'Shu-wen Tang ',img:'湯舒雯.png',field:'現當代華語文學與文藝思潮',cv1:'美國德州大學奧斯汀校區（UT-Austin）亞洲研究系文學博士',cv2:'發表人Presenter'},
   
@@ -27,7 +27,7 @@ const app = Vue.createApp({
 
           {unit:'"中央研究院民族學研究所副研究員"',url:'https://www.wenliu.info/',name:'劉文',ename:'Wen Liu',img:'劉文1.png',field:'跨越社會心理學、酷兒研究、亞裔研究',cv1:'Ph.D., City University of New York, Graduate Center, New York, NY ',cv2:'與談人Discussant'},
   
-          {unit:'美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授',url:'https://www.sabinefruhstuck.com/',name:'Sabine Frühstück',img:'薩賓.png',field:'Cultural history and ethnography, modern and contemporary Japan in global context; theory and history of sexuality and gender, knowledge systems, colonial and postcolonial history, military-societal relations, violence and the state, visual culture, childhood studies, immortality, hyper-ageing society, and death. ',cv1:'Ph.D. Japanese Studies, History and Social Study of Science, University of Vienna ',cv2:'發表人Presenter'},
+          {unit:'美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授',url:'https://www.sabinefruhstuck.com/',name:'Sabine Frühstück',img:'薩賓.png',field:'Modern and contemporary Japan in its global context; history, ethnography, visual culture; militarism, gender and sexuality, childhood, emotions ',cv1:'Ph.D. Japanese Studies, History and Social Study of Science, University of Vienna ',cv2:'發表人Presenter'},
   
           {unit:'美國德州奧斯汀大學台灣研究中心主任',url:'https://liberalarts.utexas.edu/asianstudies/faculty/changs',name:'張誦聖',ename:'Sung-sheng Chang',img:'張誦聖.png',field:'中國電影與文學',cv1:'美國史丹佛大學亞洲語言博士',cv2:'發表人Presenter'},
   
