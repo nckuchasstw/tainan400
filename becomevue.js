@@ -8,7 +8,7 @@ const app = Vue.createApp({
   
           {unit:'美國德州大學奧斯汀分校亞洲研究博士候選人',url:'https://www.threads.net/@tangshuwen_?hl=zh-tw',name:'湯舒雯',ename:'Shu-wen Tang ',img:'湯舒雯.png',field:'現當代華語文學與文藝思潮',cv1:'美國德州大學奧斯汀校區（UT-Austin）亞洲研究系文學博士',cv2:'發表人Presenter'},
   
-          {unit:'美國西雅圖華盛頓大學歷史學系助理教授',url:'https://www.ocf.berkeley.edu/~jameslin/',name:'林于翔',ename:'James Lin',img:'林翔.png',field:'資本主義、經濟學、環境史、全球主義',cv1:'加州大學柏克萊分校歷史學博士',cv2:'發表人Presenter'},
+          {unit:'美國西雅圖華盛頓大學歷史學系助理教授',url:'https://www.ocf.berkeley.edu/~jameslin/',name:'林于翔',ename:'James Lin',img:'林翔.png',field:'Modern Taiwan History, History of Development',cv1:'加州大學柏克萊分校歷史學博士',cv2:'發表人Presenter'},
 
           {unit:'美國加州大學聖地牙哥分校台灣研究中心教授',url:'https://literature.ucsd.edu/people/faculty/pliao.html',name:'廖炳惠',ename:'Ping-hui Liao',img:'廖炳惠.png',field:'台灣文化史、東西方比較文學、跨藝術研究、流行文化和批判理論',cv1:'美國加州大學文學研究所博士',cv2:'專講keynote speaker'},
   
