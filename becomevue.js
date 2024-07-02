@@ -5,6 +5,8 @@ const app = Vue.createApp({
         text:'文字',
         activityList2025: [    
           {unit:'國立成功大學台灣文學系特聘教授兼華語中心主任',url:'https://mywu1965.wixsite.com/mysite',name:'吳玫瑛',ename:'Mei-Ying WU',img:'吳玫瑛.png',field:'兒童文學、青少年文學、跨國文學與跨文化研究、圖像敘事、童年研究、性別研究',cv1:'PhD, Curriculum and Instruction , University of Idaho, USA',cv2:'主持人Moderator'},
+
+          {unit:'國立成功大學中國文學系教授兼文學院副院長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=MTA1MDgwMDQ7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳家煌',ename:'Chia-Huang Chen',img:'陳家煌.png',field:'隋唐五代詩、臺灣古典文學',cv1:'國立中山大學中國文學系博士',cv2:'發表人Presenter'},
   
           {unit:'美國德州大學奧斯汀分校亞洲研究博士候選人',url:'https://www.threads.net/@tangshuwen_?hl=zh-tw',name:'湯舒雯',ename:'Shu-wen Tang ',img:'湯舒雯.png',field:'現當代華語文學與文藝思潮',cv1:'美國德州大學奧斯汀校區（UT-Austin）亞洲研究系文學博士',cv2:'發表人Presenter'},
   
