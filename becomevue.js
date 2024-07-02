@@ -61,7 +61,7 @@ const app = Vue.createApp({
   
           {unit:'國立成功大學考古所特聘教授',url:'http://archaeology.ncku.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=12&index=2',name:'劉益昌',ename:'Yi-Chang Liu',img:'劉益昌.png',field:'臺灣考古學、東南亞考古學、舊社考古學、文化資產、臺灣早期歷史考古',cv1:'國立臺灣大學人類學系碩士',cv2:'主持人Moderator'},
           
-          {unit:'國立成功大學考古學研究所副教授',url:'http://archaeology.ncku.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=22&index=2',name:'鍾國風',ename:'Kuo-Feng Chung',img:'鍾國風.png',field:'田野考古學、民族考古學、物質文化研究、台灣南島文化研究',cv1:'國立政治大學民族學研究所博士',cv2:'發表人Presenter'},
+         
   
           {unit:'國立成功大學台灣文學系副教授',url:'https://twl.ncku.edu.tw/p/405-1143-114284,c10606.php?Lang=zh-tw',name:'廖淑芳',ename:'Shu-Fang Liao',img:'廖淑芳.png',field:'戰後台灣小說、現代主義文學、當代文學理論',cv1:'國立清華大學中文系博士',cv2:'發表人Presenter'},
   
