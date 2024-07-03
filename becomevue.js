@@ -7,6 +7,8 @@ const app = Vue.createApp({
           {unit:'國立成功大學台灣文學系特聘教授兼華語中心主任',url:'https://mywu1965.wixsite.com/mysite',name:'吳玫瑛',ename:'Mei-Ying WU',img:'吳玫瑛.png',field:'兒童文學、青少年文學、跨國文學與跨文化研究、圖像敘事、童年研究、性別研究',cv1:'PhD, Curriculum and Instruction , University of Idaho, USA',cv2:'主持人Moderator'},
 
           {unit:'國立成功大學中國文學系教授兼文學院副院長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=MTA1MDgwMDQ7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳家煌',ename:'Chia-Huang Chen',img:'陳家煌.png',field:'隋唐五代詩、臺灣古典文學',cv1:'國立中山大學中國文學系博士',cv2:'發表人Presenter'},
+
+          {unit:'美國聖湯瑪斯大學國際研究講座教授兼台灣與東亞研究計畫主任',url:'https://sites.google.com/site/yeh2sctw/home?authuser=0',name:'葉耀元',ename:'Yao-Yuan Yeh',img:'葉耀元.png',field:'US-Taiwan-China relations, foreign policy, international security, public opinion',cv1:'德克薩斯A&M大學政治學博士',cv2:'發表人Presenter'},
   
           {unit:'美國德州大學奧斯汀分校亞洲研究博士候選人',url:'https://www.threads.net/@tangshuwen_?hl=zh-tw',name:'湯舒雯',ename:'Shu-wen Tang ',img:'湯舒雯.png',field:'現當代華語文學與文藝思潮',cv1:'美國德州大學奧斯汀校區（UT-Austin）亞洲研究系文學博士',cv2:'發表人Presenter'},
   
@@ -36,7 +38,7 @@ const app = Vue.createApp({
           {unit:'國立成功大學考古學研究所副教授兼多元文化中心主任',url:'http://archaeology.ncku.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=23&index=3',name:'熊仲卿',ename:'Chung-Ching Shiung',img:'熊仲卿.png',field:'文化接觸、交換貿易、環境考古、文化資產、公眾考古、博物館學、陶瓷器研究、東南亞考古、GIS',cv1:'美國華盛頓大學人類學博士',cv2:'發表人Presenter'},
   
   
-          {unit:'英國倫敦大學亞非學院台灣研究中心研究員',url:'https://www.soas.ac.uk/about/ming-yeh-rawnsley',name:'蔡明燁',ename:'Ming-Yeh Rawnsley',img:'蔡明燁.png',field:'東亞電影、台灣與中國媒體與民主化、台灣和英國的跨學科科學傳播和教育',cv1:'英國里茲大學傳播研究所博士',cv2:'主持人Moderator'},
+          {unit:'英國倫敦大學亞非學院台灣研究中心研究員',url:'https://www.soas.ac.uk/about/ming-yeh-rawnsley',name:'蔡明燁',ename:'Ming-yeh T. Rawnsley',img:'蔡明燁.png',field:'Taiwan cinema, Taiwan media & democratization, Taiwan studies',cv1:'英國里茲大學傳播研究所博士',cv2:'主持人Moderator'},
   
           {unit:'國立成功大學歷史學系助理教授',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=MTExMDgwMTQ7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'簡宏逸',ename:'Hung-yi Chien',img:'簡宏逸.png',field:'地名與臺灣歷史‧十七世紀台灣與東亞',cv1:'臺灣師範大學臺灣語文學系博士',cv2:'發表人Presenter'},
   
@@ -45,8 +47,6 @@ const app = Vue.createApp({
           {unit:'國立台灣師範大學台灣史研究所教授兼所長',url:'https://www.taih.ntnu.edu.tw/index.php/faculty/',name:'康培德',ename:'Peter Kang',img:'康培德.png',field:'早期臺灣史、原住民史、海洋史、歷史地理、區域研究',cv1:'明尼蘇達大學雙城分校地理學博士',cv2:'與談人Discussant'},
   
           {unit:'國立高雄師範大學台灣文化與歷史語言研究所副教授兼所長',url:'https://c.nknu.edu.tw/tni/TeacherCorner.aspx?PN=41&Tid=23',name:'吳玲青',ename:'Ling-Ching Wu',img:'吳玲青.png',field:'清代與日治臺灣史研究、清代中國史研究、史料解讀、田野與文獻調查',cv1:'日本東京大學文學博士',cv2:'與談人Discussant'},
-  
-          {unit:'美國聖湯瑪斯大學國際研究講座教授兼台灣與東亞研究計畫主任',url:'https://sites.google.com/site/yeh2sctw/home?authuser=0',name:'葉耀元',ename:'Yao-Yuan Yeh',img:'葉耀元.png',field:'比較政治、國際政治、東亞研究、中國研究、台灣研究、政治暴力、恐怖主義',cv1:'德克薩斯A&M大學政治學博士',cv2:'發表人Presenter'},
   
           {unit:'莫納許大學研究員/澳亞台灣研究學會副會長',url:'https://mail.google.com/mail/u/2?ui=2&ik=129c6711c4&attid=0.4&permmsgid=msg-f:1796455382085600332&th=18ee4aa6e80d044c&view=att&disp=inline&realattid=f_lv1qhv1r4',name:'黃鈺婷',ename:'Phyllis Yu-ting Huang',img:'黃鈺婷.png',field:'Taiwanese Literature; Literary works by mainlander Taiwanese writers; Taiwanese immigrants ',cv1:'PhD in Chinese Studies, Monash University, Australia',cv2:'發表人Presenter'},
   
@@ -69,7 +69,6 @@ const app = Vue.createApp({
   
           {unit:'國立成功大學歷史學系教授兼任博物館副館長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=OTkwMjAxNiA7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳文松',ename:'Wen-Sung Chen',img:'陳文松.png',field:'台灣近代史 ‧殖民政策史 ‧區域文化史 ‧教育社會史',cv1:'日本東京大學總合文化研究科(地域文化研究專攻)博士',cv2:'發表人Presenter'},
   
-          {unit:'國立成功大學考古所所長',url:'http://archaeology.ncku.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=226&index=1',name:'趙金勇',ename:'Chin-Yung Chao',img:'趙金勇.png',field:'東南亞考古、臺灣考古、環境考古學、考古學理論',cv1:'美國華盛頓大學人類學博士',cv2:'與談人Discussant'},
   
           {unit:'中央研究院台灣史研究所副研究員',url:'https://www.ith.sinica.edu.tw/members_faculty_look.php?l=c&no=3&id=473&page=1&ps=30',name:'鄭維中',ename:'Cheng, Wei-Chung',img:'鄭維中.png',field:'東亞海洋史、早期臺灣史、近代早期世界史',cv1:'荷蘭萊頓大學歷史學博士',cv2:'與談人Discussant'},
   
@@ -80,7 +79,6 @@ const app = Vue.createApp({
         
           {unit:'國立台南大學戲劇創作與應用學系教授',url:'https://drama.nutn.edu.tw/ch/teachers_detail.asp?G0=1&Sn=16&Page=1',name:'王婉容',ename:' Wan–Jung Wang',img:'王婉容.png',field:'多元應用戲劇創作與研究，社區劇場，博物館劇場，口述歷史劇場與戲劇教育',cv1:'英國倫敦大學皇家霍洛威學院戲劇系研究所博士 ',cv2:'發表人Presenter'},
 
-          {unit:'國立台灣師範大學歷史學系副教授',url:'activity24.html',name:'林欣宜',ename:'Hsin-yi Lin',img:'林欣宜.png',field:'臺灣史',cv1:'D.Phil thesis of Oriental Studies, University of Oxford, U.K.',cv2:'與談人Discussant'},
 
         //   {unit:'臺灣文學館副研究員',url:'activity24.html',name:'林佩蓉',img:'0518_02.png'},
 
