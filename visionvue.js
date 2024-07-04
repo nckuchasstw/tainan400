@@ -17,7 +17,7 @@ const app = Vue.createApp({
         //   {unit:'國立成功大學歷史系教授兼副校長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=ODUwODA1NCA7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳玉女',ename:'Yuh-Neu Chen',img:'陳玉女.png',field:'明代社會史、明代佛教史、中國佛教史',cv1:'日本國立九州大學東洋史學博士',cv2:'主持人Moderator'},
 
   
-          {unit:'加拿大渥太華大學社會學系教授',url:'https://www.uottawa.ca/research-innovation/hrrec/people/simon-scott',name:'史國良',ename:'Scott Simon',img:'史國良.png',field:'Indigenous Peoples Rights （Taiwan),Self-Determination',cv1:'Ph.D., Anthropologie (Université McGill, Montréal)',cv2:'發表人Presenter'},
+          {unit:'加拿大渥太華大學社會學暨人類學專業學院教授',url:'https://www.uottawa.ca/research-innovation/hrrec/people/simon-scott',name:'史國良',ename:'Scott E. Simon',img:'史國良.png',field:'台灣原住民族（太魯閣族、賽德克族，達悟族）社會、自治與主權、原住民族的人權、原住民與國家的關係、關係性 (relationality)',cv1:'Ph.D., Anthropologie (Université McGill, Montréal)',cv2:'發表人Presenter'},
   
           {unit:'國立成功大學體育健康與休閒研究所教授',url:'https://pe-acad.ncku.edu.tw/p/404-1045-85805.php?Lang=zh-tw',name:'徐珊惠',ename:'Tiffany Hsu',img:'徐珊惠.png',field:'桌球、游泳、羽球、課程設計、質化研究、性別研究',cv1:'美國喬治亞大學人體運動學研究哲學博士',cv2:'主持人Moderator'},   
     
