@@ -70,7 +70,7 @@ const app = Vue.createApp({
           {unit:'國立成功大學歷史學系教授兼任博物館副館長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=OTkwMjAxNiA7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳文松',ename:'Wen-Sung Chen',img:'陳文松.png',field:'台灣近代史 ‧殖民政策史 ‧區域文化史 ‧教育社會史',cv1:'日本東京大學總合文化研究科(地域文化研究專攻)博士',cv2:'發表人Presenter'},
   
   
-          {unit:'中央研究院台灣史研究所副研究員',url:'https://www.ith.sinica.edu.tw/members_faculty_look.php?l=c&no=3&id=473&page=1&ps=30',name:'鄭維中',ename:'Cheng, Wei-Chung',img:'鄭維中.png',field:'東亞海洋史、早期臺灣史、近代早期世界史',cv1:'荷蘭萊頓大學歷史學博士',cv2:'與談人Discussant'},
+          // {unit:'中央研究院台灣史研究所副研究員',url:'https://www.ith.sinica.edu.tw/members_faculty_look.php?l=c&no=3&id=473&page=1&ps=30',name:'鄭維中',ename:'Cheng, Wei-Chung',img:'鄭維中.png',field:'東亞海洋史、早期臺灣史、近代早期世界史',cv1:'荷蘭萊頓大學歷史學博士',cv2:'與談人Discussant'},
   
           {unit:'國立台灣師範大學台灣史研究所教授',url:'https://www.taih.ntnu.edu.tw/index.php/peixian/',name:'許佩賢',ename:'Hsu, Pei-hsien',img:'許佩賢.png',field:'地方史、教育史',cv1:'國立臺灣大學歷史學博士',cv2:'與談人Discussant'},
   
