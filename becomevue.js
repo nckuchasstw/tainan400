@@ -54,12 +54,10 @@ const app = Vue.createApp({
   
           {unit:'國立陽明交通大學社會與文化研究所博士候選人',url:'',name:'應修平',ename:'Grace Shiu-Ping Ying',img:'應修平.png',field:'台美人媒介研究、聲音研究、媒介物質史、戲劇與再現',cv1:'國立陽明交通大學社會與文化研究所博士班',cv2:'發表人Presenter'},
   
-          // {unit:'國立台灣大學台灣文學研究所副教授',url:'https://scholars.lib.ntu.edu.tw/cris/rp/rp00284',name:'張俐璇',ename:'LI HSUAN CHANG',img:'張俐璇.png',field:'戰後臺灣文學場域、臺灣文學的研究與轉譯、數位人文研究',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
+          {unit:'國立台灣大學台灣文學研究所副教授',url:'https://scholars.lib.ntu.edu.tw/cris/rp/rp00284',name:'張俐璇',ename:'LI HSUAN CHANG',img:'張俐璇.png',field:'戰後臺灣文學場域、臺灣文學的研究與轉譯、數位人文研究',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
   
-          // {unit:'國立中興大學台灣文學與 跨國文化研究所副教授',url:'https://taiwan.nchu.edu.tw/about_me.php?id=02d695a0-61e0-11ea-88e9-80fa5b5fa39c',name:'詹閔旭',ename:'Min-xu Zhan',img:'詹閔旭.png',field:'台灣現當代文學、移民與種族研究、東南亞華語語系文學',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
+          {unit:'國立中興大學台灣文學與 跨國文化研究所副教授',url:'https://taiwan.nchu.edu.tw/about_me.php?id=02d695a0-61e0-11ea-88e9-80fa5b5fa39c',name:'詹閔旭',ename:'Min-xu Zhan',img:'詹閔旭.png',field:'台灣現當代文學、移民與種族研究、東南亞華語語系文學',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
   
-        
-          // {unit:'國立台北教育大學台灣文化研究所教授',url:'https://taiwan.ntue.edu.tw/p/406-1029-14962,r576.php?Lang=zh-tw',name:'何義麟',ename:'I-Lin Ho　',img:'何義麟.png',field:'臺灣史、中國近現代史、日本史、東北亞史',cv1:'日本東京大學院總合文化研究科博士',cv2:'與談人Discussant'},
   
           // {unit:'國立成功大學考古所特聘教授',url:'http://archaeology.ncku.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=12&index=2',name:'劉益昌',ename:'Yi-Chang Liu',img:'劉益昌.png',field:'臺灣考古學、東南亞考古學、舊社考古學、文化資產、臺灣早期歷史考古',cv1:'國立臺灣大學人類學系碩士',cv2:'主持人Moderator'},
           
