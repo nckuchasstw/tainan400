@@ -46,7 +46,7 @@ const app = Vue.createApp({
   
           {unit:'國立台灣師範大學台灣史研究所教授兼所長',url:'https://www.taih.ntnu.edu.tw/index.php/faculty/',name:'康培德',ename:'Peter Kang',img:'康培德.png',field:'早期臺灣史、原住民史、海洋史、歷史地理、區域研究',cv1:'明尼蘇達大學雙城分校地理學博士',cv2:'與談人Discussant'},
   
-          // {unit:'國立高雄師範大學台灣文化與歷史語言研究所副教授兼所長',url:'https://c.nknu.edu.tw/tni/TeacherCorner.aspx?PN=41&Tid=23',name:'吳玲青',ename:'Ling-Ching Wu',img:'吳玲青.png',field:'清代與日治臺灣史研究、清代中國史研究、史料解讀、田野與文獻調查',cv1:'日本東京大學文學博士',cv2:'與談人Discussant'},
+          {unit:'國立高雄師範大學台灣文化與歷史語言研究所副教授兼所長',url:'https://c.nknu.edu.tw/tni/TeacherCorner.aspx?PN=41&Tid=23',name:'吳玲青',ename:'Ling-Ching Wu',img:'吳玲青.png',field:'清代與日治臺灣史研究、清代中國史研究、史料解讀、田野與文獻調查',cv1:'日本東京大學文學博士',cv2:'與談人Discussant'},
   
           {unit:'莫納許大學研究員/澳亞台灣研究學會副會長',url:'https://mail.google.com/mail/u/2?ui=2&ik=129c6711c4&attid=0.4&permmsgid=msg-f:1796455382085600332&th=18ee4aa6e80d044c&view=att&disp=inline&realattid=f_lv1qhv1r4',name:'黃鈺婷',ename:'Phyllis Yu-ting Huang',img:'黃鈺婷.png',field:'Taiwanese Literature; Literary works by mainlander Taiwanese writers; Taiwanese immigrants ',cv1:'PhD in Chinese Studies, Monash University, Australia',cv2:'發表人Presenter'},
   
@@ -64,6 +64,8 @@ const app = Vue.createApp({
          
   
           {unit:'國立成功大學台灣文學系副教授',url:'https://twl.ncku.edu.tw/p/405-1143-114284,c10606.php?Lang=zh-tw',name:'廖淑芳',ename:'Shu-Fang Liao',img:'廖淑芳.png',field:'戰後台灣小說、現代主義文學、當代文學理論',cv1:'國立清華大學中文系博士',cv2:'發表人Presenter'},
+
+          {unit:'國立中正大學台灣文學與創意應用研究所副教授',url:'https://gitlci.ccu.edu.tw/p/406-1067-2981,r555.php?Lang=zh-tw',name:'楊智景',ename:'Ling-Ching Wu',img:'楊智景.png',field:'日本近現代文學、日治時期台灣文學、旅行文學、台日比較文學',cv1:'日本國立御茶水女子大學人間文化研究科博士',cv2:'與談人Discussant'},
   
           {unit:'國立成功大學歷史學系教授兼任博物館副館長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=OTkwMjAxNiA7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳文松',ename:'Wen-Sung Chen',img:'陳文松.png',field:'台灣近代史 ‧殖民政策史 ‧區域文化史 ‧教育社會史',cv1:'日本東京大學總合文化研究科(地域文化研究專攻)博士',cv2:'發表人Presenter'},
   
