@@ -7,7 +7,7 @@ const app = Vue.createApp({
           {unit:'國立成功大學臺灣文學系特聘教授兼華語中心主任',url:'https://mywu1965.wixsite.com/mysite',name:'吳玫瑛',ename:'Mei-Ying WU',img:'吳玫瑛.png',field:'兒童文學、青少年文學、跨國文學與跨文化研究、圖像敘事、童年研究、性別研究',cv1:'PhD, Curriculum and Instruction , University of Idaho, USA',cv2:'主持人Moderator'},
 
 
-          {unit:'國立成功大學人文社會科學中心博士後研究員',url:'https://tsncku.com.tw/',name:'林明發',ename:'LIM BENG HUAT',img:'林明發.png',field:'華文文學，移民工文學',cv1:'國立成功大學中國文學系博士',cv2:'發表人Presenter'},
+          {unit:'國立成功大學人文社會科學中心博士後研究員',url:'https://tsncku.com.tw/',name:'林明發',ename:'Lim Beng Huat',img:'林明發1.png',field:'華文文學，移民工文學',cv1:'國立成功大學中國文學系博士',cv2:'發表人Presenter'},
 
           {unit:'國立成功大學中國文學系教授兼文學院副院長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=MTA1MDgwMDQ7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳家煌',ename:'Chia-Huang Chen',img:'陳家煌.png',field:'隋唐五代詩、臺灣古典文學',cv1:'國立中山大學中國文學系博士',cv2:'發表人Presenter'},
 
