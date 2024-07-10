@@ -4,7 +4,7 @@ const app = Vue.createApp({
       return {
         text:'文字',
         activityList2025: [    
-          {unit:'國立成功大學臺灣文學系特聘教授兼華語中心主任',url:'https://mywu1965.wixsite.com/mysite',name:'吳玫瑛',ename:'Mei-Ying WU',img:'吳玫瑛.png',field:'兒童文學、青少年文學、跨國文學與跨文化研究、圖像敘事、童年研究、性別研究',cv1:'PhD, Curriculum and Instruction , University of Idaho, USA',cv2:'主持人Moderator'},
+          {unit:'國立成功大學臺灣文學系特聘教授兼華語中心主任',url:'https://mywu1965.wixsite.com/mysite',name:'吳玫瑛',ename:'Mei-Ying Wu',img:'吳玫瑛.png',field:'兒童文學、青少年文學、跨國文學與跨文化研究、圖像敘事、童年研究、性別研究',cv1:'PhD, Curriculum and Instruction , University of Idaho, USA',cv2:'主持人Moderator'},
 
 
           {unit:'國立成功大學人文社會科學中心博士後研究員',url:'https://tsncku.com.tw/',name:'林明發',ename:'Lim Beng Huat',img:'林明發1.png',field:'華文文學，移民工文學',cv1:'國立成功大學中國文學系博士',cv2:'發表人Presenter'},
@@ -24,7 +24,7 @@ const app = Vue.createApp({
           {unit:'國立成功大學歷史系教授兼副校長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=ODUwODA1NCA7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳玉女',ename:'Yuh-Neu Chen',img:'陳玉女.png',field:'明代社會史、明代佛教史、中國佛教史',cv1:'日本國立九州大學東洋史學博士',cv2:'主持人Moderator'},
 
   
-          {unit:'美國加州聖塔芭芭拉分校臺灣研究中心主任',url:'https://howardchiang.faculty.eastasian.ucsb.edu/',name:'姜學豪',ename:'HOWARD CHIANG',img:'姜學豪.png',field:'批判理論、文化研究、東亞研究、性別理論與研究',cv1:'美國普林斯頓大學歷史學博士',cv2:'發表人Presenter'},
+          {unit:'美國加州聖塔芭芭拉分校臺灣研究中心主任',url:'https://howardchiang.faculty.eastasian.ucsb.edu/',name:'姜學豪',ename:'Howard Chiang',img:'姜學豪.png',field:'批判理論、文化研究、東亞研究、性別理論與研究',cv1:'美國普林斯頓大學歷史學博士',cv2:'發表人Presenter'},
   
           {unit:'美國加州大學聖地牙哥分校教授',url:'https://music-cms.ucsd.edu/people/faculty/regular_faculty/nancy-guy/index.html',name:'Nancy Guy',img:'nancy.png',field:'Music in Taiwan, Chinese opera, ecomusicology, ethnomusicology',cv1:'',cv2:'發表人Presenter'},   
     
@@ -57,7 +57,7 @@ const app = Vue.createApp({
   
           {unit:'國立陽明交通大學社會與文化研究所博士候選人',url:'',name:'應修平',ename:'Grace Shiu-Ping Ying',img:'應修平.png',field:'台美人媒介研究、聲音研究、媒介物質史、戲劇與再現',cv1:'國立陽明交通大學社會與文化研究所博士班',cv2:'發表人Presenter'},
   
-          {unit:'國立臺灣大學臺灣文學研究所副教授',url:'https://scholars.lib.ntu.edu.tw/cris/rp/rp00284',name:'張俐璇',ename:'LI HSUAN CHANG',img:'張俐璇.png',field:'戰後臺灣文學場域、臺灣文學的研究與轉譯、數位人文研究',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
+          {unit:'國立臺灣大學臺灣文學研究所副教授',url:'https://scholars.lib.ntu.edu.tw/cris/rp/rp00284',name:'張俐璇',ename:'Li-Hsuan Chang',img:'張俐璇.png',field:'戰後臺灣文學場域、臺灣文學的研究與轉譯、數位人文研究',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
   
           {unit:'國立中興大學臺灣文學與 跨國文化研究所副教授',url:'https://taiwan.nchu.edu.tw/about_me.php?id=02d695a0-61e0-11ea-88e9-80fa5b5fa39c',name:'詹閔旭',ename:'Min-xu Zhan',img:'詹閔旭.png',field:'臺灣現當代文學、移民與種族研究、東南亞華語語系文學',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
   
@@ -76,7 +76,7 @@ const app = Vue.createApp({
           // {unit:'國立臺灣師範大學臺灣史研究所教授',url:'https://www.taih.ntnu.edu.tw/index.php/peixian/',name:'許佩賢',ename:'Hsu, Pei-hsien',img:'許佩賢.png',field:'地方史、教育史',cv1:'國立臺灣大學歷史學博士',cv2:'與談人Discussant'},
   
   
-          {unit:'臺灣歷史博物館副研究員',url:'https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202301/b9cc5cc8-8f79-4efb-9446-f0a95e0c6caf.pdf',name:'黃裕元',ename:'Huang, Yuyuan',img:'黃裕元.png',field:'台語歌謠',cv1:' 國立臺灣大學歷史學系 ',cv2:'發表人Presenter'},
+          {unit:'臺灣歷史博物館副研究員',url:'https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202301/b9cc5cc8-8f79-4efb-9446-f0a95e0c6caf.pdf',name:'黃裕元',ename:'Yu-yuan Huang',img:'黃裕元.png',field:'台語歌謠',cv1:' 國立臺灣大學歷史學系 ',cv2:'發表人Presenter'},
         
           {unit:'國立台南大學戲劇創作與應用學系教授',url:'https://drama.nutn.edu.tw/ch/teachers_detail.asp?G0=1&Sn=16&Page=1',name:'王婉容',ename:' Wan–Jung Wang',img:'王婉容.png',field:'多元應用戲劇創作與研究，社區劇場，博物館劇場，口述歷史劇場與戲劇教育',cv1:'英國倫敦大學皇家霍洛威學院戲劇系研究所博士 ',cv2:'發表人Presenter'},
 
