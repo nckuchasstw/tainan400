@@ -73,7 +73,7 @@ const app = Vue.createApp({
           {unit:'國立成功大學歷史學系教授兼任博物館副館長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=OTkwMjAxNiA7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳文松',ename:'Wen-Sung Chen',img:'陳文松.png',field:'臺灣近代史 ‧殖民政策史 ‧區域文化史 ‧教育社會史',cv1:'日本東京大學總合文化研究科(地域文化研究專攻)博士',cv2:'發表人Presenter'},
   
   
-          // {unit:'國立臺灣師範大學臺灣史研究所教授',url:'https://www.taih.ntnu.edu.tw/index.php/peixian/',name:'許佩賢',ename:'Hsu, Pei-hsien',img:'許佩賢.png',field:'地方史、教育史',cv1:'國立臺灣大學歷史學博士',cv2:'與談人Discussant'},
+          {unit:'國立臺灣師範大學臺灣史研究所教授',url:'https://www.taih.ntnu.edu.tw/index.php/peixian/',name:'許佩賢',ename:'Hsu, Pei-hsien',img:'許佩賢.png',field:'地方史、教育史',cv1:'國立臺灣大學歷史學博士',cv2:'與談人Discussant'},
   
   
           {unit:'臺灣歷史博物館副研究員',url:'https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202301/b9cc5cc8-8f79-4efb-9446-f0a95e0c6caf.pdf',name:'黃裕元',ename:'Yu-yuan Huang',img:'黃裕元.png',field:'台語歌謠',cv1:' 國立臺灣大學歷史學系 ',cv2:'發表人Presenter'},
