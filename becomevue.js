@@ -9,6 +9,9 @@ const app = Vue.createApp({
 
           {unit:'國立成功大學人文社會科學中心博士後研究員',url:'https://tsncku.com.tw/',name:'林明發',ename:'Lim Beng Huat',img:'林明發1.png',field:'華文文學，移民工文學',cv1:'國立成功大學中國文學系博士',cv2:'發表人Presenter'},
 
+          {unit:'中央研究院臺灣史研究所兼任研究員',url:'https://www.ith.sinica.edu.tw/members_faculty_look.php?l=c&no=2&id=73&page=1&ps=30',name:'翁佳音',ename:'Kaim Ang',img:'翁佳音.png',field:'十七世紀（荷蘭、西班牙與明鄭時代）臺灣史',cv1:'國立臺灣大學歷史學碩士',cv2:'與談人Discussant'},
+
+
           {unit:'國立成功大學中國文學系教授兼文學院副院長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=MTA1MDgwMDQ7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳家煌',ename:'Chia-Huang Chen',img:'陳家煌.png',field:'隋唐五代詩、臺灣古典文學',cv1:'國立中山大學中國文學系博士',cv2:'發表人Presenter'},
 
           {unit:'美國聖湯瑪斯大學國際研究講座教授兼臺灣與東亞研究計畫主任',url:'https://sites.google.com/site/yeh2sctw/home?authuser=0',name:'葉耀元',ename:'Yao-Yuan Yeh',img:'葉耀元.png',field:'US-Taiwan-China relations, foreign policy, international security, public opinion',cv1:'德克薩斯A&M大學政治學博士',cv2:'發表人Presenter'},
