@@ -9,8 +9,11 @@ const app = Vue.createApp({
 
           {unit:'國立成功大學人文社會科學中心博士後研究員',url:'https://tsncku.com.tw/',name:'林明發',ename:'Lim Beng Huat',img:'林明發1.png',field:'華文文學，移民工文學',cv1:'國立成功大學中國文學系博士',cv2:'發表人Presenter'},
 
+          {unit:'國立成功大學傑出校友',url:'https://zh.wikipedia.org/zh-tw/%E5%BC%B5%E8%89%AF%E6%BE%A4',name:'張良澤',ename:'Liang-Ze Jhang',img:'張良澤.png',field:'臺灣文學史',cv1:'日本關西大學大學院文學碩士',cv2:'主持人Moderator'},
+
           {unit:'中央研究院臺灣史研究所兼任研究員',url:'https://www.ith.sinica.edu.tw/members_faculty_look.php?l=c&no=2&id=73&page=1&ps=30',name:'翁佳音',ename:'Kaim Ang',img:'翁佳音.png',field:'十七世紀（荷蘭、西班牙與明鄭時代）臺灣史',cv1:'國立臺灣大學歷史學碩士',cv2:'與談人Discussant'},
 
+          {unit:'國立成功大學考古所特聘教授',url:'http://archaeology.ncku.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=12&index=2',name:'劉益昌',ename:'Yi-Chang Liu',img:'劉益昌.png',field:'臺灣考古學、東南亞考古學、舊社考古學、文化資產、臺灣早期歷史考古',cv1:'國立臺灣大學人類學系碩士',cv2:'主持人Moderator'},
 
           {unit:'國立成功大學中國文學系教授兼文學院副院長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=MTA1MDgwMDQ7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳家煌',ename:'Chia-Huang Chen',img:'陳家煌.png',field:'隋唐五代詩、臺灣古典文學',cv1:'國立中山大學中國文學系博士',cv2:'發表人Presenter'},
 
@@ -63,11 +66,6 @@ const app = Vue.createApp({
           {unit:'國立臺灣大學臺灣文學研究所副教授',url:'https://scholars.lib.ntu.edu.tw/cris/rp/rp00284',name:'張俐璇',ename:'Li-Hsuan Chang',img:'張俐璇.png',field:'戰後臺灣文學場域、臺灣文學的研究與轉譯、數位人文研究',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
   
           {unit:'國立中興大學臺灣文學與 跨國文化研究所副教授',url:'https://taiwan.nchu.edu.tw/about_me.php?id=02d695a0-61e0-11ea-88e9-80fa5b5fa39c',name:'詹閔旭',ename:'Min-xu Zhan',img:'詹閔旭.png',field:'臺灣現當代文學、移民與種族研究、東南亞華語語系文學',cv1:'	國立成功大學臺灣文學系博士',cv2:'與談人Discussant'},
-  
-  
-          // {unit:'國立成功大學考古所特聘教授',url:'http://archaeology.ncku.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=12&index=2',name:'劉益昌',ename:'Yi-Chang Liu',img:'劉益昌.png',field:'臺灣考古學、東南亞考古學、舊社考古學、文化資產、臺灣早期歷史考古',cv1:'國立臺灣大學人類學系碩士',cv2:'主持人Moderator'},
-          
-         
   
           {unit:'國立成功大學臺灣文學系副教授',url:'https://twl.ncku.edu.tw/p/405-1143-114284,c10606.php?Lang=zh-tw',name:'廖淑芳',ename:'Shu-Fang Liao',img:'廖淑芳.png',field:'戰後臺灣小說、現代主義文學、當代文學理論',cv1:'國立清華大學中文系博士',cv2:'發表人Presenter'},
 
