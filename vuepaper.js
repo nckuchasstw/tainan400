@@ -167,15 +167,15 @@ const app = Vue.createApp({
        
       ],
       postList: [
-      {title:'台南400 2 / 台南400亮點多 城市各角落熱鬧一整年',url:'https://www.cna.com.tw/news/ahel/202403160014.aspx',author:'中央社記者張榮祥、楊思瑞',img:'https://imgcdn.cna.com.tw/www/WebPhotos/1024/20240316/1152x768_wmkn_0_C20240316000006.jpg',describe:"1624年荷蘭人抵達台南安平，成為台灣走進世界舞台起點，台南市政府在2024年推動「台南400」，除了量身訂做系列展演，更爭取到台灣燈會、台灣文博會、台灣設計展等國家級大型活動，搭配推動民間參與及共享資源，城市各角落熱鬧一整年。",data:"2024.03.16"},
+      {title:'台南400 2 / 台南400亮點多 城市各角落熱鬧一整年',url:'https://www.cna.com.tw/news/ahel/202403160014.aspx',author:'中央社記者張榮祥、楊思瑞',img:'https://imgcdn.cna.com.tw/www/WebPhotos/1024/20240316/1152x768_wmkn_0_C20240316000006.jpg',describe:"1624年荷蘭人抵達台南安平，成為臺灣走進世界舞台起點，台南市政府在2024年推動「台南400」，除了量身訂做系列展演，更爭取到臺灣燈會、臺灣文博會、臺灣設計展等國家級大型活動，搭配推動民間參與及共享資源，城市各角落熱鬧一整年。",data:"2024.03.16"},
 
-      {title:'台南建城400年，維也納交響也要來！全年最完整活動推薦一次看',url:'https://www.gvm.com.tw/article/108853',author:'遠見',img:'https://imgs.gvm.com.tw/upload/gallery/20231229/159833.jpg',describe:"台灣自大航海時代在世界展露頭角。1624年，荷蘭人自台南安平登陸，建立熱蘭遮市（城），即今日台南市安平區位置。400年來，台南自上而下傳承歷史、文化、產業（糖）、教育、飲食文化、多元種族等，不僅成為台南在地特色，也成為台南市政府慶祝400年的建城歷史，規劃長達走訪台南一整年的「臺南400」活動。讓現代人可以依循過去400年的軌跡及成就，透過文化展演項目，從歷史的洪流中進一步認識，2024成為台南的觀光年。",data:"2024.02.17"},
+      {title:'台南建城400年，維也納交響也要來！全年最完整活動推薦一次看',url:'https://www.gvm.com.tw/article/108853',author:'遠見',img:'https://imgs.gvm.com.tw/upload/gallery/20231229/159833.jpg',describe:"臺灣自大航海時代在世界展露頭角。1624年，荷蘭人自台南安平登陸，建立熱蘭遮市（城），即今日台南市安平區位置。400年來，台南自上而下傳承歷史、文化、產業（糖）、教育、飲食文化、多元種族等，不僅成為台南在地特色，也成為台南市政府慶祝400年的建城歷史，規劃長達走訪台南一整年的「臺南400」活動。讓現代人可以依循過去400年的軌跡及成就，透過文化展演項目，從歷史的洪流中進一步認識，2024成為台南的觀光年。",data:"2024.02.17"},
 
       {title:'琅琅悅讀歡慶台南400！推5大系列活動 從圖文、聲音LOG IN 台南',url:'https://reading.udn.com/read/story/122858/7769663',author:'琅琅悅讀',img:'https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2024/02/15/0/28972232.jpg&x=0&y=0&sw=0&sh=0&exp=3600&w=930&nt=1',describe:"2024年迎來台南400年！這座古城乘載著悠久的歷史脈絡與豐富的文化傳承，台南對你而言，是怎樣的一座城市呢？無論是否為台南出身的在地人，或是久久到此一遊的其他縣市島民，都深深地被四百年累積堆疊而成的古蹟建築、飲食風味、民俗文化給吸引，也許我們沒辦法像穿越小說一樣回到過去的某個時間點，仍能透過不同方式走在這條歷史延續的道路上。",data:"2024.02.16"},
 
       {title:'臺南400臺南37區美食旅遊手冊',url:'https://www.twtainan.net/zh-tw/publication/374 ',author:'台南旅遊網',img:'https://www.twtainan.net/content/images/publications/100815/1024x768_publications-image-bul1qkqpqkqytiw7uikrta.jpg',describe:"臺南400臺南37區美食旅遊手冊",data:"2024.01.29"},
 
-      {title:'臺南400官網',url:'https://www.tainan-400.tw/  ',author:'台南市政府',img:'1016.png',describe:"回望臺南過去的歷史，來自世界各地的族群在這片土地交流，每個時期的文化樣貌在這座城市不斷堆疊、 交融與翻新，塑造出今日令人驕傲的歷史文化古都。2024年臺南將繼續全方位深化，再次讓世界看到台灣 ，邀請大家一起銘刻下這片土地的重要記憶，見證臺南嶄新的未來式！",data:"2023.10.14"},
+      {title:'臺南400官網',url:'https://www.tainan-400.tw/  ',author:'台南市政府',img:'1016.png',describe:"回望臺南過去的歷史，來自世界各地的族群在這片土地交流，每個時期的文化樣貌在這座城市不斷堆疊、 交融與翻新，塑造出今日令人驕傲的歷史文化古都。2024年臺南將繼續全方位深化，再次讓世界看到臺灣 ，邀請大家一起銘刻下這片土地的重要記憶，見證臺南嶄新的未來式！",data:"2023.10.14"},
 
       {title:'迎接臺南400年　台南大飯店3場講座解密古都歷史',url:'https://www.taiwanhot.net/news/1047480/%E8%BF%8E%E6%8E%A5%E8%87%BA%E5%8D%97400%E5%B9%B4+%E5%8F%B0%E5%8D%97%E5%A4%A7%E9%A3%AF%E5%BA%973%E5%A0%B4%E8%AC%9B%E5%BA%A7%E8%A7%A3%E5%AF%86%E5%8F%A4%E9%83%BD%E6%AD%B7%E5%8F%B2',author:'記者吳順永',img:'https://www.taiwanhot.net/cache/1113155/lgnw/medias-20231014-652a5ef5c37b5.jpeg',describe:"明年是臺南建城400年，同時也是台南大飯店一甲子，為了迎接這個特殊慶典，台南大飯店攜手台南市文化古蹟導覽解說發展協會，推出【探巡府城400年】文化巡禮，邀您一同探尋市區豐富的人文歷史，報名從速，以免向隅！。",data:"2023.10.14"},
 
@@ -194,7 +194,7 @@ const app = Vue.createApp({
 
       {title:'講台南400歷史 熱蘭遮博館展出2千件出土瓷器',url:'https://udn.com/news/story/7326/7411402',author:'聯合報／ 記者吳淑玲',img:'https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/09/02/realtime/24712277.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&w=930&nt=1',describe:"迎接「台南400」，台南市文化局籌辦在熱蘭遮博物館展出近2年來，熱蘭遮堡及周邊區域與大員市鎮考古挖掘出土文物，約從17世紀至日治時期的2千件瓷器遺物，希望透過博物館展示，以文物講歷史，讓更多民眾看見隱藏在台南地底的豐富歷史與痕跡。",data:"2023.09.02"},
 
-      {title:'南市府、台文館簽備忘錄 合作3年共同策劃台南400',url:'https://www.cna.com.tw/news/acul/202308300234.aspx',author:'中央社記者張榮祥',img:'https://imgcdn.cna.com.tw/www/WebPhotos/1024/20230830/1025x768_wmkn_0_C20230830000169.jpg',describe:"台南市政府文化局與國立台灣文學館今天簽署合作備忘錄，將展開為期3年、5大面向的合作，且共同策劃「台南400」、台南文學季等活動。市府文化局和台文館今天簽署合作備忘錄，將展開為期3年合作，合作5大面向包括「推動國際文化交流及文學空間多元發展」、「深化研究典藏與展示專業合作」、「整合教育推廣資源，促進城市文化參與」、「建立在地文學社群交流機制，追求共榮共好」、「其他文學相關專業事項」。",data:"2023.08.30"},
+      {title:'南市府、台文館簽備忘錄 合作3年共同策劃台南400',url:'https://www.cna.com.tw/news/acul/202308300234.aspx',author:'中央社記者張榮祥',img:'https://imgcdn.cna.com.tw/www/WebPhotos/1024/20230830/1025x768_wmkn_0_C20230830000169.jpg',describe:"台南市政府文化局與國立臺灣文學館今天簽署合作備忘錄，將展開為期3年、5大面向的合作，且共同策劃「台南400」、台南文學季等活動。市府文化局和台文館今天簽署合作備忘錄，將展開為期3年合作，合作5大面向包括「推動國際文化交流及文學空間多元發展」、「深化研究典藏與展示專業合作」、「整合教育推廣資源，促進城市文化參與」、「建立在地文學社群交流機制，追求共榮共好」、「其他文學相關專業事項」。",data:"2023.08.30"},
 
       {title:'台南400年推超優惠旅遊美食寶典 高CP值預購掀熱潮',url:'https://news.ltn.com.tw/news/life/breakingnews/4408841',author:'記者王俊忠',img:'https://img.ltn.com.tw/Upload/news/600/2023/08/27/4408841_3_1.jpg',describe:"配合2024年台南建城400年的歷史里程碑，台南市史上超優惠的旅遊美食護照，即將在近日誕生、發行。這本由台南市餐旅教育協會領軍各觀光產業公協會策劃1年多完成的餐旅寶典，合作店家超過6百家、優惠金額多達2萬5千元以上，每本售價僅999元，先前開放預購加送知名時尚手提收納箱，掀起護照搶購熱潮。",data:"2023.08.27"},
 
@@ -204,11 +204,11 @@ const app = Vue.createApp({
       
       {title:'台南400視覺識別系統 公私協力展豐富創意',url:'https://news.homeplus.net.tw/single/55685',author:'中嘉新聞網楊舜淮',img:'https://w3fs.tainan.gov.tw/001/Upload/1/relpic/9748/7907698/59f7804d-8d8f-40c1-a824-6cda89f553c5@710x470.jpg',describe:"為了迎接明年台南400年，台南市文化局自去年起，將主視覺識別系統，開放給民間單位，應用在商品開發、空間布置等等，要讓台南400融入生活，更顯繽紛。橡皮擦、手工拖鞋、茶葉罐、椪餅，從吃的到生活用品，外觀全都換上台南400年的主視覺，台南市文化局形塑「台南400」，透過民間響應，將此紀念性議題，充滿城市氛圍。",data:"2023.08.04"},
       
-      {title:'台南散步導覽員 今(3)日辦「臺南400美食與小吃」研習',url:'https://www.tainan.gov.tw/News_Content.aspx?n=13370&s=8579097',author:'臺南市政府觀光局',img:'https://w3fs.tainan.gov.tw/001/Upload/1/relpic/9748/8579097/e3cb0579-0604-4d63-979a-5d2d5872d916@710x470.png',describe:"繼去年《米其林指南》美食評鑑，台南多家美食、小吃及餐廳，獲得入選及必比登推薦後，今年6月公布的第一屆500碗台灣著名小吃全台小吃指南，台南更創佳績，入選多達57家，足見台南美食的魅力不容小覷。為此，觀旅局今(3)日辦理台南散步導覽員及導覽志工講習，以「臺南米其林紅色指南與500碗推薦之台南小吃」為課程主題，期望第一線旅遊服務人員，一起宣傳推廣台南的旅遊與在地美食。",data:"2023.08.03"},
+      {title:'台南散步導覽員 今(3)日辦「臺南400美食與小吃」研習',url:'https://www.tainan.gov.tw/News_Content.aspx?n=13370&s=8579097',author:'臺南市政府觀光局',img:'https://w3fs.tainan.gov.tw/001/Upload/1/relpic/9748/8579097/e3cb0579-0604-4d63-979a-5d2d5872d916@710x470.png',describe:"繼去年《米其林指南》美食評鑑，台南多家美食、小吃及餐廳，獲得入選及必比登推薦後，今年6月公布的第一屆500碗臺灣著名小吃全台小吃指南，台南更創佳績，入選多達57家，足見台南美食的魅力不容小覷。為此，觀旅局今(3)日辦理台南散步導覽員及導覽志工講習，以「臺南米其林紅色指南與500碗推薦之台南小吃」為課程主題，期望第一線旅遊服務人員，一起宣傳推廣台南的旅遊與在地美食。",data:"2023.08.03"},
 
-      {title:'熱蘭遮會動的古地圖 呈現台南400',url:'https://tw.sports.yahoo.com/news/%E7%86%B1%E8%98%AD%E9%81%AE%E6%9C%83%E5%8B%95%E7%9A%84%E5%8F%A4%E5%9C%B0%E5%9C%96-%E5%91%88%E7%8F%BE%E5%8F%B0%E5%8D%97400-125058988.html',author:'中華日報記者林雪娟',img:'https://s.yimg.com/ny/api/res/1.2/qNlcxfuKn4O.dJtiJbAPLQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMDtjZj13ZWJw/https://media.zenfs.com/ko/cdns.com.tw/e06ada5cb255fe81afa4a593036f48f8',describe:"迎接台南四百，但你知道，四百年前的台南，是什麼樣子？熱蘭遮博物館將於今年九月二十三日，在進入二０二四年倒數一百天時，以「從大員到台灣」為主題，透過古地圖超展開，推出大型地圖動畫，呈現台南四百年滄海如何演化成為桑田變遷；展區正積極布展中，敬請期待。",data:"2023.08.03"},
+      {title:'熱蘭遮會動的古地圖 呈現台南400',url:'https://tw.sports.yahoo.com/news/%E7%86%B1%E8%98%AD%E9%81%AE%E6%9C%83%E5%8B%95%E7%9A%84%E5%8F%A4%E5%9C%B0%E5%9C%96-%E5%91%88%E7%8F%BE%E5%8F%B0%E5%8D%97400-125058988.html',author:'中華日報記者林雪娟',img:'https://s.yimg.com/ny/api/res/1.2/qNlcxfuKn4O.dJtiJbAPLQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMDtjZj13ZWJw/https://media.zenfs.com/ko/cdns.com.tw/e06ada5cb255fe81afa4a593036f48f8',describe:"迎接台南四百，但你知道，四百年前的台南，是什麼樣子？熱蘭遮博物館將於今年九月二十三日，在進入二０二四年倒數一百天時，以「從大員到臺灣」為主題，透過古地圖超展開，推出大型地圖動畫，呈現台南四百年滄海如何演化成為桑田變遷；展區正積極布展中，敬請期待。",data:"2023.08.03"},
 
-      {title:'日本前眾議員拜會市長 上野宏史：來台灣定得要造訪台南',url:'https://www.storm.mg/localarticle/4847923',author:'徐炳文',img:'https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2023/08/03/20230803-052800_U20715_M877251_5562.jpg?itok=lG9tC0uU',describe:"日本前眾議員上野宏史今（3）日拜會台南市長黃偉哲。黃偉哲除了再次感謝七月出訪上野前議員選區群馬縣時日方的接待外，也請他與家人在台南停留期間，務必品嚐芒果、火龍果等當令水果，黃市長也推薦他們可走訪台南市內保存完好的日本時代古蹟，並邀請明年來台南參加「台南400」盛大的活動。",data:"2023.08.03"},
+      {title:'日本前眾議員拜會市長 上野宏史：來臺灣定得要造訪台南',url:'https://www.storm.mg/localarticle/4847923',author:'徐炳文',img:'https://image.cache.storm.mg/styles/smg-800x533-fp/s3/media/image/2023/08/03/20230803-052800_U20715_M877251_5562.jpg?itok=lG9tC0uU',describe:"日本前眾議員上野宏史今（3）日拜會台南市長黃偉哲。黃偉哲除了再次感謝七月出訪上野前議員選區群馬縣時日方的接待外，也請他與家人在台南停留期間，務必品嚐芒果、火龍果等當令水果，黃市長也推薦他們可走訪台南市內保存完好的日本時代古蹟，並邀請明年來台南參加「台南400」盛大的活動。",data:"2023.08.03"},
       
       {title:'在新加坡發現臺南400 古都形象躍國際',url:'https://money.udn.com/money/story/5635/7340455',author:'經濟日報 張傑',img:'https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/08/01/2/23649864.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050&exp=3600&exp=3600',describe:"2024年是台南400的重要里程碑，台南市政府觀光旅遊局為了讓世界認識台南，積極規劃在亞洲各國，投放台南國際形象廣告，尤其是觀光市場成熟的新加坡，自去年(111)年10月13日邊境政策鬆綁後，新加坡來台旅客人次高達9萬人次，高居全球來台旅遊國家第二名，市府透過投放台南形象廣告，誠摯邀請新加坡民眾共同迎接2024台南400，向世界展示台南魅力與熱情。",data:"2023.08.01"},
 
@@ -285,7 +285,7 @@ const app = Vue.createApp({
       {title:'「府城傳奇．戰火波瀾」木偶戲',url:'activity15.html',author:'古都木偶戲劇團',img:'20231206.jpg',data:"2023.12.06",register:'活動已結束'},
       {title:'Xi Jinping and the Tibet Question: Core Issues, Policies and Implications',url:'activity19.html',author:'--',img:'20231208.jpg',data:"2023.12.08",register:'活動已結束'},
       {title:'「從驅疾到療疫─府城醫藥地景踏查」走讀',url:'activity08.html',author:'鄭佩雯',img:'1210230.jpg',data:"2023.12.10",register:'活動已結束'},
-      {title:'「我是án-chóaⁿ學/講台語—美國人學台語ê經驗kap台灣人建立台語意識ê重要」專題演講',url:'activity22.html',author:'美國阿勇',img:'1212.jpg',data:"2023.12.12",register:'活動已結束'},
+      {title:'「我是án-chóaⁿ學/講台語—美國人學台語ê經驗kap臺灣人建立台語意識ê重要」專題演講',url:'activity22.html',author:'美國阿勇',img:'1212.jpg',data:"2023.12.12",register:'活動已結束'},
       {title:'「臺南奇廟對談的奇妙故事」專題演講',url:'activity09.html',author:'陳益源',img:'1121215.jpg',data:"2023.12.15",register:'活動已結束'},
       {title:'「臺南400—鎮北百年老廟巡禮」走讀',url:'activity10.html',author:'郭麗桂',img:'112121502.jpg',data:"2023.12.15",register:'活動已結束'},
       {title:'「新冷戰時代的國際經濟變動與趨勢 — 美中台的地緣政治和經貿科技競爭與合作」論壇',url:'activity23.html',author:'--',img:'1219.jpg',data:"2023.12.19",register:'活動已結束'},
@@ -294,7 +294,7 @@ const app = Vue.createApp({
 
       activityList2024: [
     
-        {title:'「台灣有哪些地方不平等」專題演講',url:'activity24.html',author:'朱敬一、蔡群立',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/0506-01.jpg',data:"2024.05.08",register:'活動已結束'},
+        {title:'「臺灣有哪些地方不平等」專題演講',url:'activity24.html',author:'朱敬一、蔡群立',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/0506-01.jpg',data:"2024.05.08",register:'活動已結束'},
         {title:'「居住正義？行同陌路的所得與房價」人社前瞻論壇',url:'activity25.html',author:'蔡群立、陳彥仲、許聖章、吳國仕',img:'0514113.jpg',data:"2024.05.14",register:'活動已結束'},
         // {title:'「400+50，大南方的科技未來」人社前瞻論壇',url:'activity26.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/185978630.jpg',data:"2024.05",register:'活動尚未開始'},
         {title:'「光電產業與國土治理」人社前瞻論壇',url:'activity27.html',author:'林財富、王筱雯、傅耀賢、葉婉如、蔡卉荀',img:'1130604.jpg',data:"2024.06.04",register:'活動已結束'},
@@ -302,7 +302,7 @@ const app = Vue.createApp({
       
         {title:'「展．望」人社國際前瞻論壇',url:'envision.html',author:'--',img:'展望論壇.jpg',data:"2024.10.18",register:'活動尚未開始'},
 
-        {title:'「2024年美國總統大選與台美中關係初探」專題演講',url:'activity30.html',author:'高碩泰',img:'1023.jpg',data:"2024.10.23",register:'活動尚未開始'},
+        // {title:'「2024年美國總統大選與台美中關係初探」專題演講',url:'activity30.html',author:'高碩泰',img:'1023.jpg',data:"2024.10.23",register:'活動尚未開始'},
 
 
 
@@ -339,7 +339,7 @@ const app = Vue.createApp({
         {title:'「面臨情緒風暴別害怕，學生會替你撐傘！」',author:'成大學生會',img:'https://www.youtube.com/embed/HXDOYS8j-qc?si=pDRM4YZn8shLsdvf',describe:"「該起床重複昨天囉！」每天宿舍－上課兩點一線 報告考試摧殘心累ㄌ怎麼辦。現在有心理調適假️：心理假？能吃嗎？直接翹課不就好：會通報導師？還是先不要。本集成大人聲，邀請到成大學生會來聊一聊，心理假如何讓我們合法在家躺躺，休息一下再出發。",data:"2023.6.30"} ,
         {title:'「當心靈『感冒』了，我們該怎麼辦？」',author:'廖聆岑',img:'https://www.youtube.com/embed/Zcc_FoC-OUE?si=I6JHHHm_CdvoIAUH',describe:"本集成大人聲由成大學生團隊製作，邀請到成大心輔組的 #廖聆岑 心理師，和我們聊社會對心輔議題的誤解，以及情緒背後的意義，陪伴我們一起用正確的角度，看待心理面臨的每個挑戰。",data:"2023.6.15"} ,
         {title:'「一人一線，串連校園心理安全網」',author:'余睿羚',img:'https://www.youtube.com/embed/Mb9tZmWnkPI?si=lILf3TJYFcLRC35m',describe:"本集節目，我們很開心邀請到余睿羚副學務長，來和大家聊聊成大校園裡的心理健康，以及在成為友善校園的路上，成大如何串連各個單位推行配套措施，心理調適、夜間諮商與心理師駐點，又是如何相伴你我左右。同時，身為行為醫學所教授和臨床心理師的睿羚老師，也說明了臨床心理與諮商心理的區別，以及諮商與輔導轉介的分級制度。即便無能杜絕人生中的低潮與挑戰，在我們的校園各處，其實仍有著許多願意接住彼此的存在。 ",data:"2023.6.1"} ,
-        {title:'「一首歌，一個時代」',author:'--',img:'https://www.youtube.com/embed/cOKCSdHZFSc?si=E1yEyEM5Tx9RGSm7',describe:"文字與音樂始終是人民傳達感受的不二媒介，「臺灣學」計畫亦在辦理往年臺南國際人權藝術節時，致力於成為在地音樂推廣及文化轉譯平台。本次音樂會將透過東／西方樂器演奏，傳遞最具臺灣代表的時代音樂，讓大家可以更好地理解和欣賞不同文化之間的相似和不同之處，藉著銜接和對話，產生、再造更多元的意義與價值。本次邀請古意唸歌團和蔡明叡鋼琴家，詮釋自 1890 年代至今，各個時期相關的台灣民謠歌曲。透過歌曲，觀眾能夠跨越時空，回到那既遠且近的某年，感受當時的矛盾和淒苦，進一步理解臺灣的文化背景和歷史發展脈絡。 ",data:"2023.4.1"} ,
+        {title:'「一首歌，一個時代」',author:'--',img:'https://www.youtube.com/embed/cOKCSdHZFSc?si=E1yEyEM5Tx9RGSm7',describe:"文字與音樂始終是人民傳達感受的不二媒介，「臺灣學」計畫亦在辦理往年臺南國際人權藝術節時，致力於成為在地音樂推廣及文化轉譯平台。本次音樂會將透過東／西方樂器演奏，傳遞最具臺灣代表的時代音樂，讓大家可以更好地理解和欣賞不同文化之間的相似和不同之處，藉著銜接和對話，產生、再造更多元的意義與價值。本次邀請古意唸歌團和蔡明叡鋼琴家，詮釋自 1890 年代至今，各個時期相關的臺灣民謠歌曲。透過歌曲，觀眾能夠跨越時空，回到那既遠且近的某年，感受當時的矛盾和淒苦，進一步理解臺灣的文化背景和歷史發展脈絡。 ",data:"2023.4.1"} ,
        
         ]
       }
