@@ -6,7 +6,7 @@ const app = Vue.createApp({
         activityList2025: [    
           {unit:'國立成功大學法律學系副教授',url:'https://www.law.ncku.edu.tw/team_detail.asp?nid=12',name:'王毓正',ename:'Yu-Cheng Wang',img:'王毓正.png',field:'環境法、行政法、科技法、公共任務私化、歐盟法',cv1:'德國符茲堡大學法學博士',cv2:'主持人Moderator'},
   
-          {unit:'國立東華大學族群關係與文化學系教授',url:'https://sys.ndhu.edu.tw/RD/TeacherTreasury/tlist.aspx?tcher=10221',name:'謝若蘭',ename:'Jolan HSIEH ',img:'謝若蘭.png',field:'司法正義學、國際人權論述、法律與社會、性別/族群/階級',cv1:'國亞歷桑納州立大學司法正義學、哲學博士 ',cv2:'發表人Presenter'},
+          {unit:'國立東華大學族群關係與文化學系教授',url:'https://sys.ndhu.edu.tw/RD/TeacherTreasury/tlist.aspx?tcher=10221',name:'謝若蘭',ename:'Jolan Hsieh ',img:'謝若蘭.png',field:'司法正義學、國際人權論述、法律與社會、性別/族群/階級',cv1:'國亞歷桑納州立大學司法正義學、哲學博士 ',cv2:'發表人Presenter'},
   
           {unit:'中央研究院社會學研究所研究員兼副所長',url:'https://www.ios.sinica.edu.tw/fellow/horngluenwang',name:'汪宏倫',ename:'Horng-Luen Wang',img:'汪宏倫.png',field:'民族國家、民族主義',cv1:'	美國芝加哥大學社會學博士 ',cv2:'發表人Presenter'},
 
