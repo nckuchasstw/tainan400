@@ -22,7 +22,7 @@ const app = Vue.createApp({
   
           {unit:'美國西雅圖華盛頓大學歷史學系助理教授',url:'https://www.ocf.berkeley.edu/~jameslin/',name:'林于翔',ename:'James Lin',img:'林翔.png',field:'Modern Taiwan History, History of Development',cv1:'加州大學柏克萊分校歷史學博士',cv2:'發表人Presenter'},
   
-          {unit:'國立成功大學經濟系教授兼人文社會科學中心主任',url:'https://www.econ.ncku.edu.tw/faculty_detail.asp?ID=90',name:'蔡群立',ename:'Chun-Li Tsai',img:'蔡群立.png',field:'財務經濟學、貨幣經濟學',cv1:'美國德州農工大學經濟學博士',cv2:'主持人Moderator'},
+          {unit:'國立成功大學經濟系教授兼社會科學院院長、人文社會科學中心代理主任',url:'https://www.econ.ncku.edu.tw/faculty_detail.asp?ID=90',name:'蔡群立',ename:'Chun-Li Tsai',img:'蔡群立.png',field:'財務經濟學、貨幣經濟學',cv1:'美國德州農工大學經濟學博士',cv2:'主持人Moderator'},
 
           {unit:'國立成功大學人文社會科學中心博士後研究員',url:'https://tsncku.com.tw/',name:'林明發',ename:'Lim Beng Huat',img:'林明發1.png',field:'華文文學，移民工文學',cv1:'國立成功大學中國文學系博士',cv2:'發表人Presenter'},
   
