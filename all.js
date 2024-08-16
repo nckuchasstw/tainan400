@@ -10,18 +10,18 @@ gsap.to(".navbar",{
     }
 })
 
+document.addEventListener('DOMContentLoaded', function () {
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 2,
     spaceBetween: 15,
-    
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
     autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     breakpoints: {
       640: {
         slidesPerView: 2,
@@ -41,6 +41,17 @@ gsap.to(".navbar",{
       },
     },
   });
+
+  var swiperContainer = document.querySelector('.mySwiper');
+
+  swiperContainer.addEventListener('mouseenter', function () {
+    swiper.autoplay.stop();
+  });
+
+  swiperContainer.addEventListener('mouseleave', function () {
+    swiper.autoplay.start();
+  });
+});
 
 
   
@@ -86,7 +97,30 @@ gsap.to(".navbar",{
   tl.fromTo(".slogan",{x:-100,opacity:0,duration:0.1},{x:20,ease:"sine.ot",opacity:1,duration:4},'+=6');
 
 
-  AOS.init();
+
+
+  AOS.init({
+    // Global settings:
+    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+    startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+    initClassName: 'aos-init', // class applied after initialization
+    animatedClassName: 'aos-animate', // class applied on animation
+    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+    
+  
+    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+    offset: 120, // offset (in px) from the original trigger point
+    delay: 0, // values from 0 to 3000, with step 50ms
+    duration: 400, // values from 0 to 3000, with step 50ms
+    easing: 'ease', // default easing for AOS animations
+    once: true, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+    anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+  
+  });
   
   $( "#calendar").fullCalendar({
     timeZone: 'UTC',
@@ -102,12 +136,12 @@ gsap.to(".navbar",{
         week:'週',
         day:'日',
     },
-    
+    height: 600,
     dateNames:['今天'],
     monthNames:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
     monthNamesShort:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
-    dayNames:['日','一','二','三','四','五','六'],
-    dayNamesShort:['日','一','二','三','四','五','六'],
+    dayNames:['週日','週一','週二','週三','週四','週五','週六'],
+    dayNamesShort:['週日','週一','週二','週三','週四','週五','週六'],
     defaultDate: "2024-08-01", // 起始日期
     weekends: true, // 顯示星期六跟星期日
     // editable: true,  // 啟動拖曳調整日期
@@ -333,7 +367,7 @@ gsap.to(".navbar",{
             title: "「成為臺灣人——島內與海外敘事」國際學術交流研討會",
             start: "2024-09-24T09:00:00",
             end: "2024-09-26T17:00:00",
-            url:"activity28.html",
+            url:"https://tainan-400.com/becomingtaiwanese.html",
           
           },
 
@@ -341,7 +375,7 @@ gsap.to(".navbar",{
             title: "「展．望」人社國際前瞻論壇",
             start: "2024-10-18T09:00:00",
             end: "2024-10-18T17:00:00",
-            url:"activity29.html",
+            url:"envision.html",
           
           },
 
@@ -366,6 +400,25 @@ gsap.to(".navbar",{
     ]
 });
 
+  	// 當用戶滾動超過20px時，顯示按鈕
+    window.onscroll = function() {
+      scrollFunction();
+    };
+    
+    function scrollFunction() {
+      const topBtn = document.getElementById("topBtn");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          topBtn.style.display = "block";
+      } else {
+          topBtn.style.display = "none";
+      }
+    }
+    
+    // 當用戶點擊按鈕時，回到頁面頂部
+    function topFunction() {
+      document.body.scrollTop = 0; // 對於Safari
+      document.documentElement.scrollTop = 0; // 對於Chrome, Firefox, IE 和 Opera
+    }
 
 
 
