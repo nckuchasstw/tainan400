@@ -29,9 +29,12 @@ const app = Vue.createApp({
           {unit:'國立成功大學歷史系教授兼副校長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=ODUwODA1NCA7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳玉女',ename:'Yuh-Neu Chen',img:'陳玉女.png',field:'明代社會史、明代佛教史、中國佛教史',cv1:'日本國立九州大學東洋史學博士',cv2:'主持人Moderator'},
 
   
-          {unit:'美國加州聖塔芭芭拉分校臺灣研究中心主任',url:'https://howardchiang.faculty.eastasian.ucsb.edu/',name:'姜學豪',ename:'Howard Chiang',img:'姜學豪.png',field:'批判理論、文化研究、東亞研究、性別理論與研究',cv1:'美國普林斯頓大學歷史學博士',cv2:'發表人Presenter'},
+          {unit:'國立臺灣大學音樂學研究所副教授',url:'https://gim.ntu.edu.tw/%E5%B0%88%E4%BB%BB%E5%B8%AB%E8%B3%87/%E6%A5%8A%E5%BB%BA%E7%AB%A0/',name:'楊建章',ename:'Chien-chang Yang',img:'楊建章.png',field:'音樂理論史、音樂美學史、音樂史學、當代音樂學',cv1:'美國芝加哥大學音樂史與理論博士',cv2:'與談人Discussant'},
   
-          {unit:'美國加州大學聖地牙哥分校教授',url:'https://music-cms.ucsd.edu/people/faculty/regular_faculty/nancy-guy/index.html',name:'Nancy Guy',img:'nancy.png',field:'Music in Taiwan, Chinese opera, ecomusicology, ethnomusicology',cv1:'',cv2:'發表人Presenter'},   
+          {unit:'美國加州大學聖地牙哥分校教授',url:'https://music-cms.ucsd.edu/people/faculty/regular_faculty/nancy-guy/index.html',name:'Nancy Guy',img:'nancy.png',field:'Music in Taiwan, Chinese opera, ecomusicology, ethnomusicology',cv1:'',cv2:'發表人Presenter'},
+          
+          
+          {unit:'美國加州聖塔芭芭拉分校臺灣研究中心主任',url:'https://howardchiang.faculty.eastasian.ucsb.edu/',name:'姜學豪',ename:'Howard Chiang',img:'姜學豪.png',field:'批判理論、文化研究、東亞研究、性別理論與研究',cv1:'美國普林斯頓大學歷史學博士',cv2:'發表人Presenter'},
     
   
           {unit:'國立陽明交通大學社會與文化研究所助理教授',url:'https://srcs.nycu.edu.tw/member_inner.aspx?fid=46&pid=11&id=70&pfid=43',name:'楊子樵',ename:'Zi-Qiao Yang',img:'楊子樵.png',field:'媒介與電影研究、批判理論、冷戰文化工業與政治宣傳、基礎設施批判研究、現代華語文學與報刊',cv1:'美國柏克萊加州大學東亞研究博士',cv2:'與談人Discussant'},
