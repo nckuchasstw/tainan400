@@ -461,7 +461,7 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "唸歌的傳承與創新培",
+            title: "唸歌的傳承與創新培力",
             start: "2024-11-09T14:00:00",
             end: "2024-11-09T16:00:00",
             url:"",

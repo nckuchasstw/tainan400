@@ -17,6 +17,8 @@ const app = Vue.createApp({
           {unit:'國立成功大學中國文學系教授兼文學院副院長',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=MTA1MDgwMDQ7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳家煌',ename:'Chia-Huang Chen',img:'陳家煌.png',field:'隋唐五代詩、臺灣古典文學',cv1:'國立中山大學中國文學系博士',cv2:'發表人Presenter'},
 
           {unit:'美國聖湯瑪斯大學國際研究講座教授兼臺灣與東亞研究計畫主任',url:'https://sites.google.com/site/yeh2sctw/home?authuser=0',name:'葉耀元',ename:'Yao-Yuan Yeh',img:'葉耀元.png',field:'US-Taiwan-China relations, foreign policy, international security, public opinion',cv1:'德克薩斯A&M大學政治學博士',cv2:'發表人Presenter'},
+
+          {unit:'國立台南大學戲劇創作與應用學系教授',url:'https://drama.nutn.edu.tw/ch/teachers_detail.asp?G0=1&Sn=16&Page=1',name:'王婉容',ename:' Wan–Jung Wang',img:'王婉容.png',field:'應用戲劇創作、展演及研究、老人劇場創作展演研究、國際劇場交流主義研究、當代文化理論與戲劇理論與批評、社區劇場創作演出研究、博物館劇場創作演出研究',cv1:'英國倫敦大學皇家霍洛威學院戲劇系研究所博士 ',cv2:'發表人Presenter'},
   
           {unit:'美國德州大學奧斯汀分校亞洲研究博士候選人',url:'https://www.liberalarts.utexas.edu/cts/gradstudents/st29249',name:'湯舒雯',ename:'Shu-wen Tang ',img:'湯舒雯.png',field:'現當代華語文學與文藝思潮',cv1:'美國德州大學奧斯汀校區（UT-Austin）亞洲研究系文學博士',cv2:'發表人Presenter'},
   
