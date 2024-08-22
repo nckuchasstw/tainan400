@@ -10,7 +10,7 @@ const app = Vue.createApp({
   
           {unit:'中央研究院社會學研究所研究員兼副所長',url:'https://www.ios.sinica.edu.tw/fellow/horngluenwang',name:'汪宏倫',ename:'Horng-Luen Wang',img:'汪宏倫.png',field:'民族國家、民族主義',cv1:'	美國芝加哥大學社會學博士 ',cv2:'發表人Presenter'},
 
-          {unit:'國立暨南國際大學東南亞學系教授',url:'https://dseas.ncnu.edu.tw/p/406-1030-3646,r234.php?Lang=zh-tw',name:'李美賢',ename:'Mei-Hsien Lee',img:'李美賢.png',field:'後殖民國家的制度與文化、東南亞婦女/性別研究、東南亞移民與移民社會研究',cv1:'美國西維吉尼亞大學政治學系博士',cv2:'發表人Presenter'},
+          {unit:'國立暨南國際大學東南亞學系教授',url:'https://dseas.ncnu.edu.tw/p/406-1030-3646,r234.php?Lang=zh-tw',name:'李美賢',ename:'Mei-Hsien Lee',img:'李美賢.png',field:'後殖民東南亞研究、國際遷徙（台灣與東南亞）、婦女與性別研究（東南亞區域）、多元文化教育',cv1:'美國西維吉尼亞大學政治學系博士',cv2:'發表人Presenter'},
   
         //   {unit:'國立成功大學經濟系教授兼人文社會科學中心主任',url:'https://www.econ.ncku.edu.tw/faculty_detail.asp?ID=90',name:'蔡群立',ename:'Chun-Li Tsai',img:'蔡群立.png',field:'財務經濟學、貨幣經濟學',cv1:'美國德州農工大學經濟學博士',cv2:'主持人Moderator'},
   
