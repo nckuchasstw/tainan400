@@ -45,6 +45,9 @@ const app = Vue.createApp({
           {unit:'"中央研究院民族學研究所副研究員"',url:'https://www.wenliu.info/',name:'劉文',ename:'Wen Liu',img:'劉文1.png',field:'跨越社會心理學、酷兒研究、亞裔研究',cv1:'Ph.D., City University of New York, Graduate Center, New York, NY ',cv2:'與談人Discussant'},
   
           {unit:'美國加州大學聖塔芭芭拉分校東亞語言及文化研究系教授',url:'https://www.sabinefruhstuck.com/',name:'Sabine Frühstück',img:'薩賓.png',field:'Modern and contemporary Japan in its global context; history, ethnography, visual culture; militarism, gender and sexuality, childhood, emotions ',cv1:'Ph.D. Japanese Studies, History and Social Study of Science, University of Vienna ',cv2:'發表人Presenter'},
+
+
+          {unit:'國立臺灣歷史博物館副研究員',url:'https://file.moc.gov.tw/001/Upload/OldFiles/AdminUploads/files/202301/b9cc5cc8-8f79-4efb-9446-f0a95e0c6caf.pdf',name:'黃裕元',ename:'Yu-Yuan Huang',img:'黃裕元.png',field:'台語歌謠',cv1:' 國立臺灣大學歷史學系 ',cv2:'發表人Presenter'},
   
           // {unit:'美國德州奧斯汀大學臺灣研究中心主任',url:'https://liberalarts.utexas.edu/asianstudies/faculty/changs',name:'張誦聖',ename:'Sung-sheng Chang',img:'張誦聖.png',field:'中國電影與文學',cv1:'美國史丹佛大學亞洲語言博士',cv2:'發表人Presenter'},
   
