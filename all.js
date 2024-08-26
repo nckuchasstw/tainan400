@@ -429,7 +429,7 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "《山川壯麗》",
+            title: "《山川壯麗》影像創作的社會觀察與作用",
             start: "2024-10-21T15:00:00",
             end: "2024-10-21T17:00:00",
             url:"",
