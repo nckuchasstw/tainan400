@@ -8,7 +8,7 @@ const app = Vue.createApp({
 
           {unit:'美國加州大學聖地牙哥分校臺灣研究中心教授',url:'https://literature.ucsd.edu/people/faculty/pliao.html',name:'廖炳惠',ename:'Ping-Hui Liao',img:'廖炳惠.png',field:'臺灣文化史、東西方比較文學、跨藝術研究、流行文化和批判理論',cv1:'美國加州大學文學研究所博士',cv2:'專講keynote speaker'},
 
-          {unit:'國立成功大學傑出校友',url:'https://zh.wikipedia.org/zh-tw/%E5%BC%B5%E8%89%AF%E6%BE%A4',name:'張良澤',ename:'Liang-Ze Jhang',img:'張良澤.png',field:'臺灣文學史',cv1:'日本關西大學大學院文學碩士',cv2:'主持人Moderator'},
+        
 
           {unit:'中央研究院臺灣史研究所兼任研究員',url:'https://www.ith.sinica.edu.tw/members_faculty_look.php?l=c&no=2&id=73&page=1&ps=30',name:'翁佳音',ename:'Kaim Ang',img:'翁佳音.png',field:'十七世紀（荷蘭、西班牙與明鄭時代）臺灣史',cv1:'國立臺灣大學歷史學碩士',cv2:'與談人Discussant'},
 
