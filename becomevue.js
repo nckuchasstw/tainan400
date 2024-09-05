@@ -18,12 +18,15 @@ const app = Vue.createApp({
 
           {unit:'國家科學及技術委員會人文及社會科學研究發展處處長',url:'https://scholars.lib.ntu.edu.tw/entities/person/6a93cebb-b8ee-407e-a857-1b037fa26364',name:'蘇碩斌',ename:'Shuo-Bin Su',img:'蘇碩斌.png',field:'文學社會學、臺灣文學史、文化研究、媒介研究',cv1:'國立臺灣大學社會學系博士',cv2:'主持人Moderator'},
 
+
         
           {unit:'中央研究院臺灣史研究所兼任研究員',url:'https://www.ith.sinica.edu.tw/members_faculty_look.php?l=c&no=2&id=73&page=1&ps=30',name:'翁佳音',ename:'Kaim Ang',img:'翁佳音.png',field:'十七世紀（荷蘭、西班牙與明鄭時代）臺灣史',cv1:'國立臺灣大學歷史學碩士',cv2:'與談人Discussant'},
 
           {unit:'國立成功大學考古所特聘教授',url:'http://archaeology.ncku.edu.tw/index.php?option=module&lang=cht&task=pageinfo&id=12&index=2',name:'劉益昌',ename:'Yi-Chang Liu',img:'劉益昌.png',field:'臺灣考古學、東南亞考古學、舊社考古學、文化資產、臺灣早期歷史考古',cv1:'國立臺灣大學人類學系碩士',cv2:'主持人Moderator'},
 
           {unit:'立成功大學中國文學系教授',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=MTA1MDgwMDQ7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳家煌',ename:'Chia-Huang Chen',img:'陳家煌.png',field:'隋唐五代詩、臺灣古典文學',cv1:'國立中山大學中國文學系博士',cv2:'發表人Presenter'},
+
+          {unit:'國立臺灣師範大學臺灣史研究所教授',url:'https://www.taih.ntnu.edu.tw/index.php/peixian/',name:'許佩賢',ename:'Pei-hsien Hsu',img:'許佩賢.png',field:'地方史、教育史',cv1:'國立臺灣大學歷史學博士',cv2:'與談人Discussant'},
 
           {unit:'美國聖湯瑪斯大學國際研究講座教授',url:'https://sites.google.com/site/yeh2sctw/home?authuser=0',name:'葉耀元',ename:'Yao-Yuan Yeh',img:'葉耀元.png',field:'US-Taiwan-China relations, foreign policy, international security, public opinion',cv1:'德克薩斯A&M大學政治學博士',cv2:'發表人Presenter'},
 
@@ -87,9 +90,8 @@ const app = Vue.createApp({
           {unit:'國立成功大學歷史學系教授',url:'https://radb.ncku.edu.tw/Personal_Report/profile.php?s=OTkwMjAxNiA7YWxsOzsxO3BlcnNvbmFsX3JlcG9ydF9jc3NfMQ==',name:'陳文松',ename:'Wen-Sung Chen',img:'陳文松.png',field:'臺灣近代史 ‧殖民政策史 ‧區域文化史 ‧教育社會史',cv1:'日本東京大學總合文化研究科(地域文化研究專攻)博士',cv2:'發表人Presenter'},
   
   
-          {unit:'國立臺灣師範大學臺灣史研究所教授',url:'https://www.taih.ntnu.edu.tw/index.php/peixian/',name:'許佩賢',ename:'Pei-hsien Hsu',img:'許佩賢.png',field:'地方史、教育史',cv1:'國立臺灣大學歷史學博士',cv2:'與談人Discussant'},
-        
-       
+         
+  
 
           ],
       };
