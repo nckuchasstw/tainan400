@@ -413,6 +413,16 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
+            title: "照護歷史學「聽說讀寫」微課程",
+            start: "2024-10-06T09:00:00",
+            end: "2024-10-21T17:00:00",
+            url:"https://docs.google.com/forms/d/e/1FAIpQLSfyhfYxM22XvTGEn-ypX_vmohziKOhImOSdRSPSSb-BALsCYg/viewform",
+          
+          },
+
+
+
+          { // 事件(包含開始時間、結束時間)
             title: "「無力者／Right Said Right」書展",
             start: "2024-10-07T09:00:00",
             end: "2024-10-31T17:00:00",
@@ -441,6 +451,14 @@ document.addEventListener('DOMContentLoaded', function () {
             start: "2024-10-23T15:00:00",
             end: "2024-10-23T17:00:00",
             url:"",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "「偏鄉醫療與在地人才培育」座談會",
+            start: "2024-10-30T18:40:00",
+            end: "2024-10-30T20:30:00",
+            url:"https://docs.google.com/forms/d/e/1FAIpQLSf3Zchx7kQeH8MT0xU_PAtKKsImZqvrI-aYlOc_2AJHy3guPA/viewform",
           
           },
 

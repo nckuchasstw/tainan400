@@ -299,15 +299,20 @@ const app = Vue.createApp({
         // {title:'「400+50，大南方的科技未來」人社前瞻論壇',url:'activity26.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/185978630.jpg',data:"2024.05",register:'活動尚未開始'},
         {title:'「光電產業與國土治理」人社前瞻論壇',url:'activity27.html',author:'林財富、王筱雯、傅耀賢、葉婉如、蔡卉荀',img:'1130604.jpg',data:"2024.06.04",register:'活動已結束'},
 
-        {title:'2024臺南國際人權藝術節——無力者',url:' humanright.html',author:'--',img:'humanposter.jpg',data:"2024.09~12",register:'活動尚未開始'},
+        {title:'2024臺南國際人權藝術節——無力者',url:' humanright.html',author:'--',img:'humanposter.jpg',data:"2024.09~12",register:'開放報名中'},
 
-        {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0925.jpg',data:"2024.09.24~27",register:'活動尚未開始'},
+        {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0925.jpg',data:"2024.09.24~27",register:'開放報名中'},
+
+        {title:'照護歷史學「聽說讀寫」微課程',url:'https://docs.google.com/forms/d/e/1FAIpQLSfyhfYxM22XvTGEn-ypX_vmohziKOhImOSdRSPSSb-BALsCYg/viewform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/102503058.jpg',data:"2024.10.06-21",register:'開放報名中'},
       
         {title:'「展．望」人社國際前瞻論壇',url:'envision.html',author:'--',img:'展望論壇.jpg',data:"2024.10.18",register:'活動尚未開始'},
 
         // {title:'「2024年美國總統大選與台美中關係初探」專題演講',url:'activity30.html',author:'高碩泰',img:'1023.jpg',data:"2024.10.23",register:'活動尚未開始'},
 
-        {title:'「在宅醫療與醫學教育：臺日經驗與展望」國際人社前瞻論壇',url:'homebasedmedical.html',author:'--',img:'1101.jpg',data:"2024.11.01",register:'活動尚未開始'},
+
+        {title:'「偏鄉醫療與在地人才培育」座談會',url:'https://docs.google.com/forms/d/e/1FAIpQLSf3Zchx7kQeH8MT0xU_PAtKKsImZqvrI-aYlOc_2AJHy3guPA/viewform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/826205972.jpg',data:"2024.10.30",register:'開放報名中'},
+
+        {title:'「在宅醫療與醫學教育：臺日經驗與展望」國際人社前瞻論壇',url:'homebasedmedical.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/467824824.jpg',data:"2024.11.01",register:'活動尚未開始'},
        
        
         ],
