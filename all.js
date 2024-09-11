@@ -376,18 +376,11 @@ document.addEventListener('DOMContentLoaded', function () {
             title: "人權運動的街頭風景",
             start: "2024-09-16T15:00:00",
             end: "2024-09-16T17:00:00",
-            url:"",
+            url:"https://activity.ncku.edu.tw/index.php?c=apply&no=14987",
           
           },
 
-          { // 事件(包含開始時間、結束時間)
-            title: "唱歌唸曲變猴弄",
-            start: "2024-09-23T15:00:00",
-            end: "2024-09-23T17:00:00",
-            url:"",
-          
-          },
-
+       
           { // 事件(包含開始時間、結束時間)
             title: "「成為臺灣人——島內與海外敘事」國際學術交流研討會",
             start: "2024-09-24T09:00:00",
@@ -431,6 +424,15 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
+            title: "唸歌來相捌，愈唸愈有力",
+            start: "2024-10-14T15:00:00",
+            end: "2024-10-14T17:00:00",
+            url:"	https://activity.ncku.edu.tw/index.php?c=apply&no=15025",
+          
+          },
+
+
+          { // 事件(包含開始時間、結束時間)
             title: "「展．望」人社國際前瞻論壇",
             start: "2024-10-18T09:00:00",
             end: "2024-10-18T17:00:00",
@@ -439,10 +441,10 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "《山川壯麗》影像創作的社會觀察與作用",
+            title: "《山川壯麗》了嗎？影像創作的社會觀察與作用",
             start: "2024-10-21T15:00:00",
             end: "2024-10-21T17:00:00",
-            url:"",
+            url:"https://activity.ncku.edu.tw/index.php?c=apply&no=15024",
           
           },
 
@@ -463,6 +465,14 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
+            title: "這時，為恁唱歌",
+            start: "2024-11-01T19:00:00",
+            end: "2024-11-01T21:00:00",
+            url:"https://activity.ncku.edu.tw/index.php?c=apply&no=15126",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
             title: "《失婚紀》",
             start: "2024-11-01T14:00:00",
             end: "2024-11-01T17:00:00",
@@ -475,6 +485,14 @@ document.addEventListener('DOMContentLoaded', function () {
             start: "2024-11-01T09:10:00",
             end: "2024-11-01T12:00:00",
             url:"homebasedmedical.html",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "在自己的衝突故事中找到裂縫—酷凌計畫",
+            start: "2024-11-04T15:00:00",
+            end: "2024-11-04T17:00:00",
+            url:"	https://activity.ncku.edu.tw/index.php?c=apply&no=15127",
           
           },
 
