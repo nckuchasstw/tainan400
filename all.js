@@ -397,10 +397,10 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "「撕開黑幕的光——海內外人權救援暨北美台灣之音」聯展",
+            title: "「撕開黑幕的光」展暨《1977聽見台灣之音》讀劇演出",
             start: "2024-09-27T09:00:00",
-            end: "2024-09-28T17:00:00",
-            url:"",
+            end: "2024-09-28T19:00:00",
+            url:"https://forms.gle/iXs8ixYvVAHEFmSq6",
           
           },
 
@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', function () {
             title: "《開在壁上的花》戲劇演出",
             start: "2024-09-30T15:00:00",
             end: "2024-09-30T17:00:00",
-            url:"",
+            url:"https://forms.gle/wHBuJx6TnEzBr7KH6",
           
           },
 
