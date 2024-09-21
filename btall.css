@@ -292,11 +292,21 @@
     padding-top: 5px;
     right: 20px;
     position: fixed;
-    top:60%;
+    top:40%;
     z-index: 999;
     writing-mode: vertical-lr ;
     vertical-align: baseline;
     }
+
+    .activitybar2{
+        padding-top: 5px;
+        right: 20px;
+        position: fixed;
+        top:60%;
+        z-index: 999;
+        writing-mode: vertical-lr ;
+        vertical-align: baseline;
+        }
 
     
     
@@ -392,6 +402,7 @@
         display: block;
         overflow-x: auto;
         white-space: nowrap;
+        
   
    
       }
