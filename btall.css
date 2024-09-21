@@ -226,6 +226,13 @@
     color:royalblue
     }
     
+    .activitybarpic{
+        width: 60px;
+    }
+
+    .activitybarpic:hover{
+       opacity: 0.9;
+    }
 
     a{
     text-decoration: none;
@@ -290,7 +297,7 @@
 
     .activitybar{
     padding-top: 5px;
-    right: 20px;
+    right: 0px;
     position: fixed;
     top:40%;
     z-index: 999;
@@ -300,7 +307,7 @@
 
     .activitybar2{
         padding-top: 5px;
-        right: 20px;
+        right: 0px;
         position: fixed;
         top:60%;
         z-index: 999;
