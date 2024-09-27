@@ -36,7 +36,7 @@ const app = Vue.createApp({
   
           {unit:'法國里昂大學政治學院政治學系副教授',url:'https://www.asiatheque.com/en/contributor/stephane-corcuff',name:'高格孚',ename:'Stéphane Corcuff',img:'高格孚.png',field:'臺灣認同政治、臺灣史以及兩岸地緣政治、台海關係',cv1:'法國巴黎政治學院政治學博士',cv2:'發表人Presenter'},
   
-          {unit:'中央研究院臺灣史研究所副研究員',url:'https://www.ith.sinica.edu.tw/members_faculty_look.php?l=c&no=3&id=76&page=1&ps=30',name:'吳叡人',ename:'Rwei-ren Wu',img:'吳叡人.png',field:'比較政治、政治理論、亞洲民族主義研究、臺灣政治史、臺灣政治思想史、日本近現代政治史、日本近現代政治思想史',cv1:'美國芝加哥大學政治學博士',cv2:'發表人Presenter'},
+          {unit:'國立中正大學政治學系教授',url:'https://polsci.ccu.edu.tw/p/406-1087-19061,r833.php?Lang=zh-tw',name:'蔡榮祥',ename:'Jung-Hsiang, Tsai',img:'蔡榮祥.png',field:'	半總統制研究、美中台三角關係、政治學質化方法論',cv1:'美國波士頓大學政治學博士',cv2:'發表人Presenter'},
   
           {unit:'國立中興大學國際政治研究所特聘教授',url:'https://gioip.nchu.edu.tw/Front/Faculty/Full-Time/Members.aspx?id=IXkBZ6GdMlI=&PID=0000000005',name:'蔡東杰',ename:'Tung-Chieh Tsai ',img:'蔡東杰.png',field:'近代國際關係史、當前中國外交政策、東亞區域結構變遷發展、第三世界發展問題研究、兩岸關係問題研究',cv1:'國立政治大學政治研究所博士',cv2:'發表人Presenter'},
   
