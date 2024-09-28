@@ -301,11 +301,11 @@ const app = Vue.createApp({
 
         {title:'2024臺南國際人權藝術節——無力者',url:' humanright.html',author:'--',img:'humanposter.jpg',data:"2024.09~12",register:'開放報名中'},
 
-        {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0925.jpg',data:"2024.09.24~27",register:'開放報名中'},
+        {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0925.jpg',data:"2024.09.24~27",register:'活動已結束'},
 
         {title:'照護歷史學「聽說讀寫」微課程',url:'https://docs.google.com/forms/d/e/1FAIpQLSfyhfYxM22XvTGEn-ypX_vmohziKOhImOSdRSPSSb-BALsCYg/viewform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/102503058.jpg',data:"2024.10.06-21",register:'開放報名中'},
       
-        {title:'「展．望」人社國際前瞻論壇',url:'envision.html',author:'--',img:'展望論壇.jpg',data:"2024.10.18",register:'活動尚未開始'},
+        {title:'「展．望」人社國際前瞻論壇',url:'envision.html',author:'--',img:'展望論壇.jpg',data:"2024.10.18",register:'開放報名中'},
 
         // {title:'「2024年美國總統大選與台美中關係初探」專題演講',url:'activity30.html',author:'高碩泰',img:'1023.jpg',data:"2024.10.23",register:'活動尚未開始'},
 
