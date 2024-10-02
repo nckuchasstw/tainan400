@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
     monthNamesShort:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
     dayNames:['週日','週一','週二','週三','週四','週五','週六'],
     dayNamesShort:['週日','週一','週二','週三','週四','週五','週六'],
-    defaultDate: "2024-08-01", // 起始日期
+    defaultDate: "2024-10-01", // 起始日期
     weekends: true, // 顯示星期六跟星期日
     // editable: true,  // 啟動拖曳調整日期
     eventBackgroundColor:'#B69664',
@@ -445,6 +445,14 @@ document.addEventListener('DOMContentLoaded', function () {
             start: "2024-10-21T15:00:00",
             end: "2024-10-21T17:00:00",
             url:"https://activity.ncku.edu.tw/index.php?c=apply&no=15024",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "2024年美國總統大選與台美中關係初探",
+            start: "2024-10-23T10:10:00",
+            end: "2024-10-23T12:00:00",
+            url:"activity30.html",
           
           },
 
