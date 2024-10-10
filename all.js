@@ -449,10 +449,18 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
+            title: "轉型正義：國家機器應負的歷史責任",
+            start: "2024-10-21T15:10:00",
+            end: "2024-10-21T17:10:00",
+            url:"https://forms.gle/2p37gSM5SyTZJDHc8",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
             title: "2024年美國總統大選與台美中關係初探",
             start: "2024-10-23T10:10:00",
             end: "2024-10-23T12:00:00",
-            url:"activity30.html",
+            url:"https://forms.gle/yroF8fNxtuKuTPsn8",
           
           },
 
@@ -491,7 +499,7 @@ document.addEventListener('DOMContentLoaded', function () {
           { // 事件(包含開始時間、結束時間)
             title: "「在宅醫療與醫學教育：臺日經驗與展望」國際人社前瞻論壇",
             start: "2024-11-01T09:10:00",
-            end: "2024-11-01T12:00:00",
+            end: "2024-11-01T12:30:00",
             url:"homebasedmedical.html",
           
           },
@@ -504,13 +512,6 @@ document.addEventListener('DOMContentLoaded', function () {
           
           },
 
-          { // 事件(包含開始時間、結束時間)
-            title: "唸歌的傳承與創新培力",
-            start: "2024-11-09T14:00:00",
-            end: "2024-11-09T16:00:00",
-            url:"",
-          
-          },
 
           { // 事件(包含開始時間、結束時間)
             title: "「2024 異地與在地：田調文獻與重現展示」研討會",
@@ -537,6 +538,14 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
+            title: "兩位白色恐怖時代受難者的生命故事",
+            start: "2024-11-19T15:10:00",
+            end: "2024-11-19T17:10:00",
+            url:"https://forms.gle/ZQSJUYME5bW4Ais96",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
             title: "「人權路上．十二不止」歷史公演十二週年回顧展",
             start: "2024-11-21T09:00:00",
             end: "2024-12-02T17:00:00",
@@ -553,9 +562,34 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
+            title: "台灣原住民「還我土地」運動",
+            start: "2024-11-25T15:00:00",
+            end: "2024-11-25T17:00:00",
+            url:"https://activity.ncku.edu.tw/index.php?c=apply&no=15172",
+          
+          },
+
+
+          { // 事件(包含開始時間、結束時間)
+            title: "咱彰化－母語的歌與鄉土紮根運動",
+            start: "2024-12-02T15:00:00",
+            end: "2024-12-02T17:00:00",
+            url:"	https://activity.ncku.edu.tw/index.php?c=apply&no=15174",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
             title: "《戲劇之夜》戲劇演出",
             start: "2024-12-03T15:00:00",
             end: "2024-12-04T20:00:00",
+            url:"",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "我的黑色經驗，兼談《白色綠島》",
+            start: "2024-12-06T15:10:00",
+            end: "2024-12-06T17:10:00",
             url:"",
           
           },
@@ -565,6 +599,14 @@ document.addEventListener('DOMContentLoaded', function () {
             start: "2024-12-06T09:00:00",
             end: "2024-12-07T17:00:00",
             url:"",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "	弱勢者能不能發聲？",
+            start: "2024-12-09T15:00:00",
+            end: "2024-12-09T17:00:00",
+            url:"		https://activity.ncku.edu.tw/index.php?c=apply&no=15173",
           
           },
 
