@@ -303,11 +303,11 @@ const app = Vue.createApp({
 
         {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0925.jpg',data:"2024.09.24~27",register:'活動已結束'},
 
-        {title:'照護歷史學「聽說讀寫」微課程',url:'https://docs.google.com/forms/d/e/1FAIpQLSfyhfYxM22XvTGEn-ypX_vmohziKOhImOSdRSPSSb-BALsCYg/viewform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/102503058.jpg',data:"2024.10.06-21",register:'開放報名中'},
+        {title:'照護歷史學「聽說讀寫」微課程',url:'https://docs.google.com/forms/d/e/1FAIpQLSfyhfYxM22XvTGEn-ypX_vmohziKOhImOSdRSPSSb-BALsCYg/viewform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/102503058.jpg',data:"2024.10.06-21",register:'報名已截止'},
       
         {title:'「展．望」人社國際前瞻論壇',url:'envision.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/10180.jpg',data:"2024.10.18",register:'開放報名中'},
 
-        {title:'「2024年美國總統大選與台美中關係初探」專題演講',url:'activity30.html',author:'高碩泰',img:'1023新版-01.jpg',data:"2024.10.23",register:'開放報名中'},
+        {title:'「雙橡園的美麗與哀愁——美國大選及台美中關係」專題演講',url:'activity30.html',author:'高碩泰',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/397761137.jpg',data:"2024.10.23",register:'開放報名中'},
 
 
         {title:'「偏鄉醫療與在地人才培育」座談會',url:'https://docs.google.com/forms/d/e/1FAIpQLSf3Zchx7kQeH8MT0xU_PAtKKsImZqvrI-aYlOc_2AJHy3guPA/viewform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1002-04.jpg',data:"2024.10.30",register:'開放報名中'},
