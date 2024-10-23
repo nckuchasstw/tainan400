@@ -580,8 +580,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
           { // 事件(包含開始時間、結束時間)
             title: "《戲劇之夜》戲劇演出",
-            start: "2024-12-03T15:00:00",
-            end: "2024-12-04T20:00:00",
+            start: "2024-12-10T15:00:00",
+            end: "2024-12-11T20:00:00",
             url:"",
           
           },
