@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
     monthNamesShort:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
     dayNames:['週日','週一','週二','週三','週四','週五','週六'],
     dayNamesShort:['週日','週一','週二','週三','週四','週五','週六'],
-    defaultDate: "2024-10-01", // 起始日期
+    defaultDate: "2024-11-01", // 起始日期
     weekends: true, // 顯示星期六跟星期日
     // editable: true,  // 啟動拖曳調整日期
     eventBackgroundColor:'#B69664',
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "2024年美國總統大選與台美中關係初探",
+            title: "雙橡園的美麗與哀愁——美國大選及台美中關係",
             start: "2024-10-23T10:10:00",
             end: "2024-10-23T12:00:00",
             url:"https://forms.gle/yroF8fNxtuKuTPsn8",
@@ -477,14 +477,6 @@ document.addEventListener('DOMContentLoaded', function () {
             start: "2024-10-30T18:40:00",
             end: "2024-10-30T20:30:00",
             url:"https://docs.google.com/forms/d/e/1FAIpQLSf3Zchx7kQeH8MT0xU_PAtKKsImZqvrI-aYlOc_2AJHy3guPA/viewform",
-          
-          },
-
-          { // 事件(包含開始時間、結束時間)
-            title: "這時，為恁唱歌",
-            start: "2024-11-01T19:00:00",
-            end: "2024-11-01T21:00:00",
-            url:"https://activity.ncku.edu.tw/index.php?c=apply&no=15126",
           
           },
 
@@ -512,20 +504,46 @@ document.addEventListener('DOMContentLoaded', function () {
           
           },
 
+          { // 事件(包含開始時間、結束時間)
+            title: "《失婚紀》",
+            start: "2024-11-01T14:00:00",
+            end: "2024-11-01T17:00:00",
+            url:"",
+          
+          },
+
 
           { // 事件(包含開始時間、結束時間)
             title: "「2024 異地與在地：田調文獻與重現展示」研討會",
             start: "2024-11-12T09:00:00",
             end: "2024-11-13T17:00:00",
-            url:"",
+            url:"https://reurl.cc/yv91z6",
           
           },
+
+
+          { // 事件(包含開始時間、結束時間)
+            title: "這時，為恁唱歌",
+            start: "2024-11-15T19:00:00",
+            end: "2024-11-15T21:00:00",
+            url:"https://activity.ncku.edu.tw/index.php?c=apply&no=15126",
+          
+          },
+
 
           { // 事件(包含開始時間、結束時間)
             title: "作為「通道」的澎湖難民營",
             start: "2024-11-18T15:00:00",
             end: "2024-11-18T17:00:00",
             url:"",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "夜未央、天未亮：談1971年陳欽生事件",
+            start: "2024-11-18T14:00:00",
+            end: "2024-11-18T17:00:00",
+            url:"https://forms.gle/dGPNFfyYmhFR4v4N6",
           
           },
 
@@ -554,10 +572,20 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "《紅色青春》戲劇演出",
+            title: "誰的記憶？從白色恐怖到轉型正義的省思",
+            start: "2024-11-22T15:00:00",
+            end: "2024-11-22T17:00:00",
+            url:"https://forms.gle/dGPNFfyYmhFR4v4N6",
+          
+          },
+
+      
+
+          { // 事件(包含開始時間、結束時間)
+            title: "《紅色青春》戲劇演出——1950年代白色恐怖歷史x對話式劇場演出",
             start: "2024-11-23T19:00:00",
             end: "2024-11-24T16:30:00",
-            url:"",
+            url:"https://forms.gle/CatPEjm3KNKRNU3N7",
           
           },
 
@@ -590,7 +618,7 @@ document.addEventListener('DOMContentLoaded', function () {
             title: "我的黑色經驗，兼談《白色綠島》",
             start: "2024-12-06T15:10:00",
             end: "2024-12-06T17:10:00",
-            url:"",
+            url:"https://forms.gle/QMaoWiMrb3Dhk6dq5",
           
           },
 
@@ -603,10 +631,10 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "	弱勢者能不能發聲？",
+            title: "弱勢者能不能發聲？",
             start: "2024-12-09T15:00:00",
             end: "2024-12-09T17:00:00",
-            url:"		https://activity.ncku.edu.tw/index.php?c=apply&no=15173",
+            url:"https://activity.ncku.edu.tw/index.php?c=apply&no=15173",
           
           },
 
