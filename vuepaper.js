@@ -293,26 +293,73 @@ const app = Vue.createApp({
       ],
 
       activityList2024: [
-    
-        {title:'「臺灣有哪些地方不平等」專題演講',url:'activity24.html',author:'朱敬一、蔡群立',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/0506-01.jpg',data:"2024.05.08",register:'活動已結束'},
-        {title:'「居住正義？行同陌路的所得與房價」人社前瞻論壇',url:'activity25.html',author:'蔡群立、陳彥仲、許聖章、吳國仕',img:'0514113.jpg',data:"2024.05.14",register:'活動已結束'},
-        // {title:'「400+50，大南方的科技未來」人社前瞻論壇',url:'activity26.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/185978630.jpg',data:"2024.05",register:'活動尚未開始'},
-        {title:'「光電產業與國土治理」人社前瞻論壇',url:'activity27.html',author:'林財富、王筱雯、傅耀賢、葉婉如、蔡卉荀',img:'1130604.jpg',data:"2024.06.04",register:'活動已結束'},
+  
+        {title:'「《紅色青春》戲劇演出——1950年代白色恐怖歷史x對話式劇場」',url:'https://forms.gle/xbA6aJxndbmL9d7T8',author:'台灣應用劇場發展中心',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/240383384.jpg',data:"2024.11.23",register:'開放報名中'},
 
-        {title:'2024臺南國際人權藝術節——無力者',url:' humanright.html',author:'--',img:'humanposter.jpg',data:"2024.09~12",register:'開放報名中'},
+        {title:'「17世紀前後的臺灣與周邊：考古學的觀點（1550-1717）」國際學術研討會',url:'https://docs.google.com/forms/d/e/1FAIpQLSco4vUkdLcwDnp6tx4ceKWngwvm_TltUG9Q-Zix4zSlRPrYhg/viewform',author:'--',img:'http://archaeology.ncku.edu.tw/userfiles/11.22-23%E7%A0%94%E8%A8%8E%E6%9C%83+%E7%89%B9%E5%B1%95%E6%B5%B7%E5%A0%B1-%E5%B0%8F.jpg',data:"2024.11.22-23",register:'開放報名中'},
 
-        {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0925.jpg',data:"2024.09.24~27",register:'活動已結束'},
+        {title:'「誰的記憶？從白色恐怖到轉型正義的省思」座談會',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'吳俊宏、吳榮元',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/366597790.jpg',data:"2024.11.22",register:'開放報名中'},
 
-        {title:'照護歷史學「聽說讀寫」微課程',url:'https://docs.google.com/forms/d/e/1FAIpQLSfyhfYxM22XvTGEn-ypX_vmohziKOhImOSdRSPSSb-BALsCYg/viewform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/102503058.jpg',data:"2024.10.06-21",register:'活動已結束'},
-      
-        {title:'「展．望」人社國際前瞻論壇',url:'envision.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/10180.jpg',data:"2024.10.18",register:'活動已結束'},
+        {title:'「杭州金石書畫名家子弟與南女中女文青的邂逅——兩位白色恐怖時代受難者的生命故事」專題演講',url:'https://forms.gle/fLqqRWzVoZQCLvZ37',author:'王劼',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1119.png',data:"2024.11.19",register:'開放報名中'},
+
+
+        {title:'「夜未央、天未亮：談1971年陳欽生事件」',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'陳欽生、二十而立工作隊',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/215275580.jpg',data:"2024.11.18",register:'開放報名中'},
+
+         {title:'「這時，為恁唱歌」',url:'https://activity.ncku.edu.tw/index.php?c=apply&no=15126',author:'謝銘祐',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1115-03.jpg',data:"2024.11.15",register:'開放報名中'},
+
+         {title:'「百花齊放的校史──第二屆成大博物館校史書寫工作坊」',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=73',author:'各校校史工作者',img:'https://museum.ncku.edu.tw/upload/apply/2024101517185049_s.jpg',data:"2024.11.14",register:'開放報名中'},
+
+         {title:'「彩繪修護大揭密」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=74',author:'吳慶泰',img:'https://museum.ncku.edu.tw/upload/apply/2024102408335933_s.png',data:"2024.11.04",register:'開放報名中'},
+
+         {title:'「本館修繕ing」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=71',author:'蔡侑樺',img:'https://museum.ncku.edu.tw/upload/apply/2024101514041241_s.PNG',data:"2024.10.28",register:'活動已結束'},
+
 
         {title:'「雙橡園的美麗與哀愁——美國大選及台美中關係」專題演講',url:'activity30.html',author:'高碩泰',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/397761137.jpg',data:"2024.10.23",register:'活動已結束'},
 
 
-        {title:'「偏鄉醫療與在地人才培育」座談會',url:'https://docs.google.com/forms/d/e/1FAIpQLSf3Zchx7kQeH8MT0xU_PAtKKsImZqvrI-aYlOc_2AJHy3guPA/viewform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1002-04.jpg',data:"2024.10.30",register:'活動已結束'},
+        {title:'「轉型正義：國家機器應負的歷史責任」專題演講',url:'https://forms.gle/fLqqRWzVoZQCLvZ37',author:'黃吉川',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/800663263.png',data:"2024.10.21",register:'活動已結束'},
 
-        {title:'「在宅醫療與醫學教育：臺日經驗與展望」國際人社前瞻論壇',url:'homebasedmedical.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/467824824.jpg',data:"2024.11.01",register:'開放報名中'},
+
+        {title:'「拆了之後怎麼保存：大崗山龍湖庵八卦藻井的移地保存」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=70',author:'陳俊宇',img:'https://museum.ncku.edu.tw/upload/apply/2024100910330332_s.jpg',data:"2024.10.21",register:'活動已結束'},
+
+         {title:'「展．望」人社國際前瞻論壇',url:'envision.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/10180.jpg',data:"2024.10.18",register:'活動已結束'},
+
+        {title:'照護歷史學「聽說讀寫」微課程',url:'https://docs.google.com/forms/d/e/1FAIpQLSfyhfYxM22XvTGEn-ypX_vmohziKOhImOSdRSPSSb-BALsCYg/viewform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/102503058.jpg',data:"2024.10.06-21",register:'活動已結束'},
+
+        {title:'「社區營造如何介入修復現場：待喚醒的公眾意識」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=69',author:'劉炳熹',img:'https://museum.ncku.edu.tw/upload/apply/2024091916040390_s.PNG',data:"2024.10.08",register:'活動已結束'},
+
+
+        {title:'《開在壁上的花》戲劇演出',url:'https://docs.google.com/forms/d/e/1FAIpQLSeVGF8JOJ5K_RfdaLu69BwAZKUwMnIF8CiOX_oMpb6LMM9ubw/closedform',author:'--',img:'https://tainan-400.com/0930.jpg',data:"2024.09.30",register:'活動已結束'},
+
+        {title:'「撕開黑幕的光」展暨《1977聽見台灣之音》讀劇」',url:'https://docs.google.com/forms/d/e/1FAIpQLSflPk51SNJs1zrar-KdieSd3hd_XTqcOsqOyM3kKkl3SHe3eQ/closedform',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/0928.jpg',data:"2024.09.27-28",register:'活動已結束'},
+
+        {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0925.jpg',data:"2024.09.24~27",register:'活動已結束'},
+
+         {title:'2024臺南國際人權藝術節——無力者',url:' humanright.html',author:'--',img:'humanposter.jpg',data:"2024.09~12",register:'開放報名中'},
+
+
+        {title:'「海域交流——臺灣形成」展示',url:'https://tsncku.com.tw/Sciencecenter-252.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/S__128639009_0.jpg',data:"2024.08.24",register:'活動進行中'},
+
+
+        {title:'「修復前要做什麼？從調查研究開始說起」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=67',author:'許勝發',img:'https://museum.ncku.edu.tw/upload/apply/2024060415565377_s.jpg',data:"2024.06.17",register:'活動已結束'},
+
+        {title:'「光電產業與國土治理」人社前瞻論壇',url:'activity27.html',author:'林財富、王筱雯、傅耀賢、葉婉如、蔡卉荀',img:'1130604.jpg',data:"2024.06.04",register:'活動已結束'},
+
+        {title:'「成大禮賢樓（藝研所）的修復報告書」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=64',author:'林延隆',img:'https://museum.ncku.edu.tw/upload/apply/2024052009334132_s.png',data:"2024.06.03",register:'活動已結束'},
+
+
+        {title:'「古蹟誰來修：以瓦作的人間國寶傅明光司阜為例」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=62',author:'鍾心怡',img:'https://museum.ncku.edu.tw/upload/apply/2024050709350792_s.jpg',data:"2024.05.27",register:'活動已結束'},
+
+        
+        {title:'「居住正義？行同陌路的所得與房價」人社前瞻論壇',url:'activity25.html',author:'蔡群立、陳彥仲、許聖章、吳國仕',img:'0514113.jpg',data:"2024.05.14",register:'活動已結束'},
+           
+
+        {title:'「臺灣有哪些地方不平等」專題演講',url:'activity24.html',author:'朱敬一、蔡群立',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/0506-01.jpg',data:"2024.05.08",register:'活動已結束'},
+
+
+
+
+       
        
        
         ],
@@ -394,6 +441,30 @@ const app = Vue.createApp({
       {url:"https://culture.tainan.gov.tw/form/index?Parser=28,6,277,276",img:"tainancl.png"},
       {url:"https://creativetainan.culture.tainan.gov.tw/",img:"cr.jpg"},
       {url:"https://www.tnpl.tn.edu.tw/w5368759830002704284/index",img:"library.png"},
+      ],
+      booklist:[
+        {title:'大員記刊Vol.2',url:'https://heyzine.com/flip-book/03854b3b69.html',author:'人社中心',img:'https://tainan-400.com/vol2.jpg',data:"2024.10.03"},
+
+        {title:'大員記刊 創刊號',url:'https://heyzine.com/flip-book/c28b0981d3.html',author:'人社中心',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/188914484.jpg',data:"2024.06.18"},
+
+        {title:'近代東亞體育世界與身體',url:'https://www.books.com.tw/products/0010982235',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/212525627.jpg',data:"2024.02.20"},
+
+        {title:'多聲道的台灣共同體',url:'https://chass.ncku.edu.tw/var/file/11/1011/img/626613929.jpg',author:'陳麗君',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/626613929.jpg',data:"2023.01.31"},
+
+        {title:'沒有歷史的人',url:'https://chass.ncku.edu.tw/var/file/11/1011/img/763232505.jpg',author:'謝仕淵',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/763232505.jpg',data:"2022.12.31"},
+
+        {title:'Tibetan and Uyghur Refugees in the New Colonial Era: Reflection on the rise of Chinese Colonialism',url:'https://heyzine.com/flip-book/aa6f214064.html',author:'Dolma Tsering',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/102040055.jpg',data:"2022.12.01"},
+
+
+        {title:'成為台灣人 遷徙、跨界與多元故鄉',url:'https://chass.ncku.edu.tw/var/file/11/1011/img/315209585.jpg',author:'林從一',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/315209585.jpg',data:"2021.07.31"},
+
+
+       
+
+
+
+
+
       ],
      
       videoList:[

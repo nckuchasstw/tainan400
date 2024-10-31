@@ -94,7 +94,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // tl.fromTo(".person",{repeat:-1,y:260,x:300,opacity:1,duration:40},{repeat:-1,y:-80,x:-400,ease:"sine.out",opacity:1,duration:40},'-=25');
 
-  tl.fromTo(".slogan",{x:-100,opacity:0,duration:0.1},{x:20,ease:"sine.ot",opacity:1,duration:4},'+=6');
+
+  tl.fromTo(".slogan",{y:100,x:90,opacity:0.4,duration:0.1},{y:-100,x:40,ease:"sine.ot",opacity:1,duration:4},'+=6');
+
+  tl.fromTo(".slogan3",{x:-90,opacity:0,duration:0.1},{x:90,ease:"sine.ot",opacity:1,duration:4},'-=5');
+
+  
+
+ 
 
 
 
@@ -354,12 +361,35 @@ document.addEventListener('DOMContentLoaded', function () {
             url:"activity25.html",
           
           },
+          { // 事件(包含開始時間、結束時間)
+            title: "古蹟誰來修：以瓦作的人間國寶傅明光司阜為例",
+            start: "2024-05-27T10:00:00",
+            end: "2024-05-27T12:00:00",
+            url:"https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=62",
+          
+          },
+          { // 事件(包含開始時間、結束時間)
+            title: "「成大禮賢樓（藝研所）的修復報告書」專題演講",
+            start: "2024-06-03T10:00:00",
+            end: "2024-06-03T12:00:00",
+            url:"https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=64",
+          
+          },
+
 
           { // 事件(包含開始時間、結束時間)
             title: "「光電產業與國土治理」人社前瞻論壇",
             start: "2024-06-04T10:10:00",
             end: "2024-05-14T12:10:00",
             url:"activity27.html",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "修復前要做什麼？從調查研究開始說起",
+            start: "2024-06-17T10:00:00",
+            end: "2024-06-17T12:00:00",
+            url:"https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=67",
           
           },
 
@@ -424,6 +454,14 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
+            title: "社區營造如何介入修復現場：待喚醒的公眾意識",
+            start: "2024-10-08T10:00:00",
+            end: "2024-10-08T12:00:00",
+            url:"https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=69",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
             title: "唸歌來相捌，愈唸愈有力",
             start: "2024-10-14T15:00:00",
             end: "2024-10-14T17:00:00",
@@ -437,6 +475,14 @@ document.addEventListener('DOMContentLoaded', function () {
             start: "2024-10-18T09:00:00",
             end: "2024-10-18T17:00:00",
             url:"envision.html",
+          
+          },
+
+          { // 事件(包含開始時間、結束時間)
+            title: "拆了之後怎麼保存：大崗山龍湖庵八卦藻井的移地保存",
+            start: "2024-10-21T10:00:00",
+            end: "2024-10-21T12:00:00",
+            url:"https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=70",
           
           },
 
@@ -473,12 +519,15 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "「偏鄉醫療與在地人才培育」座談會",
-            start: "2024-10-30T18:40:00",
-            end: "2024-10-30T20:30:00",
-            url:"https://docs.google.com/forms/d/e/1FAIpQLSf3Zchx7kQeH8MT0xU_PAtKKsImZqvrI-aYlOc_2AJHy3guPA/viewform",
+            title: "本館修繕ing",
+            start: "2024-10-28T10:00:00",
+            end: "2024-10-28T12:00:00",
+            url:"https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=71",
           
           },
+
+
+      
 
           { // 事件(包含開始時間、結束時間)
             title: "《失婚紀》",
@@ -488,13 +537,7 @@ document.addEventListener('DOMContentLoaded', function () {
           
           },
 
-          { // 事件(包含開始時間、結束時間)
-            title: "「在宅醫療與醫學教育：臺日經驗與展望」國際人社前瞻論壇",
-            start: "2024-11-01T09:10:00",
-            end: "2024-11-01T12:30:00",
-            url:"homebasedmedical.html",
-          
-          },
+       
 
           { // 事件(包含開始時間、結束時間)
             title: "在自己的衝突故事中找到裂縫—酷凌計畫",
@@ -505,13 +548,15 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "《失婚紀》",
-            start: "2024-11-01T14:00:00",
-            end: "2024-11-01T17:00:00",
-            url:"",
+            title: "彩繪修護大揭密",
+            start: "2024-11-04T10:00:00",
+            end: "2024-11-04T12:00:00",
+            url:"https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=74",
           
           },
 
+
+        
 
           { // 事件(包含開始時間、結束時間)
             title: "「2024 異地與在地：田調文獻與重現展示」研討會",
@@ -523,9 +568,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
           { // 事件(包含開始時間、結束時間)
+            title: "百花齊放的校史──第二屆成大博物館校史書寫工作坊",
+            start: "2024-11-14T09:20:00",
+            end: "2024-11-14T16:30:00",
+            url:"https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=73",
+          
+          },
+
+
+          { // 事件(包含開始時間、結束時間)
             title: "這時，為恁唱歌",
             start: "2024-11-15T19:00:00",
-            end: "2024-11-15T21:00:00",
+            end: "2024-11-15T16:30:00",
             url:"https://activity.ncku.edu.tw/index.php?c=apply&no=15126",
           
           },
@@ -579,10 +633,18 @@ document.addEventListener('DOMContentLoaded', function () {
           
           },
 
+          { // 事件(包含開始時間、結束時間)
+            title: "17世紀前後的臺灣與周邊：考古學的觀點（1550-1717",
+            start: "2024-11-22T09:00:00",
+            end: "2024-11-23T17:00:00",
+            url:"https://docs.google.com/forms/d/e/1FAIpQLSco4vUkdLcwDnp6tx4ceKWngwvm_TltUG9Q-Zix4zSlRPrYhg/viewform",
+          
+          },
+
       
 
           { // 事件(包含開始時間、結束時間)
-            title: "《紅色青春》戲劇演出——1950年代白色恐怖歷史x對話式劇場演出",
+            title: "《紅色青春》戲劇演出",
             start: "2024-11-23T19:00:00",
             end: "2024-11-24T16:30:00",
             url:"https://forms.gle/CatPEjm3KNKRNU3N7",
