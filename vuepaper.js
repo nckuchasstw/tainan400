@@ -309,6 +309,8 @@ const app = Vue.createApp({
 
          {title:'「百花齊放的校史──第二屆成大博物館校史書寫工作坊」',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=73',author:'各校校史工作者',img:'https://museum.ncku.edu.tw/upload/apply/2024101517185049_s.jpg',data:"2024.11.14",register:'開放報名中'},
 
+         {title:'2024 臺南四百，成功永續，臺灣未來——跨界成城，鯤聲寰宇',url:'bsst.html',author:'--',img:'DM-02.jpg',data:"2024.11.06-28",register:'開放報名中'},
+
          {title:'「彩繪修護大揭密」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=74',author:'吳慶泰',img:'https://museum.ncku.edu.tw/upload/apply/2024102408335933_s.png',data:"2024.11.04",register:'開放報名中'},
 
          {title:'「本館修繕ing」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=71',author:'蔡侑樺',img:'https://museum.ncku.edu.tw/upload/apply/2024101514041241_s.PNG',data:"2024.10.28",register:'活動已結束'},
