@@ -39,6 +39,7 @@
     
     
 </head>
+
 <body>
  
     <nav class="navbar navbar-expand-lg  sticky-top">
@@ -97,6 +98,8 @@
           
             <img src="whale.png"  class="slogan" style="width:730px;margin: 0;position: absolute;right:-280%;top:50px;z-index: 94;" class="slogan">
 
+           
+
 
             <img src="bsstslo.png"  class="slo" style="width:500px;margin: 0;position: absolute;right:-350%;top:-50px;z-index: 94;" class="slogan">
 
@@ -140,12 +143,7 @@
               <br>
 
               <i class="bi bi-geo-alt"></i>&ensp;國立成功大學成功校區圖書館 1 樓LibRE area<br>
-              <i class="bi bi-calendar-event"></i>&ensp;113年11月6日（三）-28日（四）
-
-              
-            
-
-              
+              <i class="bi bi-calendar-event"></i>&ensp;113年11月6日（三）-28日（四）          
 
           </p>
 
@@ -155,8 +153,33 @@
 
       
     </section>
-
     <div id="app">
+    <section id="writer">
+      <h3 style="text-align: center; color: #546C75;">
+         書展成大文學家<span class="h3span">Writers</span>
+      <div class="container">
+        <div class="row "  > 
+         
+        <div 
+            v-for="(person, index) in people" 
+            :key="index" 
+            class="person-card" 
+            @click="showQuote(index)"
+
+            class="col"
+        >
+            <img :src="person.image" :alt="person.name" class="person-image">
+            <div :class="['quote', { active: activeQuote === index }]">
+                {{ person.quote }}
+            </div>
+        </div>
+    </div>
+
+
+     </section>
+    
+
+   
       <section id="activity">
         <h3 style="text-align: center; color: #546C75;">
            近期活動<span class="h3span">Events</span>
@@ -173,9 +196,9 @@
           </div>
         </div>    
 
-         
-      </section>
-    
+     </section>
+
+     
 
     <section id="eventcalendar" >
       <div class="container  py-3 " >

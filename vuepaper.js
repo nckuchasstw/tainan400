@@ -483,29 +483,51 @@ const app = Vue.createApp({
         {title:'「一人一線，串連校園心理安全網」',author:'余睿羚',img:'https://www.youtube.com/embed/Mb9tZmWnkPI?si=lILf3TJYFcLRC35m',describe:"本集節目，我們很開心邀請到余睿羚副學務長，來和大家聊聊成大校園裡的心理健康，以及在成為友善校園的路上，成大如何串連各個單位推行配套措施，心理調適、夜間諮商與心理師駐點，又是如何相伴你我左右。同時，身為行為醫學所教授和臨床心理師的睿羚老師，也說明了臨床心理與諮商心理的區別，以及諮商與輔導轉介的分級制度。即便無能杜絕人生中的低潮與挑戰，在我們的校園各處，其實仍有著許多願意接住彼此的存在。 ",data:"2023.6.1"} ,
         {title:'「一首歌，一個時代」',author:'--',img:'https://www.youtube.com/embed/cOKCSdHZFSc?si=E1yEyEM5Tx9RGSm7',describe:"文字與音樂始終是人民傳達感受的不二媒介，「臺灣學」計畫亦在辦理往年臺南國際人權藝術節時，致力於成為在地音樂推廣及文化轉譯平台。本次音樂會將透過東／西方樂器演奏，傳遞最具臺灣代表的時代音樂，讓大家可以更好地理解和欣賞不同文化之間的相似和不同之處，藉著銜接和對話，產生、再造更多元的意義與價值。本次邀請古意唸歌團和蔡明叡鋼琴家，詮釋自 1890 年代至今，各個時期相關的臺灣民謠歌曲。透過歌曲，觀眾能夠跨越時空，回到那既遠且近的某年，感受當時的矛盾和淒苦，進一步理解臺灣的文化背景和歷史發展脈絡。 ",data:"2023.4.1"} ,
        
-        ]
-      }
-    },
-    
-    computed: {
-      filteredList() {
-        return this.postList.filter(post => {
-          return post.title.toLowerCase().includes(this.search.toLowerCase())||
-          post.describe.toLowerCase().includes(this.search.toLowerCase());
+        ],
+        people: [
+          { name: '馬森', image: '作家-01.png', quote: '我想一面寫府城、一面研究府城' },
+          { name: '蘇偉貞·培根', image: '作家-02.png', quote: '台南的下午、永遠是台南的下午，歲月不待，甘心不得，又能如何？' },
+          { name: '葉石濤', image: '作家-03.png', quote: '這是個適於人們做夢、幹活、戀愛、結婚悠然過日子的好地方。' },
+          { name: '龍應台', image: '作家-04.png', quote: '當時的東寧路是世界最美好的地方' },
+         
+          { name: '董橋', image: '作家-05.png', quote: '蘇老師（蘇雪林）穿著黑旗袍、黑皮鞋與白襪子，撐著一把黑洋傘走在成大校園，上課下課的身影，已然成為一道風景，深深烙印在我腦海中，至今依然鮮明生動。' },
+          { name: '馬哲儒', image: '作家-06.png', quote: '它當年有多少豐功偉業？你若不知也不要緊，因為更重要的是：當下與未來。' },
+          { name: '蕭瓊瑞', image: '作家-07.png', quote: '國姓爺的榮光柔化了他原本陽剛的身形歷史的古城是他永世不移的居所' },
+          { name: '蘇雪林', image: '作家-08.png', quote: '台南的成功大學改制成立，聘我去教書，我以分配住宅為條件，居然配有一幢，便是今日我安身東寧路的住宅。' },
+          { name: '林瑞明', image: '作家-09.png', quote: '祖先埋骨的地方/是自己的家鄉/自己的國家/子孫成長的地方/是自己的國家/自己的家鄉。' },
+          { name: '陳之藩', image: '作家-10.png', quote: '國就是土，沒有國的人，是沒有根的草，不待風雨折磨，即形枯萎了。' },
+          { name: '夏烈', image: '作家-11.png', quote: '在那裡我結識質樸、友善、單純而保守的南部人，了解他們的習性及作風，甚至獲得靈感。' },
+          { name: '汪其楣', image: '作家-12.png', quote: '南台灣的女子，仍會繼續在社會轉型、全球躍進的未來，扮演重要的角色。' },
+
+         
           
-        });
-        
-        
-      }
+          
+
+          
+          
+      ],
+      activeQuote: null // 追踪當前顯示的名言
+   
+      };
+    },
+    computed: {
+        filteredList() {
+            return this.postList.filter(post => {
+                return post.title.toLowerCase().includes(this.search.toLowerCase()) ||
+                       post.describe.toLowerCase().includes(this.search.toLowerCase());
+            });
+        }
     },
     methods: {
-      openModal(index) {
-        const modalId = '#lineupModal' + index;
-        $(modalId).modal('show');
-      }
+        openModal(index) {
+            const modalId = '#lineupModal' + index;
+            // 顯示模態框邏輯
+        },
+        showQuote(index) {
+            this.activeQuote = this.activeQuote === index ? null : index;
+        },
+        
+        
     }
-      
-    })
-    
-    app.mount("#app")
+}).mount('#app');
 
