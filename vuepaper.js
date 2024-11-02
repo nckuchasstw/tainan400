@@ -298,12 +298,12 @@ const app = Vue.createApp({
 
         {title:'「17世紀前後的臺灣與周邊：考古學的觀點（1550-1717）」國際學術研討會',url:'https://docs.google.com/forms/d/e/1FAIpQLSco4vUkdLcwDnp6tx4ceKWngwvm_TltUG9Q-Zix4zSlRPrYhg/viewform',author:'--',img:'http://archaeology.ncku.edu.tw/userfiles/11.22-23%E7%A0%94%E8%A8%8E%E6%9C%83+%E7%89%B9%E5%B1%95%E6%B5%B7%E5%A0%B1-%E5%B0%8F.jpg',data:"2024.11.22-23",register:'開放報名中'},
 
-        {title:'「誰的記憶？從白色恐怖到轉型正義的省思」座談會',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'吳俊宏、吳榮元',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/366597790.jpg',data:"2024.11.22",register:'開放報名中'},
+        {title:'「誰的記憶？從白色恐怖到轉型正義的省思」座談會',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'吳俊宏、吳榮元',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1122.jpg',data:"2024.11.22",register:'開放報名中'},
 
         {title:'「杭州金石書畫名家子弟與南女中女文青的邂逅——兩位白色恐怖時代受難者的生命故事」專題演講',url:'https://forms.gle/fLqqRWzVoZQCLvZ37',author:'王劼',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1119.png',data:"2024.11.19",register:'開放報名中'},
 
 
-        {title:'「夜未央、天未亮：談1971年陳欽生事件」',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'陳欽生、二十而立工作隊',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/215275580.jpg',data:"2024.11.18",register:'開放報名中'},
+        {title:'「夜未央、天未亮：談1971年陳欽生事件」',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'陳欽生、二十而立工作隊',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1117.jpg',data:"2024.11.18",register:'開放報名中'},
 
          {title:'「這時，為恁唱歌」',url:'https://activity.ncku.edu.tw/index.php?c=apply&no=15126',author:'謝銘祐',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1115-03.jpg',data:"2024.11.15",register:'開放報名中'},
 
