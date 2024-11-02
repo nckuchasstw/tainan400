@@ -555,6 +555,14 @@ document.addEventListener('DOMContentLoaded', function () {
           
           },
 
+          { // 事件(包含開始時間、結束時間)
+            title: "2024臺南四百：成功永續，臺灣未來——跨界成城，鯤聲寰宇」書展",
+            start: "2024-11-06T10:00:00",
+            end: "2024-11-28T17:00:00",
+            url:"bsst.html",
+          
+          },
+
 
         
 
