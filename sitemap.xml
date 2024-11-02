@@ -103,6 +103,15 @@
 <loc>https://tainan-400.com/humanright.html</loc>
 <lastmod>2024-08-16T13:34:13+00:00</lastmod>
 </url>
-
+<url>
+<loc>https://tainan-400.com/bsst.html</loc>
+<lastmod>2024-10-31T15:57:33+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://tainan-400.com/booklist.html</loc>
+<lastmod>2024-10-31T15:57:33+00:00</lastmod>
+<priority>0.80</priority>
+</url>
 
 </urlset>

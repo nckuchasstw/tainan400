@@ -577,6 +577,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
           { // 事件(包含開始時間、結束時間)
+            title: "2024臺南四百：成功永續，臺灣未來——跨界成城，鯤聲寰宇」書展開幕記者會暨新書發表會",
+            start: "2024-11-15T13:00:00",
+            end: "2024-11-15T14:00:00",
+            url:"https://forms.gle/3yCDV8ti7nujpfyL9",
+          
+          },
+
+
+          { // 事件(包含開始時間、結束時間)
             title: "這時，為恁唱歌",
             start: "2024-11-15T19:00:00",
             end: "2024-11-15T16:30:00",
