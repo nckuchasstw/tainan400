@@ -197,13 +197,14 @@
         { 
             background-image: url(bsstbg3.jpg);
         background-color: #B8BFC5;
-        color:#014D7F;
+        color:#546C75;
         content: "";
         width: auto;
         background-repeat: no-repeat;
         background-size: unset;
         background-position: top center;
         background-size: cover;
+        font-weight: 800;
         }
     
         .footer{
