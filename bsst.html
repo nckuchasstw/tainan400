@@ -154,9 +154,10 @@
       
     </section>
     <div id="app">
+    
     <section id="writer">
       <h3 style="text-align: center; color: #546C75;">
-         成大人語錄<span class="h3span">NCKU Quotes</span>
+         成大人語錄<span class="h3span"> NCKU Quotes</span>
       <div class="container">
         <div class="row "  > 
          
@@ -177,12 +178,39 @@
 
 
      </section>
+
+     <section id="nckuwriter">
+      <h3 style="text-align: center; color: #546C75;">
+         他們窮其一生，刻畫了臺灣的精彩～～</span>
+      <div class="container">
+      
+        
+            <div 
+                v-for="(writer, index) in writers" 
+                :key="index" 
+                class="row2"
+            >
+                <div class="writer-card">
+                    <img :src="writer.image" :alt="writer.name" class="writer-image">
+                    <p>{{ writer.name }}</p>
+                </div>
+
+                <!-- 名言欄 -->
+                <div class="quote-display">
+                    <p class="quote2">{{ writer.quote }}</p>
+                </div>
+            
+   
+    </div>
+
+
+     </section>
     
 
    
       <section id="activity">
         <h3 style="text-align: center; color: #546C75;">
-           近期活動<span class="h3span">Events</span>
+           近期活動<span class="h3span"> Events</span>
         </h3>
         <div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="2000" style="padding-top: 20px;">
           <div class="swiper-wrapper">
@@ -202,7 +230,7 @@
 
     <section id="eventcalendar" >
       <div class="container  py-3 " >
-      <h3 style="padding-bottom: 30px;">活動日曆<span class="h3span">Event Calendar</span></h3>
+      <h3 style="padding-bottom: 30px;">活動日曆<span class="h3span"> Event Calendar</span></h3>
         <div class="row row-cols-1 row-cols-md-2 g-4">
          
             <div id="calendar"></div>
@@ -215,7 +243,7 @@
       <div class="container  py-3 " data-aos="fade-up"
       data-aos-duration="2000" >
       <h3 style="color: #546C75;">出版品<span class="h3span">
-        Publications</span></h3>
+         Publications</span></h3>
         <div class="swiper mySwiper" data-aos="fade-up" data-aos-duration="2000" style="padding-top: 20px;">
           <div class="swiper-wrapper">
             <ul class="swiper-slide" v-for="(x, index) in booklist.slice(0,34)" :key="index">

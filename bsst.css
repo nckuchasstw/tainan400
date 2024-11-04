@@ -85,7 +85,7 @@
         }
         }
     
-        #banner,#about,#activity,#eventcalendar,#writer,#publications,#contact{
+        #banner,#about,#activity,#eventcalendar,#writer,#publications,#contact,#nckuwriter{
         padding-top: 70px;
         padding-bottom: 100px;
         }
@@ -156,6 +156,18 @@
         background-position: top center;
         background-size: cover;
         }
+
+        #nckuwriter{ 
+           
+            background-color: #B8BFC5;
+            color:#014D7F;
+            content: "";
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: unset;
+            background-position: top center;
+            background-size: cover;
+            }
 
         #writer{ 
             background-image: url(bsstbg6.jpg);
@@ -557,3 +569,66 @@
         }
         
     
+       
+        .row2 {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        /* 左側人物卡片 */
+        .row2:nth-child(odd) {
+            justify-content: flex-start;
+        }
+
+        .row2:nth-child(odd) .writer-card {
+            order: 1;
+        }
+
+        .row2:nth-child(odd) .quote-display {
+            order: 2;
+            margin-left: 20px;
+            text-align:  justify;
+        }
+
+        /* 右側人物卡片 */
+        .row2:nth-child(even) {
+            justify-content: flex-end;
+        }
+
+        .row2:nth-child(even) .writer-card {
+            order: 2;
+        }
+
+        .row2:nth-child(even) .quote-display {
+            order: 1;
+            margin-right: 20px;
+            text-align: justify;
+        }
+
+        .writer-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .writer-image {
+            width: 140px;
+            border-radius: 8px;
+        }
+
+        .quote-display {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 70%;
+        }
+
+        .quote2 {
+            font-size: 16px;
+            color: #333;
+        }
