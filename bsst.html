@@ -96,7 +96,7 @@
         <ul style="list-style: none;">
           <li>
           
-            <img src="whale.png"  class="slogan" style="width:730px;margin: 0;position: absolute;right:-280%;top:50px;z-index: 94;" class="slogan">
+            <img src="whale.png"  class="slogan" style="width:730px;margin: 0;position: absolute;right:-280%;top:50px;z-index: 94;" class="slogan" >
 
            
 
@@ -168,6 +168,9 @@
             @click="showQuote(index)"
 
             class="col"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
         >
             <img :src="person.image" :alt="person.name" class="person-image">
             <div :class="['quote', { active: activeQuote === index }]">
@@ -189,6 +192,7 @@
                 v-for="(writer, index) in writers" 
                 :key="index" 
                 class="row2"
+                data-aos="zoom-in-down"
             >
                 <div class="writer-card">
                     <img :src="writer.image" :alt="writer.name" class="writer-image">
