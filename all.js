@@ -601,6 +601,14 @@ document.addEventListener('DOMContentLoaded', function () {
           
           },
 
+          { // 事件(包含開始時間、結束時間)
+            title: "「碑越台南」拓碑實作暨台越拓碑文化交流微學分課程",
+            start: "2024-11-15T09:00:00",
+            end: "2024-11-17T17:30:00",
+            url:"https://docs.google.com/....../1FAIpQLSdN6c7X....../viewform",
+          
+          },
+
 
           { // 事件(包含開始時間、結束時間)
             title: "作為「通道」的澎湖難民營",
