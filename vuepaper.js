@@ -306,7 +306,7 @@ const app = Vue.createApp({
         {title:'「夜未央、天未亮：談1971年陳欽生事件」',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'陳欽生、二十而立工作隊',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1117.jpg',data:"2024.11.18",register:'開放報名中'},
 
 
-        {title:'「碑越台南」拓碑實作暨台越拓碑文化交流微學分課程',url:'https://docs.google.com/....../1FAIpQLSdN6c7X....../viewform',author:'謝銘祐',img:'1115.jpg',data:"2024.11.15-17",register:'開放報名中'},
+        {title:'「碑越台南」拓碑實作暨台越拓碑文化交流微學分課程',url:'https://docs.google.com/....../1FAIpQLSdN6c7X....../viewform',author:'--',img:'1115.jpg',data:"2024.11.15-17",register:'開放報名中'},
 
 
          {title:'「這時，為恁唱歌」',url:'https://activity.ncku.edu.tw/index.php?c=apply&no=15126',author:'謝銘祐',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1115-03.jpg',data:"2024.11.15",register:'開放報名中'},
