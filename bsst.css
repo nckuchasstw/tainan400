@@ -1,12 +1,12 @@
     /*圖片RWD*/
     @media only screen and (min-width: 993px){
-        .slo2  {
+        .slo2, .slogan5 {
         display: none;
         }
         }
     
         @media only screen and (max-width: 992px){
-        .slo{
+        .slo , .slogan{
         display: none;
         }
         }
