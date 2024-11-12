@@ -293,6 +293,8 @@ const app = Vue.createApp({
       ],
 
       activityList2024: [
+
+        {title:'打開轉型正義教育的N種方式',url:'https://forms.gle/UjLqSztkqmhX5Nw89',author:'台灣應用劇場發展中心',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/184539929.jpg',data:"2024.12.18",register:'開放報名中'},
   
         {title:'「《紅色青春》戲劇演出——1950年代白色恐怖歷史x對話式劇場」',url:'https://forms.gle/xbA6aJxndbmL9d7T8',author:'台灣應用劇場發展中心',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/240383384.jpg',data:"2024.11.23",register:'開放報名中'},
 

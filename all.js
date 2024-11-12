@@ -734,7 +734,7 @@ document.addEventListener('DOMContentLoaded', function () {
           },
 
           { // 事件(包含開始時間、結束時間)
-            title: "回聲：N 種探索轉型正義及人權教育的視角",
+            title: "回聲：打開轉型正義教育的N種方式",
             start: "2024-12-18T15:00:00",
             end: "2024-12-18T17:00:00",
             url:"https://forms.gle/UExtRi1zJo4yZSGi7",
