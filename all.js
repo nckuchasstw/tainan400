@@ -720,9 +720,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
           { // 事件(包含開始時間、結束時間)
             title: "《巫滅》戲劇演出",
-            start: "2024-12-06T09:00:00",
-            end: "2024-12-07T17:00:00",
-            url:"",
+            start: "2024-12-06T19:00:00",
+            end: "2024-12-07T19:00:00",
+            url:"https://forms.gle/uDNUbq1nfnrjpLxEA",
           
           },
 
