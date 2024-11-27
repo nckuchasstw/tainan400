@@ -270,7 +270,7 @@ const app = Vue.createApp({
       {title:'「從牛車到五分車—來蔗走走」走讀',url:'activity03.html',author:'陳文松、許乃懿、林大偉',img:'20230923.jpg',data:"2023.9.23",register:'活動已結束'},
       {title:'「迢迢織路：臺南紡織工業 400 年」專題演講',url:'activity13.html',author:'曾繁絹、段洪坤、王子碩',img:'2023092711.jpg',data:"2023.09.27",register:'活動已結束'},
       {title:'「重塑被邊緣的歷史—全球史視角的台語影視發展史」專題演講',url:'activity04.html',author:'蘇致亨',img:'231004.jpg',data:"2023.10.4",register:'活動已結束'},
-      // {title:'島鏈思想',url:'https://archipelago-thinking.com',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/286988831.jpg',data:"2023.10~12",register:'開放報名中'},
+      // {title:'島鏈思想',url:'https://archipelago-thinking.com',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/286988831.jpg',data:"2023.10~12",register:'活動已結束'},
       {title:'2023臺南國際人權藝術節',url:'https://www.tihrf-nckumuseum.com/',author:'---',img:'humanright.jpg',data:"2023.10~12",register:'開放報名中'},
       {title:'鬥鬧熱走唱隊',url:'activity17.html',author:'鬥鬧熱走唱隊',img:'https://www.tihrf-nckumuseum.com/wp-content/uploads/2023/09/%E9%AC%A5%E9%AC%A7%E7%86%B1%E8%B5%B0%E5%94%B1%E9%9A%8A%E6%B5%B7%E5%A0%B1-3-1085x1536.png',data:"2023.10.14",register:'活動已結束'},
       {title:'「府城飲食文化的趣味」專題演講',url:'activity05.html',author:'魚夫',img:'231019.jpg',data:"2023.10.19",register:'活動已結束'},
@@ -295,29 +295,33 @@ const app = Vue.createApp({
       activityList2024: [
 
         {title:'打開轉型正義教育的N種方式',url:'https://forms.gle/UjLqSztkqmhX5Nw89',author:'台灣應用劇場發展中心',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/184539929.jpg',data:"2024.12.18",register:'開放報名中'},
+
+        {title:'「Formosa偎海e所在——從Formosa航向東亞」聯合展示',url:'--',author:'楊政達、李啟彰、陳佳彬',img:'1210.jpg',data:"2024.12.09-12",register:'自由入場'},
+
+        {title:'我的黑色經驗，兼談《白色綠島》',url:'https://forms.gle/i4hcBxNH7j37hecd9',author:'張良澤',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/228105989.jpg',data:"2024.12.06",register:'活開放報名中'},
   
-        {title:'「《紅色青春》戲劇演出——1950年代白色恐怖歷史x對話式劇場」',url:'https://forms.gle/xbA6aJxndbmL9d7T8',author:'台灣應用劇場發展中心',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/240383384.jpg',data:"2024.11.23",register:'開放報名中'},
+        {title:'「《紅色青春》戲劇演出——1950年代白色恐怖歷史x對話式劇場」',url:'https://forms.gle/xbA6aJxndbmL9d7T8',author:'台灣應用劇場發展中心',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/240383384.jpg',data:"2024.11.23-24",register:'活動已結束'},
 
-        {title:'「17世紀前後的臺灣與周邊：考古學的觀點（1550-1717）」國際學術研討會',url:'https://docs.google.com/forms/d/e/1FAIpQLSco4vUkdLcwDnp6tx4ceKWngwvm_TltUG9Q-Zix4zSlRPrYhg/viewform',author:'--',img:'http://archaeology.ncku.edu.tw/userfiles/11.22-23%E7%A0%94%E8%A8%8E%E6%9C%83+%E7%89%B9%E5%B1%95%E6%B5%B7%E5%A0%B1-%E5%B0%8F.jpg',data:"2024.11.22-23",register:'開放報名中'},
+        {title:'「17世紀前後的臺灣與周邊：考古學的觀點（1550-1717）」國際學術研討會',url:'https://docs.google.com/forms/d/e/1FAIpQLSco4vUkdLcwDnp6tx4ceKWngwvm_TltUG9Q-Zix4zSlRPrYhg/viewform',author:'--',img:'http://archaeology.ncku.edu.tw/userfiles/11.22-23%E7%A0%94%E8%A8%8E%E6%9C%83+%E7%89%B9%E5%B1%95%E6%B5%B7%E5%A0%B1-%E5%B0%8F.jpg',data:"2024.11.22-23",register:'活動已結束'},
 
-        {title:'「誰的記憶？從白色恐怖到轉型正義的省思」座談會',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'吳俊宏、吳榮元',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1122.jpg',data:"2024.11.22",register:'開放報名中'},
+        {title:'「誰的記憶？從白色恐怖到轉型正義的省思」座談會',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'吳俊宏、吳榮元',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1122.jpg',data:"2024.11.22",register:'活動已結束'},
 
-        {title:'「杭州金石書畫名家子弟與南女中女文青的邂逅——兩位白色恐怖時代受難者的生命故事」專題演講',url:'https://forms.gle/fLqqRWzVoZQCLvZ37',author:'王劼',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1119.png',data:"2024.11.19",register:'開放報名中'},
-
-
-        {title:'「夜未央、天未亮：談1971年陳欽生事件」',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'陳欽生、二十而立工作隊',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1117.jpg',data:"2024.11.18",register:'開放報名中'},
+        {title:'「杭州金石書畫名家子弟與南女中女文青的邂逅——兩位白色恐怖時代受難者的生命故事」專題演講',url:'https://forms.gle/fLqqRWzVoZQCLvZ37',author:'王劼',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1119.png',data:"2024.11.19",register:'活動已結束'},
 
 
-        {title:'「碑越台南」拓碑實作暨台越拓碑文化交流微學分課程',url:'https://docs.google.com/....../1FAIpQLSdN6c7X....../viewform',author:'--',img:'1115.jpg',data:"2024.11.15-17",register:'開放報名中'},
+        {title:'「夜未央、天未亮：談1971年陳欽生事件」',url:'https://forms.gle/LkdPfRthxYyB7oK17',author:'陳欽生、二十而立工作隊',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1117.jpg',data:"2024.11.18",register:'活動已結束'},
 
 
-         {title:'「這時，為恁唱歌」',url:'https://activity.ncku.edu.tw/index.php?c=apply&no=15126',author:'謝銘祐',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1115-03.jpg',data:"2024.11.15",register:'開放報名中'},
+        {title:'「碑越台南」拓碑實作暨台越拓碑文化交流微學分課程',url:'https://docs.google.com/....../1FAIpQLSdN6c7X....../viewform',author:'--',img:'1115.jpg',data:"2024.11.15-17",register:'活動已結束'},
 
-         {title:'「百花齊放的校史──第二屆成大博物館校史書寫工作坊」',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=73',author:'各校校史工作者',img:'https://museum.ncku.edu.tw/upload/apply/2024101517185049_s.jpg',data:"2024.11.14",register:'開放報名中'},
 
-         {title:'2024 臺南四百，成功永續，臺灣未來——跨界成城，鯤聲寰宇',url:'bsst.html',author:'--',img:'DM-02.jpg',data:"2024.11.06-28",register:'開放報名中'},
+         {title:'「這時，為恁唱歌」',url:'https://activity.ncku.edu.tw/index.php?c=apply&no=15126',author:'謝銘祐',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/1115-03.jpg',data:"2024.11.15",register:'活動已結束'},
 
-         {title:'「彩繪修護大揭密」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=74',author:'吳慶泰',img:'https://museum.ncku.edu.tw/upload/apply/2024102408335933_s.png',data:"2024.11.04",register:'開放報名中'},
+         {title:'「百花齊放的校史──第二屆成大博物館校史書寫工作坊」',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=73',author:'各校校史工作者',img:'https://museum.ncku.edu.tw/upload/apply/2024101517185049_s.jpg',data:"2024.11.14",register:'活動已結束'},
+
+         {title:'2024 臺南四百，成功永續，臺灣未來——跨界成城，鯤聲寰宇',url:'bsst.html',author:'--',img:'DM-02.jpg',data:"2024.11.06-28",register:'活動已結束'},
+
+         {title:'「彩繪修護大揭密」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=74',author:'吳慶泰',img:'https://museum.ncku.edu.tw/upload/apply/2024102408335933_s.png',data:"2024.11.04",register:'活動已結束'},
 
          {title:'「本館修繕ing」專題演講',url:'https://museum.ncku.edu.tw/index.php?inter=apply&act=detail&id=71',author:'蔡侑樺',img:'https://museum.ncku.edu.tw/upload/apply/2024101514041241_s.PNG',data:"2024.10.28",register:'活動已結束'},
 
@@ -343,7 +347,7 @@ const app = Vue.createApp({
 
         {title:'「成為臺灣人——島嶼與海外敘事」國際學術交流研討會',url:'becomingtaiwanese.html',author:'--',img:'0925.jpg',data:"2024.09.24~27",register:'活動已結束'},
 
-         {title:'2024臺南國際人權藝術節——無力者',url:' humanright.html',author:'--',img:'humanposter.jpg',data:"2024.09~12",register:'開放報名中'},
+         {title:'2024臺南國際人權藝術節——無力者',url:' humanright.html',author:'--',img:'humanposter.jpg',data:"2024.09~12",register:'活動已結束'},
 
 
         {title:'「海域交流——臺灣形成」展示',url:'https://tsncku.com.tw/Sciencecenter-252.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/S__128639009_0.jpg',data:"2024.08.24",register:'活動進行中'},

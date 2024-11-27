@@ -644,9 +644,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
           { // 事件(包含開始時間、結束時間)
             title: "「人權路上．十二不止」歷史公演十二週年回顧展",
-            start: "2024-11-21T09:00:00",
-            end: "2024-12-02T17:00:00",
-            url:"",
+            start: "2024-11-23T09:00:00",
+            end: "2024-12-08T17:00:00",
+            url:"https://www.facebook.com/nckuhisdrama/?locale=zh_TW",
           
           },
 
@@ -698,6 +698,15 @@ document.addEventListener('DOMContentLoaded', function () {
             start: "2024-12-10T15:00:00",
             end: "2024-12-11T20:00:00",
             url:"",
+          
+          },
+
+
+          { // 事件(包含開始時間、結束時間)
+            title: "「Formosa偎海e所在——從Formosa航向東亞」聯合展示",
+            start: "2024-12-09T10:00:00",
+            end: "2024-12-12T17:00:00",
+            url:"--",
           
           },
 
