@@ -706,7 +706,7 @@ document.addEventListener('DOMContentLoaded', function () {
             title: "「Formosa偎海e所在——從Formosa航向東亞」聯合展示",
             start: "2024-12-09T10:00:00",
             end: "2024-12-12T17:00:00",
-            url:"--",
+            url:"https://reurl.cc/WA3aoO",
           
           },
 
