@@ -294,11 +294,11 @@ const app = Vue.createApp({
 
       activityList2024: [
 
-        {title:'打開轉型正義教育的N種方式',url:'https://forms.gle/UjLqSztkqmhX5Nw89',author:'台灣應用劇場發展中心',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/184539929.jpg',data:"2024.12.18",register:'開放報名中'},
+        {title:'打開轉型正義教育的N種方式',url:'https://forms.gle/UjLqSztkqmhX5Nw89',author:'陳俊宏、楊素芳、周美玲',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/184539929.jpg',data:"2024.12.18",register:'開放報名中'},
 
-        {title:'「Formosa偎海e所在——從Formosa航向東亞」聯合展示',url:'https://reurl.cc/WA3aoO',author:'楊政達、李啟彰、陳佳彬',img:'1210.jpg',data:"2024.12.09-12",register:'自由入場'},
+        {title:'「Formosa偎海e所在——從Formosa航向東亞」聯合展示',url:'https://reurl.cc/WA3aoO',author:'楊政達、李啟彰、陳佳彬',img:'1210.jpg',data:"2024.12.09-12",register:'活動已結束'},
 
-        {title:'我的黑色經驗，兼談《白色綠島》',url:'https://forms.gle/i4hcBxNH7j37hecd9',author:'張良澤',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/228105989.jpg',data:"2024.12.06",register:'活開放報名中'},
+        {title:'我的黑色經驗，兼談《白色綠島》',url:'https://forms.gle/i4hcBxNH7j37hecd9',author:'張良澤',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/228105989.jpg',data:"2024.12.06",register:'活動已結束'},
   
         {title:'「《紅色青春》戲劇演出——1950年代白色恐怖歷史x對話式劇場」',url:'https://forms.gle/xbA6aJxndbmL9d7T8',author:'台灣應用劇場發展中心',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/240383384.jpg',data:"2024.11.23-24",register:'活動已結束'},
 
