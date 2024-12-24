@@ -294,7 +294,7 @@ const app = Vue.createApp({
 
       activityList2024: [
 
-        {title:'打開轉型正義教育的N種方式',url:'https://forms.gle/UjLqSztkqmhX5Nw89',author:'陳俊宏、楊素芳、周美玲',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/184539929.jpg',data:"2024.12.18",register:'開放報名中'},
+        {title:'打開轉型正義教育的N種方式',url:'https://forms.gle/UjLqSztkqmhX5Nw89',author:'陳俊宏、楊素芳、周美玲',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/184539929.jpg',data:"2024.12.18",register:'活動已結束'},
 
         {title:'「Formosa偎海e所在——從Formosa航向東亞」聯合展示',url:'https://reurl.cc/WA3aoO',author:'楊政達、李啟彰、陳佳彬',img:'1210.jpg',data:"2024.12.09-12",register:'活動已結束'},
 
