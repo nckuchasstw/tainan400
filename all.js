@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function () {
     monthNamesShort:['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
     dayNames:['週日','週一','週二','週三','週四','週五','週六'],
     dayNamesShort:['週日','週一','週二','週三','週四','週五','週六'],
-    defaultDate: "2024-11-27", // 起始日期
+    defaultDate: "2024-12-01", // 起始日期
     weekends: true, // 顯示星期六跟星期日
     // editable: true,  // 啟動拖曳調整日期
     eventBackgroundColor:'#B69664',
